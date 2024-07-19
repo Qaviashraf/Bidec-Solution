@@ -1,8 +1,7 @@
 import { useState } from 'react'
-// Routers
 import { BrowserRouter as Router , Routes , Route } from 'react-router-dom'
-
 import { Home } from './Pages/Home'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,9 +11,9 @@ function App() {
       <Router>
         {/* <NavBar /> */}
         <Routes>
-          <Route path='/' element={<Home />} />
+          {/* <Route path='/' element={<Home />} /> */}
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </Router>
     </>
   )

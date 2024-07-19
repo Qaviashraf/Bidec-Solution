@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'pearce';
+  src: url(./assets/fonts/pearce.demo.ttf);
+}
+
+* {
+  font-family: 'pearce';
+}
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
