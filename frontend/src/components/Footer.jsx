@@ -1,24 +1,47 @@
-import React from 'react'
-import footerBg from '../assets/footerAssets/footerBlurImg.svg'
-import facebookIcon from '../assets/footerAssets/facebookIcon.svg'
-import linkedInIcon from '../assets/footerAssets/linkedInIcon.svg'
-import instaIcon from '../assets/footerAssets/instaIcon.svg'
-import arrow from '../assets/footerAssets/arrow.svg'
+import React from 'react';
+import footerBg from '../assets/footerAssets/footerBlurImg.svg';
+import facebookIcon from '../assets/footerAssets/facebookIcon.svg';
+import linkedInIcon from '../assets/footerAssets/linkedInIcon.svg';
+import instaIcon from '../assets/footerAssets/instaIcon.svg';
+import arrow from '../assets/footerAssets/arrow.svg';
+import logo from '../assets/footerAssets/Bidec logo-06 2.svg';
 
 function Footer() {
     return (
-        <div className="w-full">
-            <img className='w-full absolute z-0' src={footerBg} alt="" />
-            <div className="container text-center mx-auto absolute z-10">
-                <h1 className='text-white mx-screen text-center text-5xl w-3/4 m-32 mb-10'>Lets discuss with us about your project
+        <div className="w-full bg-cover bg-center" style={{ backgroundImage: `url(${footerBg})` }}>
+            <div className="container mx-auto text-center flex flex-col items-center py-12 justify-center relative z-10">
+                <h1 className="text-white text-center text-3xl md:text-5xl w-3/4 md:p-10 p-1 mb-8">
+                    Let's discuss with us about your project
                 </h1>
-                <form className='flex justify-center items-center'>
-                    <input className='border-b-2 bg-transparent w-1/3 mr-2 text-lg' type="email" placeholder='bidec000@gmail.com' />
-                    <button className='rounded-full border-2 p-2'><img src={arrow} alt="" /></button>
+                <form className="flex justify-center text-white font-sans mb-10 items-center">
+                    <input className="border-b bg-transparent focus:outline-none py-2 md:w-72 w-full mr-2 text-lg" type="email" placeholder="bidec000@gmail.com" />
+                    <button className="rounded-full border p-2"><img src={arrow} alt="" /></button>
                 </form>
+                <div className="w-full">
+                    <div className="container mx-auto">
+                        <div className="flex flex-col md:flex-row gap-3 text-white p-8 border-b justify-between items-center">
+                            <img src={logo} alt="Logo" className="h-8" />
+                            <ul className="flex gap-4 flex-col md:flex-row">
+                                <li className="font-sans">Home</li>
+                                <li className="font-sans">Services</li>
+                                <li className="font-sans">About</li>
+                                <li className="font-sans">Portfolio</li>
+                                <li className="font-sans">Us Blog</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="flex flex-col md:flex-row gap-4 p-8 pb-0 justify-between items-center">
+                        <ul className='flex flex-row gap-4'>
+                            <li className='rounded-full p-2 w-8 h-8 border'><img src={facebookIcon} alt="" /></li>
+                            <li className='rounded-full p-2 w-8 h-8 border'><img src={linkedInIcon} alt="" /></li>
+                            <li className='rounded-full p-2 w-8 h-8 border'><img src={instaIcon} alt="" /></li>
+                        </ul>
+                        <p className='text-gray-400 font-sans '>All Right Reserved Designcy 2024</p>
+                    </div>
+                </div>
             </div>
         </div>
-    )
+    );
 }
 
-export default Footer
+export default Footer;
