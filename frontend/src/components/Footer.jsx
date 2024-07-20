@@ -15,7 +15,7 @@ function Footer() {
                 </h1>
                 <form className="flex justify-center text-white font-sans mb-10 items-center">
                     <input className="border-b bg-transparent focus:outline-none py-2 md:w-72 w-full mr-2 text-lg" type="email" placeholder="bidec000@gmail.com" />
-                    <button className="rounded-full border p-2"><img src={arrow} alt="" /></button>
+                    <button className="rounded-full hover:bg-teal-600 border p-2"><img src={arrow} alt="" /></button>
                 </form>
                 <div className="w-full">
                     <div className="container mx-auto">
