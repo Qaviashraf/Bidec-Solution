@@ -14,7 +14,7 @@ const HeroSection = () => {
 
   return (
     <section 
-      className="w-screen py-20 flex justify-center"
+      className="max-w-screen py-20 flex justify-center"
       style={{
         backgroundImage: `url(${HeroBg})`,
         backgroundSize: '1400px', 
@@ -50,7 +50,7 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
-        <div className="mt-12 lg:mt-0 relative">
+        <div className="mt-12 mx-2 lg:mt-0 relative">
           <p className="text-gray-700 text-xl md:text-2xl leading-relaxed w-96">
             The Art Of Visual Communication, Creatively Impacting The World Around Us - One Good Design At A Time.
           </p>

@@ -14,7 +14,7 @@ export const LogoSlider = () => {
         cssEase: "linear"
       };
   return (
-    <div className="slider-container">
+    <div className="slider-container max-w-screen">
     <Slider {...settings}>
       <div>
         <h3>UI / UX</h3>
@@ -29,10 +29,10 @@ export const LogoSlider = () => {
       <img src={Star} alt="|" />
       </div>
       <div>
-        <h3>5</h3>
+        <h3>Digital Marketing</h3>
       </div>
       <div>
-        <h3>6</h3>
+      <img src={Star} alt="|" />
       </div>
     </Slider>
   </div>
