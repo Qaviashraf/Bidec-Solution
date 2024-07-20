@@ -9,7 +9,8 @@ export const NavBar = () => {
     };
 
     return (
-        <div className='relative z-50'>
+        <div className='relative z-50'
+        data-aos="fade-down">
         <nav className='fixed top-0  flex justify-between items-center w-screen px-10 py-4 bg-white shadow-md  bg-trasparent bg-opacity-0 backdrop-filter backdrop-blur-lg '>
             <div>
                 <img src={logo} alt="Logo" className='w-20 md:w-24' />
@@ -35,7 +36,7 @@ export const NavBar = () => {
                     <li className='font-sans'>Blogs</li>
                 </ul>
                 <div className='hidden md:flex ml-4'>
-                    <button className='px-4 py-1 font-sans rounded-3xl bg-white border border-black'>Contact Us</button>
+                    <button className='px-4 py-1 font-sans rounded-3xl bg-transparent border border-black'>Contact Us</button>
                 </div>
             {/* </div> */}
         </nav>

@@ -35,7 +35,7 @@ const HeroSection = () => {
             More Than Just <br /> 
             <span className="inline-flex items-center">
               <span className="mx-2">A</span>
-              <img src={arrow} alt="Arrow Icon" className="bg-[#227c85] hover:bg-teal-500 rounded-full w-10 h-10" />
+              <img src={arrow} alt="Arrow Icon" className="bg-[#227c85] hover:bg-teal-500 rounded-full w-20 h-10" />
               <span className="mx-2">Creative</span>
             </span>
             <br />Agency
