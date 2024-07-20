@@ -3,8 +3,8 @@ import arrow from '../assets/footerAssets/arrow.svg'
 
 const AboutCard = () => {
   return (
-    <>
-    <div className='max-w-screen flex flex-wrap justify-around items-center my-10'>
+    <div className='relative z-20'>
+    <div className='max-w-screen flex flex-wrap justify-around items-center my-10 relative z-50'>
      <h1 className='text-5xl my-2'>About Us</h1>
      <p className='w-96 my-2 text-center md:text-start font-sans font-semibold'>we are more than just a digital agency; we are architects of online experiences, creators of digital narratives, and partners in your journey towards digital excellence.</p>
     </div>
@@ -60,7 +60,7 @@ const AboutCard = () => {
       </p>
     </div>
     </div> 
-    </>
+    </div>
   );
 };
 

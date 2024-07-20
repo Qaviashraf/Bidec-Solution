@@ -4,12 +4,12 @@ import facebookIcon from '../assets/footerAssets/facebookIcon.svg';
 import linkedInIcon from '../assets/footerAssets/linkedInIcon.svg';
 import instaIcon from '../assets/footerAssets/instaIcon.svg';
 import arrow from '../assets/footerAssets/arrow.svg';
-import logo from '../assets/footerAssets/Bidec logo-06 2.svg';
+import logo from '../assets/footerAssets/Logo.svg';
 
 function Footer() {
     return (
-        <div className="w-full bg-cover bg-center" style={{ backgroundImage: `url(${footerBg})` }}>
-            <div className="container mx-auto text-center flex flex-col items-center py-12 justify-center relative z-10">
+        <div className="relative w-full bg-cover bg-center" style={{ backgroundImage: `url(${footerBg})` }}>
+            <div className="container mx-auto text-center flex flex-col items-center py-12 justify-center relative ">
                 <h1 className="text-white text-center text-3xl md:text-5xl w-3/4 md:p-10 p-1 mb-8">
                     Let's discuss with us about your project
                 </h1>
