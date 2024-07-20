@@ -8,13 +8,13 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='bg-white'>
+    <div>
       <Router>
         <NavBar />
         <Routes>
           <Route path='/' element={<Home />} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </Router>
     </div>
   )

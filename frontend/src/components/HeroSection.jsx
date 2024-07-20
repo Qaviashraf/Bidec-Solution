@@ -14,7 +14,7 @@ const HeroSection = () => {
 
   return (
     <section 
-      className="relative py-20 flex justify-center"
+      className="w-screen py-20 flex justify-center"
       style={{
         backgroundImage: `url(${HeroBg})`,
         backgroundSize: '1400px', 
@@ -50,11 +50,11 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
-        <div className="mt-12 lg:mt-0 relative cursor-pointer" onClick={handlePlay}>
+        <div className="mt-12 lg:mt-0 relative">
           <p className="text-gray-700 text-xl md:text-2xl leading-relaxed w-96">
             The Art Of Visual Communication, Creatively Impacting The World Around Us - One Good Design At A Time.
           </p>
-          <div className="mt-8 relative">
+          <div className="mt-8 relative cursor-pointer"  onClick={handlePlay}>
             <video src="https://kota-content.b-cdn.net/app/uploads/2023/10/Kota-loop.mp4" className="w-24 h-fit rounded-[90px] shadow-lg" />
             <FaPlay className="absolute inset-0 m-auto text-white text-2xl" style={{ top: '50%', left: '-70%', transform: 'translate(50%, -50%)' }} />
           </div>

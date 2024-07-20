@@ -4,7 +4,7 @@ import HeroSection from '../components/HeroSection'
 
 export const Home = () => {
   return (
-    <div className='max-w-screen z-30'>
+    <div className='max-w-screen '>
       <HeroSection />
       <AboutCard />
     </div>
