@@ -27,17 +27,17 @@ export const NavBar = () => {
                 </ul>
             </div>
             {/* Desktop View */}
-            <div className='hidden md:flex items-center gap-4'>
-                <ul className='flex font-semibold gap-4'>
+            {/* <div className='hidden md:flex items-center gap-4'> */}
+                <ul className='hidden md:flex font-semibold gap-4'>
                     <li className='font-sans text-[#227c85]'>Home</li> {/* Current page text-green */}
                     <li className='font-sans'>Services</li>
                     <li className='font-sans'>About Us</li>
                     <li className='font-sans'>Blogs</li>
                 </ul>
-                <div className='ml-4'>
+                <div className='hidden md:flex ml-4'>
                     <button className='px-4 py-1 font-sans rounded-3xl bg-white border border-black'>Contact Us</button>
                 </div>
-            </div>
+            {/* </div> */}
         </nav>
         </div>
     );

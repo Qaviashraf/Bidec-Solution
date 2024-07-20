@@ -8,8 +8,12 @@ function Services() {
     return (
         <div className='container mx-auto py-20'>
             <div className="heading max-w-screen flex sm:flex-row flex-col justify-around my-10 items-start">
-                <h1 className='md:text-5xl text-3xl w-full text-center sm:w-1/3 my-2'>We offer Several Service For You</h1>
-                <p className='w-96 my-2 text-center w-full sm:w-1/3 text-lg md:text-start font-sans font-semibold'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </p>
+                <h1
+                data-aos="fade-right" 
+                className='md:text-5xl text-3xl w-full text-center sm:w-1/3 my-2'>We offer Several Service For You</h1>
+                <p
+                data-aos="fade-left" 
+                className='w-96 my-2 text-center w-full sm:w-1/3 text-lg md:text-start font-sans font-semibold'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </p>
             </div>
             <div className="flex max-w-screen my-10 flex lg:flex-row flex-col justify-evenly lg:items-start items-center gap-10">
                 <div className='relative'>

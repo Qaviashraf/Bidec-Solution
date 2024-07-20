@@ -1,40 +1,70 @@
-import React from 'react'
-import Slider from "react-slick";
-import Star from '../assets/Star.svg'
+import React from 'react';
+import Star from '../assets/Star.svg';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import { Pagination, Navigation, Autoplay } from 'swiper/modules';
 
 export const LogoSlider = () => {
-    const settings = {
-        dots: true,
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        autoplay: true,
-        speed: 2000,
-        autoplaySpeed: 2000,
-        cssEase: "linear"
-      };
   return (
-    <div className="slider-container max-w-screen">
-    <Slider {...settings}>
-      <div>
-        <h3>UI / UX</h3>
-      </div>
-      <div>
-        <img src={Star} alt="|" />
-      </div>
-      <div>
-      <h3>Web Development</h3>
-      </div>
-      <div>
-      <img src={Star} alt="|" />
-      </div>
-      <div>
-        <h3>Digital Marketing</h3>
-      </div>
-      <div>
-      <img src={Star} alt="|" />
-      </div>
-    </Slider>
-  </div>
-  )
-}
+    <div className='text-center items-center border border-t-black border-b-black'>
+      <Swiper
+        slidesPerView={5}
+        spaceBetween={0}
+        loop={true}
+        autoplay={{ delay: 500 }}
+        modules={[Navigation, Autoplay]}
+        className="mySwiper"
+        breakpoints={{
+          320: { 
+            slidesPerView: 2,
+          },
+          480: { 
+            slidesPerView: 2,
+          },
+          768: { 
+            slidesPerView: 3,
+          },
+          1024: {
+            slidesPerView: 4,
+          },
+          1280: {
+            slidesPerView: 5,
+          },
+        }}
+      >
+        <SwiperSlide className='flex justify-center items-center'>
+          <h1 className='mt-4 '>UI & UX</h1>
+        </SwiperSlide>
+        <SwiperSlide className='hidden md:flex justify-center items-center'>
+          <img src={Star} alt="Star" className='w-fit' />
+        </SwiperSlide>
+        <SwiperSlide className='flex justify-center items-center'>
+          <h1 className='mt-4 '>Web Development</h1>
+        </SwiperSlide>
+        <SwiperSlide className='hidden md:flex justify-center items-center'>
+          <img src={Star} alt="Star" className='w-fit' />
+        </SwiperSlide>
+        <SwiperSlide className='flex justify-center items-center'>
+          <h1 className='mt-4 '>Digital Marketing</h1>
+        </SwiperSlide>
+        <SwiperSlide className='hidden md:flex justify-center items-center'>
+          <img src={Star} alt="Star" className='w-fit' />
+        </SwiperSlide>
+        <SwiperSlide className='flex justify-center items-center'>
+          <h1 className='mt-4 '>UI & UX</h1>
+        </SwiperSlide>
+        <SwiperSlide className='hidden md:flex justify-center items-center'>
+          <img src={Star} alt="Star" className='w-fit' />
+        </SwiperSlide>
+        <SwiperSlide className='flex justify-center items-center'>
+          <h1 className='mt-4 '>Web Development</h1>
+        </SwiperSlide>
+        <SwiperSlide className='hidden md:flex justify-center items-center'>
+          <img src={Star} alt="Star" className='w-fit' />
+        </SwiperSlide>
+      </Swiper>
+    </div>
+  );
+};
