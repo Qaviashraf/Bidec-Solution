@@ -8,6 +8,7 @@ import AOS from "aos";
 import 'aos/dist/aos.css';
 import ClientSays from '../components/ClientSays'
 import Question from '../components/Question'
+import Projects from '../components/Projects'
 
 
 export const Home = () => {
@@ -23,6 +24,7 @@ export const Home = () => {
       <LogoSlider />
       <AboutCard />
       <Services />
+      <Projects />
       <ClientSays />
       <Question />
       <Articles />
