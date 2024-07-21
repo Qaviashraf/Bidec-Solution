@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import logo from "../assets/Bidec-logo.svg";
 
@@ -9,9 +10,9 @@ export const NavBar = () => {
     };
 
     return (
-        <div className='relative z-50'
+        <nav className='fixed top-0 relative z-50 max-w-screen'
         data-aos="fade-down">
-        <nav className='fixed top-0  flex justify-between items-center w-screen px-10 py-4 bg-white shadow-md  bg-trasparent bg-opacity-0 backdrop-filter backdrop-blur-lg '>
+        <div className='flex justify-between items-center max-w-screen min-w-screen px-10 py-4 bg-white shadow-md  bg-trasparent bg-opacity-0 backdrop-filter backdrop-blur-lg '>
             <div>
                 <img src={logo} alt="Logo" className='w-20 md:w-24' />
             </div>
@@ -39,7 +40,7 @@ export const NavBar = () => {
                     <button className='px-4 py-1 font-sans rounded-3xl bg-transparent border border-black'>Contact Us</button>
                 </div>
             {/* </div> */}
-        </nav>
         </div>
+        </nav>
     );
 };

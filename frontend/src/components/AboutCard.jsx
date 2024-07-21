@@ -5,12 +5,12 @@ import Bg2 from '../assets/AboutUs/AboutBg2.svg'
 
 const AboutCard = () => {
   return (
-    <div className='my-24'>
-      <div className='max-w-screen flex flex-wrap justify-around items-center my-10'>
+    <div className='my-24 max-w-screen'>
+      <div className='flex flex-wrap justify-around items-center my-10'>
         <h1 className='text-5xl my-2'
            data-aos="fade-right" 
            >About Us</h1>
-        <p className='w-96 my-2 text-center md:text-start font-sans font-semibold'
+        <p className='w-80 md:w-96 my-2 text-center md:text-start font-sans font-semibold'
            data-aos="fade-left" 
            >
           We are more than just a digital agency; we are architects of online experiences, creators of digital narratives, and partners in your journey towards digital excellence.

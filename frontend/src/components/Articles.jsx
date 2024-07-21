@@ -3,8 +3,8 @@ import Article1 from '../assets/Articles/article1.svg'
 
 export const Articles = () => {
   return (
-    <div className='my-24'>
-        <div className='max-w-screen flex flex-wrap justify-around items-center my-10'>
+    <div className='my-24 max-w-screen '>
+        <div className='flex flex-wrap justify-around items-center my-10'>
         <h1
         data-aos="fade-right" 
         className='text-5xl my-2'>Latest articles</h1>
