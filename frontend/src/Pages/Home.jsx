@@ -6,6 +6,7 @@ import Services from '../components/Services'
 import { Articles } from '../components/Articles'
 import AOS from "aos";
 import 'aos/dist/aos.css';
+import ClientSays from '../components/ClientSays'
 
 
 export const Home = () => {
@@ -21,6 +22,7 @@ export const Home = () => {
       <LogoSlider />
       <AboutCard />
       <Services />
+      <ClientSays/>
       <Articles />
     </div>
   )

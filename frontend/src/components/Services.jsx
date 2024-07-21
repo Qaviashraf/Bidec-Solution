@@ -6,7 +6,7 @@ import graphics from '../assets/servicesAssets/graphics.jpg'
 import UiUx from '../assets/servicesAssets/webDesign.jpg'
 function Services() {
     return (
-        <div className='container mx-auto py-20'>
+        <div className='container mx-auto py-10'>
             <div className="heading max-w-screen flex sm:flex-row flex-col justify-around my-10 items-start">
                 <h1
                 data-aos="fade-right" 
