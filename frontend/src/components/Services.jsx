@@ -16,11 +16,13 @@ function Services() {
                 className='w-96 my-2 text-center w-full sm:w-1/3 text-lg md:text-start font-sans font-semibold'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </p>
             </div>
             <div className="flex max-w-screen my-10 flex lg:flex-row flex-col justify-evenly lg:items-start items-center gap-10">
-                <div className='relative'>
+                <div data-aos="fade-left" className='relative'>
                     <img className='rounded-lg w-full px-2' src={ballGif} alt="" />
                     <button className='rounded-full font-sans hover:bg-teal-500 absolute sm:right-0 right-1 bottom-0 bg-[#227C85] text-white p-3 px-10 sm:px-12'>View All</button>
                 </div>
-                <div className="flex flex-col gap-5 w-1/3">
+                <div
+                data-aos="fade-right"
+                className="flex flex-col gap-5 w-1/3">
                     <div className=' border-b border-gray-400 group relative' >
                         <h1 className='text-4xl group-hover:text-[#227C85]' >01<span className='sm:ps-8 ps-2'>Branding </span></h1>
                         <img className='opacity-0 group-hover:opacity-100 absolute right-[-10vh] top-[-5vh] transition-opacity duration-500' src={brandingImg} alt="" />

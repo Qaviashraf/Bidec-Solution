@@ -7,10 +7,10 @@ export const Articles = () => {
         <div className='max-w-screen flex flex-wrap justify-around items-center my-10'>
         <h1
         data-aos="fade-right" 
-        className='text-5xl my-2'>Articles</h1>
+        className='text-5xl my-2'>Latest articles</h1>
         <button
         data-aos="fade-left"
-         className='hidden md:block py-2 md:mx-24 px-4 font-sans bg-[#227c85] hover:bg-teal-500 rounded-3xl text-white'>View Our Blogs</button>
+         className='hidden md:block py-2 md:mx-24 px-6 font-semibold font-sans bg-[#227c85] hover:bg-teal-500 rounded-3xl text-white'>View Our Blogs</button>
       </div>
     <div
     data-aos="fade-up" 
