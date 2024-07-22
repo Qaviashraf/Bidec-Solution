@@ -28,19 +28,19 @@ function Projects() {
                 <div
                     data-aos="fade-down" className="relative">
 
-                    <ul className='absolute bottom-[-10vh] right-[12vh] pl-20 hover:bg-gray-300'>
-                        <Link to='service/branding' className='font-sans bottom-10 right-[1vw] rotate-[350deg] absolute text-lg rounded-full bg-[#227C851A] border-2 border-[#FFFFFF] px-5 py-2 w-44 text-center hover:bg-[#227C85] hover:text-white hover:border-[#227C85]'>UI/UX design</Link>
-                        <Link to='service/branding' className='font-sans bottom-20 rotate-[25deg] left-1 absolute text-lg rounded-full bg-[#227C851A] border-2 border-[#FFFFFF] px-5 py-2 w-44 text-center hover:bg-[#227C85] hover:text-white hover:border-[#227C85]'>graphics design</Link>
-                        <Link to='service/web-design-development' className='font-sans bottom-[8vw] rotate-[330deg] left-[-8vw] absolute text-lg rounded-full bg-[#227C851A] border-2 border-[#FFFFFF] px-5 py-2  w-44 text-center hover:bg-[#227C85] hover:text-white hover:border-[#227C85]'>development</Link>
-                        <Link to='service/branding' className='font-sans bottom-16 rotate-[50deg] left-28 absolute text-lg rounded-full bg-[#227C851A] border-2 border-[#FFFFFF] px-5 py-2  w-44 text-center hover:bg-[#227C85] hover:text-white hover:border-[#227C85]'>brand design</Link>
-                        <Link to='service/web-design-development' className='font-sans bottom-0 rotate-0 left-4 absolute text-lg rounded-full bg-[#227C851A] border-2 border-[#FFFFFF] px-5 py-2  w-44 text-center hover:bg-[#227C85] hover:text-white hover:border-[#227C85]'>Web design</Link>
+                    <ul className='absolute bottom-[-10vh] right-[12vh] pl-20'>
+                        <li className='font-sans bottom-12 right-[1vw] rotate-[350deg] absolute font-semibold text-md rounded-full bg-[#227C851A] border-2 border-[#FFFFFF] px-5 py-2 w-36'>UI/UX design</li>
+                        <li className='font-sans bottom-20 rotate-[35deg] left-0 absolute font-semibold text-md rounded-full bg-[#227C851A] border-2 border-[#FFFFFF] px-5 py-2 w-40'>graphics design</li>
+                        <li className='font-sans bottom-[8vw] rotate-[320deg] left-[-5vw] absolute font-semibold text-md rounded-full bg-[#227C851A] border-2 border-[#FFFFFF] px-5 py-2 '>development</li>
+                        <li className='font-sans bottom-24 rotate-[60deg] left-20 absolute font-semibold text-md rounded-full bg-[#227C851A] border-2 border-[#FFFFFF] px-5 py-2 w-36'>brand design</li>
+                        <li className='font-sans bottom-0 rotate-0 left-1 absolute font-semibold text-md rounded-full bg-[#227C851A] border-2 border-[#FFFFFF] px-5 py-2 w-36'>Web design</li>
                     </ul>
                 </div>
                 <img className='absolute z-[-10] w-screen' src={bgimg} alt="" />
             </div>
             <div
-            data-aos="fade-up"
-            className="flex flex-col gap-10  pt-10">
+                data-aos="fade-up"
+                className="flex flex-col gap-10  pt-10">
                 <div className="flex justify-center  lg:flex-row flex-col gap-10 items-center">
                     <div className='flex flex-col justify-center items-center'>
                         <div className="relative">
@@ -71,8 +71,8 @@ function Projects() {
                 </div>
             </div>
             <div
-            data-aos="fade-up"
-            className="flex justify-center gap-10 items-center">
+                data-aos="fade-up"
+                className="flex justify-center gap-10 items-center">
                 <div className="flex justify-center  lg:flex-row flex-col gap-10 items-center">
                     <div className='flex flex-col justify-center items-center'>
                         <div className="relative">
@@ -103,7 +103,7 @@ function Projects() {
                 </div>
             </div>
             <div
-            data-aos="fade-up" className="flex justify-center pt-10">
+                data-aos="fade-up" className="flex justify-center pt-10">
                 <button className='font-sans hover:bg-[#165056] duration-300 text-lg bg-[#227C85] p-3 px-7 text-white rounded-full '>View All Projects</button>
             </div>
         </div>
