@@ -1,4 +1,19 @@
+.thumbnail {
+  transition: opacity 0.5s ease-in-out;
+}
 
+.icon {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0;
+}
+
+.group:hover .thumbnail {
+  opacity: 0;
+}
+
+.group:hover .icon {
+  opacity: 1;
+}
 
 /* #root {
   max-width: 1280px;

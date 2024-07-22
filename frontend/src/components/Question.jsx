@@ -24,7 +24,7 @@ function Question() {
     ];
 
     return (
-        <div 
+        <div
             data-aos="fade-up"
             className="flex justify-center items-start pt-20 p-10 md:px-20 gap-4 flex-col bg-gray-50"
         >
@@ -33,22 +33,23 @@ function Question() {
                 <div
                     key={index}
                     data-aos="fade-right"
-                    className="w-full mb-2"
-                >
-                    <div
-                        className={`flex justify-between items-center rounded-xl cursor-pointer ${activeIndex === index ? 'bg-[#227c85] text-white rounded-b-none' : 'bg-white text-black'} ${activeIndex === index ? '' : 'border border-gray-400'}`}
-                        onClick={() => toggleAccordion(index)}
-                    >
-                        <h1 className='md:text-4xl text-lg p-4 md:p-6'>{faq.question}</h1>
-                        <span className='md:text-4xl text-2xl px-4'>
-                            {activeIndex === index ? <TiMinus /> : <TiPlus />}
-                        </span>
-                    </div>
-                    {activeIndex === index && (
-                        <div className="p-4 bg-[#227c85] text-white rounded-b-xl">
-                            <p className='font-sans'>{faq.answer}</p>
+                    className="w-full mb-2">
+                    <div className="transition duration-300">
+                        <div
+                            className={`flex justify-between items-center rounded-xl cursor-pointer ${activeIndex === index ? 'bg-[#227c85] text-white rounded-b-none' : 'bg-white text-black'} ${activeIndex === index ? '' : 'border border-gray-400'}`}
+                            onClick={() => toggleAccordion(index)}
+                        >
+                            <h1 className='md:text-4xl text-lg p-4 md:p-6'>{faq.question}</h1>
+                            <span className='md:text-4xl text-2xl px-4'>
+                                {activeIndex === index ? <TiMinus /> : <TiPlus />}
+                            </span>
                         </div>
-                    )}
+                        {activeIndex === index && (
+                            <div className="p-4 bg-[#227c85] text-white rounded-b-xl">
+                                <p className='font-sans'>{faq.answer}</p>
+                            </div>
+                        )}
+                    </div>
                 </div>
             ))}
         </div>

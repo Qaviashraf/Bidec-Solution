@@ -10,7 +10,7 @@ export const Articles = () => {
         className='text-5xl my-2'>Latest articles</h1>
         <button
         data-aos="fade-left"
-         className='hidden md:block py-2 md:mx-24 px-6 font-semibold font-sans bg-[#227c85] hover:bg-teal-500 rounded-3xl text-white'>View Our Blogs</button>
+         className='hidden md:block py-2 md:mx-24 px-6 font-semibold font-sans bg-[#227c85] hover:bg-[#165056] duration-300 rounded-3xl text-white'>View Our Blogs</button>
       </div>
     <div
     data-aos="fade-up" 

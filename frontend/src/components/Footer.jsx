@@ -15,26 +15,26 @@ function Footer() {
                 </h1>
                 <form className="flex justify-center text-white font-sans mb-10 items-center">
                     <input className="border-b bg-transparent focus:outline-none py-2 md:w-72 w-full mr-2 text-lg" type="email" placeholder="bidec000@gmail.com" />
-                    <button className="rounded-full hover:bg-teal-600 border p-2"><img src={arrow} alt="" /></button>
+                    <button className="rounded-full hover:bg-[#165056] duration-200 hover:border-[#165056] border p-2"><img src={arrow} alt="" /></button>
                 </form>
                 <div className="w-full">
                     <div className="container mx-auto">
                         <div className="flex flex-col md:flex-row gap-3 text-white p-8 border-b justify-between items-center">
                             <img src={logo} alt="Logo" className="h-8" />
                             <ul className="flex gap-4 flex-col md:flex-row">
-                                <li className="font-sans">Home</li>
-                                <li className="font-sans">Services</li>
-                                <li className="font-sans">About</li>
-                                <li className="font-sans">Portfolio</li>
-                                <li className="font-sans">Us Blog</li>
+                                <li className="font-sans hover:text-[#227c85] text-md rounded-xl hover:font-bold duration-300 cursor-pointer p-2">HOME</li>
+                                <li className="font-sans hover:text-[#227c85] text-md rounded-xl hover:font-bold duration-300 cursor-pointer p-2">SERVICES</li>
+                                <li className="font-sans hover:text-[#227c85] text-md rounded-xl hover:font-bold duration-300 cursor-pointer p-2">ABOUT US</li>
+                                <li className="font-sans hover:text-[#227c85] text-md rounded-xl hover:font-bold duration-300 cursor-pointer p-2">BLOGS</li>
+                                <li className="font-sans hover:text-[#227c85] text-md rounded-xl hover:font-bold duration-300 cursor-pointer p-2">CONTACT US</li>
                             </ul>
                         </div>
                     </div>
                     <div className="flex flex-col md:flex-row gap-4 p-8 pb-0 justify-between items-center">
                         <ul className='flex flex-row gap-4'>
-                            <li className='rounded-full p-2 w-8 h-8 border'><img src={facebookIcon} alt="" /></li>
-                            <li className='rounded-full p-2 w-8 h-8 border'><img src={linkedInIcon} alt="" /></li>
-                            <li className='rounded-full p-2 w-8 h-8 border'><img src={instaIcon} alt="" /></li>
+                            <li className='rounded-full p-2 w-8 h-8 border hover:bg-[#165056] duration-200 hover:border-[#165056]'><img src={facebookIcon} alt="" /></li>
+                            <li className='rounded-full p-2 w-8 h-8 border hover:bg-[#165056] duration-200 hover:border-[#165056]'><img src={linkedInIcon} alt="" /></li>
+                            <li className='rounded-full p-2 w-8 h-8 border hover:bg-[#165056] duration-200 hover:border-[#165056]'><img src={instaIcon} alt="" /></li>
                         </ul>
                         <p className='text-gray-400 font-sans '>All Right Reserved Designcy 2024</p>
                     </div>

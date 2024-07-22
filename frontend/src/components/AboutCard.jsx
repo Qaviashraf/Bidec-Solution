@@ -5,7 +5,7 @@ import Bg2 from '../assets/AboutUs/AboutBg2.svg'
 
 const AboutCard = () => {
   return (
-    <div className='my-24 max-w-screen'>
+    <div className='mt-20  max-w-screen'>
       <div className='flex flex-wrap justify-around items-center my-10'>
         <h1 className='text-5xl my-2'
            data-aos="fade-right" 
@@ -27,7 +27,7 @@ const AboutCard = () => {
           }}
         >
           <div className="absolute -top-3 -right-3 bg-white p-3 rounded-full">
-            <div className="bg-[#227c85] hover:bg-teal-500 cursor-pointer rounded-full">
+            <div className="bg-[#227c85] hover:bg-[#165056] duration-300 cursor-pointer rounded-full">
               <img className='w-16' src={arrow} alt="" />
             </div>
           </div>
@@ -46,7 +46,7 @@ const AboutCard = () => {
             backgroundPosition: 'center',
           }}>
           <div className="absolute -bottom-3 -right-3 bg-white p-3 rounded-full">
-            <div className="bg-[#227c85] hover:bg-teal-500 rounded-full cursor-pointer">
+            <div className="bg-[#227c85] hover:bg-[#165056] duration-300 rounded-full cursor-pointer">
               <img className='w-16' src={arrow} alt="" />
             </div>
           </div>
@@ -67,7 +67,7 @@ const AboutCard = () => {
         >
           <div
            className="absolute -top-3 -right-3 bg-white p-3 rounded-full cursor-pointer">
-            <div className="bg-[#227c85] hover:bg-teal-500 rounded-full">
+            <div className="bg-[#227c85] hover:bg-[#165056] duration-300 rounded-full">
               <img className='w-16' src={arrow} alt="" />
             </div>
           </div>
@@ -86,7 +86,7 @@ const AboutCard = () => {
             backgroundPosition: 'center',
           }}>
           <div className="absolute -bottom-3 -right-3 bg-white p-3 rounded-full cursor-pointer">
-            <div className="bg-[#227c85] hover:bg-teal-500 rounded-full">
+            <div className="bg-[#227c85] hover:bg-[#165056] duration-300 rounded-full">
               <img className='w-16' src={arrow} alt="" />
             </div>
           </div>

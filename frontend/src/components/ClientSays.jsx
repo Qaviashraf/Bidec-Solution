@@ -62,13 +62,13 @@ function ClientSays() {
                     <p className='font-sans text-md md:text-lg py-5 lg:p-0'>{testimonial}</p>
                     <div>
                         <button 
-                            className='border-2 rounded-full p-3 m-1 text-gray-400' 
+                            className='border-2 rounded-full p-3 m-1 hover:bg-gray-400 hover:border-gray-400  hover:text-white  text-gray-400' 
                             onClick={handlePrev}
                         >
                             <FaArrowLeft />
                         </button>
                         <button 
-                            className='border-2 rounded-full p-3 m-1 border-[#227C85] text-[#227C85]' 
+                            className='border-2 rounded-full p-3 m-1 hover:bg-[#165056] hover:border-white hover:text-white duration-300 border-[#227C85] text-[#227C85]' 
                             onClick={handleNext}
                         >
                             <FaArrowRight />
