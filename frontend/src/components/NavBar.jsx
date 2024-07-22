@@ -31,8 +31,8 @@ export const NavBar = () => {
                 {/* Desktop View */}
                 {/* <div className='hidden md:flex items-center gap-4'> */}
                 <ul className='hidden md:flex font-semibold gap-8 '>
-                    <li className='font-sans text-[#227c85] text-lg duration-300 cursor-pointer'>HOME</li> {/* Current page text-green */}
-                    <li className='font-sans CONTACT US'>SERVICES</li>
+                    <li className='font-sans text-[#227c85] text-lg duration-300 cursor-pointer'>HOME</li>
+                    <li className='font-sans hover:text-[#227c85] text-lg duration-300 cursor-pointer'>SERVICES</li>
                     <li className='font-sans hover:text-[#227c85] text-lg duration-300 cursor-pointer'>ABOUT US</li>
                     <li className='font-sans hover:text-[#227c85] text-lg duration-300 cursor-pointer'>BLOGS</li>
                 </ul>
