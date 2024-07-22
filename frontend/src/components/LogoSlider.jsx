@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Star from '../assets/Star.svg';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -8,9 +9,9 @@ import { Pagination, Navigation, Autoplay } from 'swiper/modules';
 
 export const LogoSlider = () => {
   return (
-    <div className='text-center items-center border border-t-black border-b-black'>
+    <div className='max-w-screen text-center items-center border border-t-black border-b-black'>
       <Swiper
-        slidesPerView={5}
+        slidesPerView={8}
         spaceBetween={0}
         loop={true}
         autoplay={{ delay: 500 }}

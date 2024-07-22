@@ -1,31 +1,7 @@
-
-import React, { useState, useEffect } from 'react';
-import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
-import clientImg from '../assets/ClientPgAssets/ClientImg.svg';
-
-// Example data for the slider
-const clientTestimonials = [
-    {
-        name: 'David Bens',
-        position: 'CEO at SaaS Studio',
-        testimonial: 'Highly recommend this company! Their innovative solutions and dedication to client satisfaction have made a significant impact on our business. We look forward to continuing our partnership.',
-    },
-    {
-        name: 'Jane Doe',
-        position: 'Founder of Tech Corp',
-        testimonial: 'Amazing service! The team delivered outstanding results and exceeded our expectations. We were particularly impressed with their attention to detail and professionalism throughout the project.',
-    },
-    {
-        name: 'John Smith',
-        position: 'Marketing Director at XYZ Ltd',
-        testimonial: 'Highly recommend this company! Their innovative solutions and dedication to client satisfaction have made a significant impact on our business. We look forward to continuing our partnership.',
-    },
-    {
-        name: 'Alice John',
-        position: 'Creative Director at DesignWorks',
-        testimonial: 'Exceptional experience from start to finish. The team was highly responsive, and their creative approach brought our vision to life in ways we hadn’t imagined. Truly a top-notch service.',
-    },
-];
+import React from 'react'
+import { FaArrowLeft } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
+import clientImg from '../assets/ClientPgAssets/ClientImg.svg'
 
 function ClientSays() {
     const [currentIndex, setCurrentIndex] = useState(0);
