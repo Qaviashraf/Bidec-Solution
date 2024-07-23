@@ -9,6 +9,7 @@ import { ServicePage } from './Pages/ServicePage'
 
 import AOS from "aos";
 import 'aos/dist/aos.css';
+import ContactUs from './Pages/ContactUs'
 
 function App() {
 
@@ -19,12 +20,13 @@ function App() {
 
 
   return (
-    <div className='max-w-screen'>
+    <div className='max-w-screen overflow-hidden'>
       <Router>
         <NavBar />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/service/:id' element={<ServicePage />} />
+          <Route path='/contactus' element={<ContactUs />} />
         </Routes>
         <Footer />
       </Router>

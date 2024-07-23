@@ -14,6 +14,20 @@
 .group:hover .icon {
   opacity: 1;
 }
+/* TextSlider.css */
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-slide {
+  display: flex;
+  animation: slide 10s linear infinite;
+}
 
 /* #root {
   max-width: 1280px;
