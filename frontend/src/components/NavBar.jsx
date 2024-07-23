@@ -68,8 +68,8 @@ export const NavBar = () => {
                         {showServices && (
                             <div className='absolute z-10 left-0 top-full flex flex-col mt-2 w-48 text-center bg-[#eff1f3] border border-gray-300 shadow-lg rounded-2xl'>
                                 <Link to='/service/web-design-development' className='font-sans px-4 py-2 hover:text-white hover:bg-[#227c85] duration-200 rounded-t-2xl' onClick={closeServices}>Web Development</Link>
-                                <Link to='/service/web-design-development' className='font-sans px-4 py-2 hover:text-white hover:bg-[#227c85] duration-200' onClick={closeServices}>Graphic Designing</Link>
-                                <Link to='/service/branding' className='font-sans px-4 py-2 hover:text-white hover:bg-[#227c85] duration-200 rounded-b-2xl' onClick={closeServices}>Digital Marketing</Link>
+                                <Link to='/service/branding' className='font-sans px-4 py-2 hover:text-white hover:bg-[#227c85] duration-200' onClick={closeServices}>Graphic Designing</Link>
+                                <Link to='/service/web-design-development' className='font-sans px-4 py-2 hover:text-white hover:bg-[#227c85] duration-200 rounded-b-2xl' onClick={closeServices}>Digital Marketing</Link>
                             </div>
                         )}
                     </div>

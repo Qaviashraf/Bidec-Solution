@@ -39,7 +39,7 @@ function Projects() {
                     </ul>
                 </div>
 
-                <img className='absolute z-0 right-0' src={bgimg} alt="" />
+                <img className='absolute z-[-10] right-0' src={bgimg} alt="" />
             </div>
             <div
                 data-aos="fade-up"
@@ -106,7 +106,6 @@ function Projects() {
                 </div>
             </div>
             
-            <img className='rotate-180 right-0 absolute' src={bgShade} alt="" />
             <div
                 data-aos="fade-up" className="flex justify-center pt-10">
                 <button className='font-sans hover:bg-[#165056] duration-300 text-lg bg-[#227C85] p-3 px-7 text-white rounded-full '>View All Projects</button>
