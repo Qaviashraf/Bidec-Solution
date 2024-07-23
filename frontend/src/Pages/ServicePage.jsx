@@ -20,18 +20,22 @@ export const ServicePage = () => {
   return (
     <div className='max-w-screen py-6 bg-gradient-to-r from-gray-100 to-gray-200 opacity-80'>
       {/* First Section */}
-      <div className='flex flex-col md:flex-row justify-around items-center py-8 gap-4 max-w-screen'>
-        <h1 className='text-center md:text-start text-2xl lg:text-7xl w-full lg:w-[500px]'>
+      <div 
+     
+      className='flex flex-col md:flex-row justify-around items-center py-8 pt-14 gap-4 max-w-screen'>
+        <h1   data-aos="fade-right" className='text-center md:text-start text-2xl lg:text-7xl w-full lg:w-[500px]'>
           {sections[0].title}
         </h1>
         <img
+          data-aos="fade-left"
           src={sections[0].image}
           alt={sections[0].imageAlt}
           className='w-52 md:w-[350px] rounded-full'
         />
       </div>
 
-      <div className='flex flex-col md:flex-row justify-around items-center text-center px-4 py-8 gap-4 max-w-screen'>
+      <div
+        data-aos="fade-up" className='flex flex-col md:flex-row justify-around items-center text-center px-4 py-8 gap-4 max-w-screen'>
         <h1 className='md:text-start text-xl lg:text-4xl w-full lg:w-[500px]'>
           {sections[0].subtitle}
         </h1>
@@ -39,22 +43,27 @@ export const ServicePage = () => {
       </div>
 
       {/* Image Grid */}
-      <div className='hidden lg:block'>
+      <div
+        data-aos="zoom-in-down"
+         className='hidden lg:block'>
       <ImageGrid images={images} />
       </div>
       {/* Sections 2 and onward */}
       {sections.slice(1).map((section, index) => (
         <div
+        
           key={index}
           className={`flex ${
             index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
           } flex-col justify-around items-center text-center px-4 py-4 gap-4 max-w-screen`}
         >
-          <div className='w-full lg:w-[500px] md:text-start '>
+          <div
+            data-aos="fade-right" className='w-full flex flex-col justify-around gap-10 items-start lg:w-[500px] md:text-start '>
             <h1 className='text-2xl lg:text-5xl'>{section.title}</h1>
-            <p>{section.text}</p>
+            <p className='font-sans'>{section.text}</p>
           </div>
           <img
+            data-aos="flip-right"
             src={section.image}
             alt={section.imageAlt}
             className={`w-52 md:w-[500px] rounded-2xl ${

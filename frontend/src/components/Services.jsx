@@ -1,9 +1,9 @@
 import React from 'react'
 import ballGif from '../assets/servicesAssets/movingBall.svg'
-import brandingImg from '../assets/servicesAssets/branding-img.jpg'
-import designing from '../assets/servicesAssets/designing.jpg'
-import graphics from '../assets/servicesAssets/graphics.jpg'
-import UiUx from '../assets/servicesAssets/webDesign.jpg'
+import brandingImg from '../assets/servicesAssets/1.svg'
+import designing from '../assets/servicesAssets/2.svg'
+import graphics from '../assets/servicesAssets/3.svg'
+import UiUx from '../assets/servicesAssets/4.svg'
 function Services() {
     return (
         <div className='container mx-auto py-10'>
@@ -25,22 +25,22 @@ function Services() {
                 className="flex flex-col gap-5 w-1/3">
                     <div className=' border-b border-gray-400 group relative' >
                         <h1 className='text-4xl group-hover:text-[#227C85]' >01<span className='sm:ps-8 ps-2'>Branding </span></h1>
-                        <img className='opacity-0 group-hover:opacity-100 absolute right-[-10vh] top-[-5vh] transition-opacity duration-500' src={brandingImg} alt="" />
+                        <img className='opacity-0 group-hover:opacity-100 absolute z-10 right-[-10vh] top-[-5vh] transition-opacity duration-500' src={brandingImg} alt="" />
                         <p className='font-sans lg:ps-20 ps-5 text-lg py-5'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </p>
                     </div>
                     <div className=' border-b border-gray-400 group relative'>
                         <h1 className='text-4xl group-hover:text-[#227C85]'>02<span className='sm:ps-8 ps-2' >Web Design </span></h1>
-                        <img className='opacity-0 group-hover:opacity-100 absolute left-20 top-10 transition-opacity duration-500' src={designing} alt="" />
+                        <img className='opacity-0 group-hover:opacity-100 absolute z-10 left-20 top-10 transition-opacity duration-500' src={designing} alt="" />
                         <p className='font-sans lg:ps-20 ps-5 text-lg py-5'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </p>
                     </div>
                     <div className=' border-b border-gray-400 group relative'>
                         <h1 className='text-4xl group-hover:text-[#227C85]'>03<span className='sm:ps-8 ps-2'>Motion Graphic </span></h1>
-                        <img className='opacity-0 group-hover:opacity-100 absolute right-20 top-[5vh] transition-opacity duration-500' src={graphics} alt="" />
+                        <img className='opacity-0 group-hover:opacity-100 absolute z-10 right-20 top-[5vh] transition-opacity duration-500' src={graphics} alt="" />
                         <p className='font-sans lg:ps-20 ps-5 text-lg py-5'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </p>
                     </div>
                     <div className=' border-b border-gray-400 group relative'>
-                        <h1 className='text-4xl group-hover:text-[#227C85]'>04<span className='sm:ps-8 ps-2'>Branding </span></h1>
-                        <img className='opacity-0 group-hover:opacity-100 absolute left-0 top-20 transition-opacity duration-500' src={UiUx} alt="" />
+                        <h1 className='text-4xl group-hover:text-[#227C85]'>04<span className='sm:ps-8 ps-2'>UI/UX </span></h1>
+                        <img className='opacity-0 group-hover:opacity-100 absolute z-10 left-0 top-20 transition-opacity duration-500' src={UiUx} alt="" />
                         <p className='font-sans lg:ps-20 ps-5 text-lg py-5'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </p>
                     </div>
                 </div>
