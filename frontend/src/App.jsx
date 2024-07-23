@@ -11,6 +11,7 @@ import AOS from "aos";
 import 'aos/dist/aos.css';
 import ContactUs from './Pages/ContactUs'
 import { AboutUs } from './Pages/AboutUs'
+import { Blogs } from './Pages/Blogs'
 
 
 const ScrollToTop = () => {
@@ -42,6 +43,7 @@ function App() {
           <Route path='/service/:id' element={<ServicePage />} />
           <Route path='/contactus' element={<ContactUs />} />
           <Route path='/aboutus' element={<AboutUs />} />
+          <Route path='/blogs' element={<Blogs />} />
         </Routes>
         <Footer />
       </Router>
