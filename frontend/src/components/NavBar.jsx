@@ -17,7 +17,7 @@ export const NavBar = () => {
     };
 
     return (
-        <nav className='fixed top-0 relative z-50 max-w-screen'
+        <nav className='fixed top-0 w-full z-50 max-w-screen'
             data-aos="fade-down">
             <div className='flex justify-between items-center max-w-screen min-w-screen px-10 py-4 bg-white bg-trasparent bg-opacity-0 backdrop-filter backdrop-blur-lg '>
                 <div>
