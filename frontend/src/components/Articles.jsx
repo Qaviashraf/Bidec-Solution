@@ -1,6 +1,7 @@
 import React from 'react'
 import Article1 from '../assets/Articles/article1.svg'
 import bgShade from '../assets/HeroSection/Ellipse 18.svg'
+import { Link } from 'react-router-dom'
 
 export const Articles = () => {
    return (
@@ -11,9 +12,10 @@ export const Articles = () => {
             <h1
                data-aos="fade-right"
                className='md:text-5xl text-3xl my-2'>Latest articles</h1>
-            <button
+            <Link
+            to='/blogs'
                data-aos="fade-left"
-               className='hidden md:block py-2 md:mx-24 px-6 font-semibold font-sans bg-[#227c85] hover:bg-[#165056] duration-300 rounded-3xl text-white'>View Our Blogs</button>
+               className='hidden md:block py-2 md:mx-24 px-6 font-semibold font-sans bg-[#227c85] hover:bg-[#165056] duration-300 rounded-3xl text-white'>View Our Blogs</Link>
          </div>
          <div
             data-aos="fade-up"

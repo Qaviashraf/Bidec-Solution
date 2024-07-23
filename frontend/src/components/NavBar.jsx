@@ -27,9 +27,9 @@ export const NavBar = () => {
         <nav className='fixed top-0 w-full z-50 max-w-screen'
             data-aos="fade-down">
             <div className='flex justify-between items-center max-w-screen min-w-screen px-10 py-4 bg-white bg-trasparent bg-opacity-0 backdrop-filter backdrop-blur-lg '>
-                <div>
+                <Link to='/'>
                     <img src={logo} alt="Logo" className='w-20 md:w-28' />
-                </div>
+                </Link>
                 {/* Mobile View */}
                 <button className='md:hidden focus:outline-none' onClick={toggleMenu}>
                     {isMenuOpen ? 'Close' : 'Menu'}
@@ -39,8 +39,24 @@ export const NavBar = () => {
                         <li className='block p-2 hover:text-[#227c85] text-lg duration-300 cursor-pointer'>
                             <NavLink to='/' onClick={toggleMenu}>HOME</NavLink>
                         </li>
-                        <li className='block p-2 hover:text-[#227c85] text-lg duration-300 cursor-pointer'>
-                            <NavLink to='/service/web-design-development' onClick={toggleMenu}>SERVICES</NavLink>
+                        <li className='block p-2 hover:text-[#227c85] text-lg text-center duration-300 cursor-pointer'>
+                        <div className='relative text-lg duration-300 cursor-pointer'>
+                        <div onClick={handleToggleServices}>
+                            SERVICES
+                            {/* {showServices ? (
+                                <RiArrowDropUpLine className='mb-1' size={"2rem"} />
+                            ) : (
+                                <RiArrowDropDownLine className='mb-1' size={"2rem"} />
+                            )} */}
+                        </div>
+                        {showServices && (
+                            <div className='absolute z-10 left-0 top-full flex flex-col mt-2 w-48 text-center bg-[#eff1f3] border border-gray-300 shadow-lg rounded-2xl'>
+                                <Link to='/service/web-design-development' className='font-sans px-4 py-2 hover:text-white hover:bg-[#227c85] duration-200 rounded-t-2xl' onClick={closeServices}>Web Development</Link>
+                                <Link to='/service/branding' className='font-sans px-4 py-2 hover:text-white hover:bg-[#227c85] duration-200' onClick={closeServices}>Graphic Designing</Link>
+                                <Link to='/service/web-design-development' className='font-sans px-4 py-2 hover:text-white hover:bg-[#227c85] duration-200 rounded-b-2xl' onClick={closeServices}>Digital Marketing</Link>
+                            </div>
+                        )}
+                    </div>
                         </li>
                         <li className='block p-2 hover:text-[#227c85] text-lg duration-300 cursor-pointer'>
                             <NavLink to='/about' onClick={toggleMenu}>ABOUT US</NavLink>
