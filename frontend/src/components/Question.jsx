@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { TiPlus, TiMinus } from "react-icons/ti";
+import bgShade from '../assets/HeroSection/Ellipse 18.svg'
 
 function Question() {
     const [activeIndex, setActiveIndex] = useState(null);
@@ -28,7 +29,8 @@ function Question() {
             data-aos="fade-up"
             className="flex justify-center items-start pt-20 p-10 md:px-20 gap-4 flex-col bg-gray-50"
         >
-            <h1 className='md:text-6xl text-4xl md:px-10 p-0'>Frequently asked questions</h1>
+            <img className='absolute left-0' src={bgShade} alt="" />
+            <h1 className='md:text-6xl text-3xl md:px-10 p-0'>Frequently asked questions</h1>
             {faqs.map((faq, index) => (
                 <div
                     key={index}

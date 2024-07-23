@@ -4,6 +4,7 @@ import brandingImg from '../assets/servicesAssets/1.svg'
 import designing from '../assets/servicesAssets/2.svg'
 import graphics from '../assets/servicesAssets/3.svg'
 import UiUx from '../assets/servicesAssets/4.svg'
+import bgShade from '../assets/HeroSection/Ellipse 18.svg'
 function Services() {
     return (
         <div className='container mx-auto py-10'>
@@ -22,7 +23,7 @@ function Services() {
                 </div>
                 <div
                 data-aos="fade-right"
-                className="flex flex-col gap-5 w-1/3">
+                className="flex flex-col gap-5 px-3 md:w-1/3">
                     <div className=' border-b border-gray-400 group relative' >
                         <h1 className='text-4xl group-hover:text-[#227C85]' >01<span className='sm:ps-8 ps-2'>Branding </span></h1>
                         <img className='opacity-0 group-hover:opacity-100 absolute z-10 right-[-10vh] top-[-5vh] transition-opacity duration-500' src={brandingImg} alt="" />
@@ -45,6 +46,7 @@ function Services() {
                     </div>
                 </div>
             </div>
+            <img className='rotate-180 right-0 absolute' src={bgShade} alt="" />
         </div>
     )
 }

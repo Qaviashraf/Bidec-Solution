@@ -5,6 +5,8 @@ import HeroBg from '../assets/HeroSection/HeroBg.svg';
 import HeroBg2 from '../assets/HeroSection/HeroBg2.svg';
 import Video from '../assets/HeroSection/Group 31.svg';
 import VideoIcon from '../assets/HeroSection/videoImg.svg';
+import bgShade from '../assets/HeroSection/Ellipse 18.svg'
+import bgShade02 from '../assets/HeroSection/Ellipse 19.svg'
 // import '../App.css'
 
 const HeroSection = () => {
@@ -27,6 +29,8 @@ const HeroSection = () => {
         height: '80vh'
       }}
     >
+      
+      <img className='absolute left-0' src={bgShade} alt="" />
       <div className="absolute inset-0 bg-gradient-to-r from-gray-100 to-gray-200 opacity-50"></div>
       <div className="relative container mx-auto px-6 flex flex-col lg:flex-row items-start justify-around w-screen">
         <div className="lg:w-1/2">
@@ -40,8 +44,11 @@ const HeroSection = () => {
               <img src={arrow} alt="Arrow Icon" className="bg-[#227c85] hover:bg-[#165056] duration-300 rounded-full w-20 h-10" />
               <span className="mx-2">Creative</span>
             </span>
+      
             <br />Agency
           </h1>
+            <img className='absolute' src={bgShade02} alt="" />
+          
           <div className='flex flex-wrap gap-2' data-aos="fade-up-left">
             <button className="bg-[#227c85] py-1 px-6 mr-2 text-white rounded-full text-xl font-semibold font-sans hover:bg-[#165056] duration-300  transition duration-300 ease-in-out">
               View Projects
@@ -55,9 +62,10 @@ const HeroSection = () => {
               </span>
             </div>
           </div>
+
         </div>
-        <div className="mt-12 mx-2 lg:mt-0 relative" data-aos="fade-left">
-          <p className="text-gray-700 text-xl md:text-2xl leading-relaxed md:w-96">
+        <div className="mt-6 mx-2 lg:mt-0 relative" data-aos="fade-left">
+          <p className="text-gray-700 text-xl md:text-2xl leading-relaxed md:w-96 lg:block hidden">
             The Art Of Visual Communication, Creatively Impacting The World Around Us - One Good Design At A Time.
           </p>
           <div className="mt-1 py-3 w-full relative cursor-pointer group " onClick={handlePlay}>
@@ -68,6 +76,8 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
+      
+      <img className='rotate-180 right-0 absolute' src={bgShade} alt="" />
     </section>
   );
 };

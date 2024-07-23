@@ -20,6 +20,7 @@ export const ServicePage = () => {
   return (
     <div className='max-w-screen py-6 bg-gradient-to-r from-gray-100 to-gray-200 opacity-80'>
       {/* First Section */}
+      
       <div 
      
       className='flex flex-col md:flex-row justify-around items-center py-8 pt-14 gap-4 max-w-screen'>

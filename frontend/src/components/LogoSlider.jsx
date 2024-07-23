@@ -27,7 +27,7 @@ export const LogoSlider = () => {
         <div className="flex animate-slide">
           {headings.concat(headings).map((heading, index) => (
             <div key={index} className="flex items-center mx-4">
-              <h1 className="text-2xl font-sans ">
+              <h1 className="text-3xl font-sans ">
                 {heading}
               </h1>
               <img src={Star} alt="star" className="mx-4 w-8 h-8" />
