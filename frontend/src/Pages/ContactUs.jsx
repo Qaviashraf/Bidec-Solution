@@ -51,7 +51,7 @@ const ContactUs = () => {
           </svg> */}
         </span>
       </h1>
-      <img src="https://www.ujudebug.com/wp-content/uploads/2022/07/contact-us-content.gif" className='rounded-full w-52 md:w-96 lg:w-1/2 ' alt="" />
+      <img src="https://www.ujudebug.com/wp-content/uploads/2022/07/contact-us-content.gif" className='rounded-full w-52 md:w-96 lg:w-[600px] ' alt="" />
       </div>
       <div className="md:mt-20 mt-10 md:text-5xl text-2xl">
         <div className="flex justify-between"><h1 className='mb-3'>I am interested in :</h1> <h1 className='text-9xl hidden md:block'><FiArrowDownLeft /></h1></div>
