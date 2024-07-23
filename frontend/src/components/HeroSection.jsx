@@ -17,7 +17,7 @@ const HeroSection = () => {
 
   return (
     <section
-      className="max-w-screen pt-24 flex justify-center bg-hero-bg"
+      className="max-w-screen relative py-36 flex justify-center bg-hero-bg"
       style={{
         backgroundImage: `url(${HeroBg})`,
         backgroundSize: '80%',
@@ -61,8 +61,9 @@ const HeroSection = () => {
             The Art Of Visual Communication, Creatively Impacting The World Around Us - One Good Design At A Time.
           </p>
           <div className="mt-1 py-3 w-full relative cursor-pointer group " onClick={handlePlay}>
-            <img className='block group-hover:hidden ' src={Video} alt="" />
-            <img className='hidden group-hover:block ' src={VideoIcon} alt="" />
+            <img className=' group-hover:w-0 group-hover:opacity-0 transition-opacity  duration-300 ' src={Video} alt="" />
+            <img className='opacity-0 w-0 group-hover:w-12 group-hover:opacity-100 transition-opacity duration-700' src={VideoIcon} alt="" />
+            {/* <img className='hover:w-[50px] transition duration-700 hover:rounded-full h-[50px] hover:object-none' src={Video} alt="" /> */}
             <video src="https://kota-content.b-cdn.net/app/uploads/2023/10/Kota-loop.mp4" className="absolute w-0" />
           </div>
         </div>
