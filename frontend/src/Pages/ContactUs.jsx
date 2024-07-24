@@ -1,6 +1,10 @@
-import React, { useRef } from 'react'
+import React, { useRef , useEffect } from 'react'
 import { FiArrowDownLeft } from "react-icons/fi";
 import { IoArrowForward } from "react-icons/io5";
+
+import AOS from "aos";
+import 'aos/dist/aos.css';
+
 
 const ContactUs = () => {
   const data = [
@@ -29,6 +33,8 @@ const ContactUs = () => {
     };
     console.log(formData);
   };
+
+  
 
 
   return (

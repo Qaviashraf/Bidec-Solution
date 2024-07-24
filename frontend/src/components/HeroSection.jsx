@@ -19,7 +19,7 @@ const HeroSection = () => {
 
   return (
     <section
-      className="max-w-screen relative py-36 flex justify-center bg-hero-bg"
+      className="max-w-screen relative py-44 flex justify-end bg-hero-bg"
       style={{
         backgroundImage: `url(${HeroBg})`,
         backgroundSize: '80%',
@@ -30,7 +30,7 @@ const HeroSection = () => {
       }}
     >
       
-      <img className='absolute left-0' src={bgShade} alt="" />
+      <img className='absolute left-0 ' src={bgShade} alt="" />
       <div className="absolute inset-0 bg-gradient-to-r from-gray-100 to-gray-200 opacity-50"></div>
       <div className="relative container mx-auto px-6 flex flex-col lg:flex-row items-start justify-around w-screen">
         <div className="lg:w-1/2">

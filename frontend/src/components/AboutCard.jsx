@@ -3,6 +3,9 @@ import arrow from '../assets/footerAssets/arrow.svg';
 import AboutBg from '../assets/AboutUs/AboutBg.svg';
 import Bg2 from '../assets/AboutUs/AboutBg2.svg'
 import bgShade from '../assets/HeroSection/Ellipse 18.svg'
+import AboutBgHover from '../assets/AboutUs/AboutBgHover.svg'
+
+import '../App.css'
 
 const AboutCard = () => {
   return (
@@ -22,16 +25,11 @@ const AboutCard = () => {
       <div className='flex flex-wrap justify-center gap-4 my-4'>
         <div
           data-aos="fade-up"
-          className="relative text-white p-6 py-12 text-center items-center h-64 rounded-2xl rounded-tr-[8vh] w-64"
-          style={{
-            backgroundImage: `url(${AboutBg})`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-          }}
-        >
+          className="relative rotate-45 text-white p-6 py-12 text-center items-center h-64 rounded-2xl rounded-tr-[8vh] w-64 AboutBg1 group"
+          >
 
           <div className="absolute -top-3 -right-3 bg-white p-3 rounded-full">
-            <div className="bg-[#227c85] hover:bg-[#0c1a16]  duration-300 cursor-pointer rounded-full">
+            <div className="bg-[#227c85] group-hover:bg-[#0c1a16]  duration-300 cursor-pointer rounded-full">
               <img className='w-16' src={arrow} alt="" />
             </div>
           </div>
@@ -43,14 +41,9 @@ const AboutCard = () => {
 
         <div
           data-aos="fade-up"
-          className="relative text-white p-6 py-12 text-center items-center h-64 rounded-2xl rounded-br-[8vh] w-64"
-          style={{
-            backgroundImage: `url(${Bg2})`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-          }}>
+          className="relative -rotate-45 text-white p-6 py-12 text-center items-center h-64 rounded-2xl rounded-br-[8vh] w-64 AboutBg group">
           <div className="absolute -bottom-3 -right-3 bg-white p-3 rounded-full">
-            <div className="bg-[#227c85] hover:bg-[#0c1a16]  duration-300 rounded-full cursor-pointer">
+            <div className="bg-[#227c85] group-hover:bg-[#0c1a16]  duration-300 rounded-full cursor-pointer">
               <img className='w-16' src={arrow} alt="" />
             </div>
           </div>
@@ -62,16 +55,11 @@ const AboutCard = () => {
 
         <div
           data-aos="fade-up"
-          className="relative text-white p-6 py-12 text-center items-center h-64 rounded-2xl rounded-tr-[8vh] w-64"
-          style={{
-            backgroundImage: `url(${AboutBg})`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-          }}
-        >
+          className="relative rotate-45 text-white p-6 py-12 text-center items-center h-64 rounded-2xl rounded-tr-[8vh] w-64 AboutBg1 group"
+          >
           <div
             className="absolute -top-3 -right-3 bg-white p-3 rounded-full cursor-pointer">
-            <div className="bg-[#227c85] hover:bg-[#0c1a16]  duration-300 rounded-full">
+            <div className="bg-[#227c85] group-hover:bg-[#0c1a16]  duration-300 rounded-full">
               <img className='w-16' src={arrow} alt="" />
             </div>
           </div>
@@ -83,14 +71,9 @@ const AboutCard = () => {
 
         <div
           data-aos="fade-up"
-          className="relative text-white p-6 py-12 text-center items-center h-64 rounded-2xl rounded-br-[8vh] w-64"
-          style={{
-            backgroundImage: `url(${Bg2})`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-          }}>
+          className="relative -rotate-45 text-white p-6 py-12 text-center items-center h-64 rounded-2xl rounded-br-[8vh] w-64 AboutBg group">
           <div className="absolute -bottom-3 -right-3 bg-white p-3 rounded-full cursor-pointer">
-            <div className="bg-[#227c85] hover:bg-[#0c1a16]  duration-300 rounded-full">
+            <div className="bg-[#227c85] group-hover:bg-[#0c1a16]  duration-300 rounded-full">
               <img className='w-16' src={arrow} alt="" />
             </div>
           </div>

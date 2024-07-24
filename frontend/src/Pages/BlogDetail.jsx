@@ -1,11 +1,11 @@
-// src/components/BlogDetail.js
 
-// src/components/BlogDetail.js
-
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { blogPosts } from '../data';
 import { Articles } from '../components/Articles';
+
+import AOS from "aos";
+import 'aos/dist/aos.css';
 
 const BlogDetail = () => {
   const { id } = useParams();
@@ -21,6 +21,11 @@ const BlogDetail = () => {
     );
   }
 
+  
+  useEffect(() => {
+    AOS.init({ duration: "1000", delay: "0" });
+  });
+  
   return (
     <div className="bg-gray-100 py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden">

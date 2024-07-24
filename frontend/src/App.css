@@ -27,15 +27,42 @@
   0% {
     transform: translateX(0%);
   }
-
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-100%);
   }
 }
 
 .animate-slide {
-  display: flex;
-  animation: slide 10s linear infinite;
+  animation: slide 30s linear infinite;
+}
+
+.group:hover .animate-slide {
+  animation-play-state: paused;
+}
+/* Custom CSS for background images and transitions */
+.AboutBg {
+  background-image: url('./assets/AboutUs/AboutBg2.svg');
+  background-size: cover;
+  background-position: center;
+  transition: background-image 3s ease;
+}
+
+.AboutBg:hover {
+  background-image: url('./assets/AboutUs/AboutBgHover.svg');
+}
+
+.AboutBg1 {
+  background-image: url('./assets/AboutUs/AboutBg.svg');
+  background-size: cover;
+  background-position: center;
+  transition: background-image 3s ease
+}
+
+.AboutBg1:hover {
+  background-image: url('./assets/AboutUs/AboutBgHover2.jpeg');
+  background-size: 280px;
+  background-position: center;
+    
 }
 
 /* #root {

@@ -1,8 +1,11 @@
-import React from 'react';
+import React,{ useEffect} from 'react';
 import { useParams } from 'react-router-dom';
 import ImageGrid from '../components/ImageGrid';
 import { data } from '../data'; // Adjust the path if necessary
 import bgShade from '../assets/HeroSection/Ellipse 18.svg'
+
+import AOS from "aos";
+import 'aos/dist/aos.css';
 
 export const ServicePage = () => {
   // Get the id from the URL
@@ -17,6 +20,11 @@ export const ServicePage = () => {
   }
 
   const { images, sections } = serviceData;
+
+  
+  useEffect(() => {
+    AOS.init({ duration: "1000", delay: "0" });
+  });
 
   return (
     <div className='max-w-screen py-6 bg-gradient-to-r from-gray-100 to-gray-200 opacity-80'>

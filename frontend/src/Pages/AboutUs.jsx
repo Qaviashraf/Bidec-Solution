@@ -1,10 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import ClientSays from '../components/ClientSays';
 import Question from '../components/Question';
 import { TeamSection } from '../components/TeamSection';
 import bgShade from '../assets/HeroSection/Ellipse 18.svg'
 
+import AOS from "aos";
+import 'aos/dist/aos.css';
+
 export const AboutUs = () => {
+
+    
+  useEffect(() => {
+    AOS.init({ duration: "1000", delay: "0" });
+  });
+
     return (
         <div className="py-16 bg-gradient-to-r from-gray-50 to-gray-100">
 

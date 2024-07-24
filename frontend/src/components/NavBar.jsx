@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import logo from "../assets/Bidec-logo.svg";
 import { RiArrowDropDownLine, RiArrowDropUpLine } from "react-icons/ri";
-import { MdOutlineShoppingCart } from "react-icons/md";
+// import { MdOutlineShoppingCart } from "react-icons/md";
 import { Link, NavLink, useLocation } from 'react-router-dom';
 
 export const NavBar = () => {

@@ -1,44 +1,89 @@
-import React from 'react'
-import '../App.css'
+import React from 'react';
+import '../App.css';  // Ensure this file contains the custom CSS
 import Star from '../assets/Star.svg';
-
+import { Link } from 'react-router-dom';
 
 export const LogoSlider = () => {
- const headings = [
-        'Web Development',
-        'Graphic Designing',
-        'Digital Marketing',
-        'Branding',
-        'Copywriting',
-        'Web Development',
-        'Graphic Designing',
-        'Digital Marketing',
-        'Branding',
-        'Copywriting',
-        'Web Development',
-        'Graphic Designing',
-        'Digital Marketing',
-        'Branding',
-        'Copywriting',
-      ];
+  const Sliders = [
+    {
+      title: 'Web Development',
+      link: '/service/web-design-development'
+    },
+    {
+      title: 'Graphic Designing',
+      link: '/service/branding'
+    },
+    {
+      title: 'Digital Marketing',
+      link: '/service/web-design-development'
+    },
+    {
+      title: 'Branding',
+      link: '/service/branding'
+    },
+    {
+      title: 'Copywriting',
+      link: '/service/web-design-development'
+    },
+    {
+      title: 'Web Development',
+      link: '/service/web-design-development'
+    },
+    {
+      title: 'Graphic Designing',
+      link: '/service/branding'
+    },
+    {
+      title: 'Digital Marketing',
+      link: '/service/web-design-development'
+    },
+    {
+      title: 'Branding',
+      link: '/service/branding'
+    },
+    {
+      title: 'Copywriting',
+      link: '/service/web-design-development'
+    },
+    {
+      title: 'Web Development',
+      link: '/service/web-design-development'
+    },
+    {
+      title: 'Graphic Designing',
+      link: '/service/branding'
+    },
+    {
+      title: 'Digital Marketing',
+      link: '/service/web-design-development'
+    },
+    {
+      title: 'Branding',
+      link: '/service/branding'
+    },
+    {
+      title: 'Copywriting',
+      link: '/service/web-design-development'
+    },
     
-      return (
-        <div className="overflow-hidden whitespace-nowrap relative py-1 border border-tb-black">
-        <div className="flex animate-slide">
-          {headings.concat(headings).map((heading, index) => (
-            <div key={index} className="flex items-center mx-4">
-              <h1 className="text-3xl font-sans ">
-                {heading}
-              </h1>
-              <img src={Star} alt="star" className="mx-4 w-8 h-8" />
-            </div>
-          ))}
-        </div>
-      </div>
-    );
-  };
-  
+  ];
 
+  return (
+    <div className="overflow-hidden whitespace-nowrap relative py-1 border border-tb-black group">
+      <div className="flex animate-slide">
+        {Sliders.concat(Sliders).map((Slide, index) => (
+          <div key={index} className="flex items-center mx-4">
+            <Link className="text-3xl font-sans hover:bg-[#165056] hover:text-white p-2 px-3 duration-300 rounded-lg "
+            to={Slide.link}>
+              {Slide.title}
+            </Link>
+            <img src={Star} alt="star" className="mx-4 w-8 h-8" />
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
 
 
 

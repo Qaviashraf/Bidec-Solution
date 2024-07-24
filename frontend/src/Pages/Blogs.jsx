@@ -1,7 +1,10 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { FiArrowDownLeft } from "react-icons/fi";
 import bgShade from '../assets/HeroSection/Ellipse 18.svg'
 import { Link } from 'react-router-dom';
+
+import AOS from "aos";
+import 'aos/dist/aos.css';
 
 export const Blogs = () => {
     const products = [
@@ -72,6 +75,11 @@ export const Blogs = () => {
         },
     ];
 
+    
+  useEffect(() => {
+    AOS.init({ duration: "1000", delay: "0" });
+  });
+  
     return (
         <div className='md:py-32 py-12 justify-center max-w-screen'>
             <img className='absolute left-0 md:block hidden' src={bgShade} alt="" />
