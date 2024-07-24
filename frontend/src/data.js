@@ -17,27 +17,136 @@ export const data = [
         imageAlt: '',
       },
       {
-        title: 'Creative web design',
-        text: 'Drawing inspiration from different mediums, trends and audiences, we craft thoughtful websites that help brands put their best digital foot forwards.',
+        title: 'Corporate Websites',
+        text: 'Professional sites to showcase your business.',
         image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/creative-web-design-1-768x744.jpg',
         imageAlt: '',
       },
       {
-        title: 'Web development',
-        text: 'Powered by front-end technologies and forward-thinking concepts, we make animated and interactive elements that enhance your website without slowing it down.',
+        title: 'E-commerce Sites',
+        text: 'Online stores with robust features.',
         image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/web-dev-2-768x768.jpg',
         imageAlt: '',
       },
       {
-        title: 'WordPress',
-        text: 'Tailor-made WordPress websites that capture hearts, minds and wallets.',
+        title: 'Content Management Systems (CMS)',
+        text: 'Easy-to-manage websites.',
         image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/wordpress-1-768x768.jpg',
         imageAlt: '',
       },
+      {
+        title: 'Web Applications',
+        text: 'Custom web-based software solutions.',
+        image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/wordpress-1-768x768.jpg',
+        imageAlt: '',
+      }
     ],
   },
   {
-    id:'branding',
+    id: 'custom-software-development',
+    images: [
+      'https://kota-content.b-cdn.net/app/uploads/2023/11/bento1-1.jpg', // Big square
+      'https://kota-content.b-cdn.net/app/uploads/2023/11/bento2-1.jpg', // Small square 1
+      'https://kota-content.b-cdn.net/app/uploads/2023/11/bento4-1.jpg', // Small square 2
+      'https://kota-content.b-cdn.net/app/uploads/2023/11/bento3-1-500x500.jpg', // Rectangle
+    ],
+    sections: [
+      {
+        title: 'Custom Software Development',
+        subtitle: 'Every business is unique, and so are its software needs',
+        text: 'We develop custom software solutions tailored specifically to your business. From initial concept to final deployment, our team ensures your software is reliable, scalable, and perfectly aligned with your goals.',
+        image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/header-3.jpg',
+        imageAlt: '',
+      },
+      {
+        title: 'Enterprise Software',
+        text: 'Large-scale applications for business operations.',
+        image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/creative-web-design-1-768x744.jpg',
+        imageAlt: '',
+      },
+      {
+        title: 'SaaS Products',
+        text: 'Subscription-based software for various industries.',
+        image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/web-dev-2-768x768.jpg',
+        imageAlt: '',
+      },
+      {
+        title: 'CRM Systems',
+        text: 'Manage customer relationships efficiently.',
+        image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/wordpress-1-768x768.jpg',
+        imageAlt: '',
+      },
+      {
+        title: 'ERP Systems',
+        text: 'Integrated management of core business processes.',
+        image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/wordpress-1-768x768.jpg',
+        imageAlt: '',
+      },
+      {
+        title: 'Business Intelligence (BI) Tools',
+        text: 'Custom analytics and reporting software.',
+        image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/wordpress-1-768x768.jpg',
+        imageAlt: '',
+      },
+      {
+        title: 'Workflow Automation',
+        text: 'Automate repetitive tasks and streamline business processes.',
+        image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/wordpress-1-768x768.jpg',
+        imageAlt: '',
+      },
+      {
+        title: 'Healthcare Software',
+        text: 'Tailored solutions for the healthcare industry.',
+        image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/wordpress-1-768x768.jpg',
+        imageAlt: '',
+      },
+      {
+        title: 'Educational Platforms',
+        text: 'Custom e-learning and management systems.',
+        image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/wordpress-1-768x768.jpg',
+        imageAlt: '',
+      },
+      {
+        title: 'Financial Software',
+        text: 'Solutions for financial services.',
+        image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/wordpress-1-768x768.jpg',
+        imageAlt: '',
+      },
+      {
+        title: 'Logistics and Supply Chain Management',
+        text: 'Custom software to optimize logistics and manage inventory.',
+        image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/wordpress-1-768x768.jpg',
+        imageAlt: '',
+      },
+      {
+        title: 'Retail and POS Systems',
+        text: 'Tailored POS systems for retail businesses.',
+        image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/wordpress-1-768x768.jpg',
+        imageAlt: '',
+      },
+      {
+        title: 'Real Estate Management',
+        text: 'Solutions for property management and real estate CRM.',
+        image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/wordpress-1-768x768.jpg',
+        imageAlt: '',
+      },
+      {
+        title: 'Custom API Development',
+        text: 'Develop APIs to integrate with other systems.',
+        image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/wordpress-1-768x768.jpg',
+        imageAlt: '',
+      },
+      {
+        title: 'IoT Solutions',
+        text: 'Custom software for Internet of Things applications.',
+        image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/wordpress-1-768x768.jpg',
+        imageAlt: '',
+      }
+
+    ],
+  },
+  {
+    id:'ux/ui-design',
     images: [
         'https://kota-content.b-cdn.net/app/uploads/2023/11/bento1-5.jpg', // Big square
         'https://kota-content.b-cdn.net/app/uploads/2023/11/bento3-1-500x500.jpg', // Small square 1
@@ -46,32 +155,214 @@ export const data = [
       ],
       sections: [
         {
-          title: 'Enabling brand mavericks since 2013',
-          subtitle: 'Expertly executed brands that make an impact',
-          text: 'We build brands that move customers into action and bring you closer to your business goals.',
+          title: 'UI/UX Design',
+          subtitle: 'Creating user-friendly and engaging interfaces',
+          text: 'A great user interface (UI) and user experience (UX) are key to user satisfaction. Our design team creates visually appealing and easy-to-use interfaces that delight users and keep them coming back. We focus on user-centric design to ensure your software is both beautiful and functional.',
           image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/header-6.jpg',
           imageAlt: '',
         },
         {
-          title: 'Brand strategy',
-          text: 'Start by uncovering the strategic gold dust that makes your brand unique, and then bring it to life through purposeful positioning and messaging.',
+          title: 'User Research',
+          text: 'Good design is the cornerstone of great software.Understanding user needs and behaviors.',
           image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/branding-strategy-768x768.jpg',
           imageAlt: '',
         },
         {
-          title: 'Tone of voice',
-          text: 'It doesn’t matter how compelling your story is – if you say it in the wrong way, it just won’t land. So let us find you a voice that fits, cutting through the noise to get your brand noticed.',
+          title: 'Wireframing and Prototyping',
+          text: 'Visual blueprints of your app or site.',
           image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/tone-of-voice-768x768.jpg',
           imageAlt: '',
         },
         {
-          title: 'Visual identity',
-          text: 'Bringing strategic thinking to every design choice we make, let us create a visual identity system that not only makes sense, but makes an impact.',
+          title: 'Visual Design',
+          text: ' Crafting aesthetically pleasing interfaces.',
+          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/vidual-identity-768x745.jpg',
+          imageAlt: '',
+        },
+        {
+          title: 'Usability Testing',
+          text: ' Ensuring intuitive and user-friendly experiences.',
           image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/vidual-identity-768x745.jpg',
           imageAlt: '',
         },
       ],
-  }
+  },
+  {
+    id:'designing',
+    images: [
+        'https://kota-content.b-cdn.net/app/uploads/2023/11/bento1-5.jpg', // Big square
+        'https://kota-content.b-cdn.net/app/uploads/2023/11/bento3-1-500x500.jpg', // Small square 1
+        'https://kota-content.b-cdn.net/app/uploads/2023/11/benot4.jpg', // Small square 2
+        'https://kota-content.b-cdn.net/app/uploads/2023/11/bento3-5-500x500.jpg', // Rectangle
+      ],
+      sections: [
+        {
+          title: 'Designing',
+          subtitle: 'Creating user-friendly and engaging interfaces',
+          text: 'Good design is the cornerstone of great software. At Bidec, our creative designers craft visually compelling and functionally efficient designs for websites, mobile apps, and software interfaces. We believe in creating designs that not only look good but also enhance user interaction and satisfaction.',
+          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/header-6.jpg',
+          imageAlt: '',
+        },
+        {
+          title: 'Logo Design',
+          text: 'Crafting unique and memorable logos.',
+          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/branding-strategy-768x768.jpg',
+          imageAlt: '',
+        },
+        {
+          title: 'Brand Identity Design',
+          text: 'Comprehensive branding solutions.',
+          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/tone-of-voice-768x768.jpg',
+          imageAlt: '',
+        },
+        {
+          title: 'Graphic Design',
+          text: 'Banners, brochures, and marketing materials.',
+          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/vidual-identity-768x745.jpg',
+          imageAlt: '',
+        },
+        {
+          title: 'Interface Design',
+          text: 'Designing user-friendly interfaces for software and websites.',
+          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/vidual-identity-768x745.jpg',
+          imageAlt: '',
+        },
+      ],
+  },
+  
+  {
+    id:'mobile-app-development',
+    images: [
+        'https://kota-content.b-cdn.net/app/uploads/2023/11/bento1-5.jpg', // Big square
+        'https://kota-content.b-cdn.net/app/uploads/2023/11/bento3-1-500x500.jpg', // Small square 1
+        'https://kota-content.b-cdn.net/app/uploads/2023/11/benot4.jpg', // Small square 2
+        'https://kota-content.b-cdn.net/app/uploads/2023/11/bento3-5-500x500.jpg', // Rectangle
+      ],
+      sections: [
+        {
+          title: 'Mobile App Development',
+          subtitle: 'Creating user-friendly and engaging interfaces',
+          text: 'We create engaging, user-friendly mobile apps for both iOS and Android platforms. Whether it’s an app for your customers or an internal tool for your team, we ensure it’s intuitive and high-performing.',
+          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/header-6.jpg',
+          imageAlt: '',
+        },
+        {
+          title: 'Native Apps',
+          text: 'High-performance apps for iOS and Android.',
+          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/branding-strategy-768x768.jpg',
+          imageAlt: '',
+        },
+        {
+          title: 'Hybrid Apps',
+          text: 'Cross-platform apps with a single codebase.',
+          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/tone-of-voice-768x768.jpg',
+          imageAlt: '',
+        },
+        {
+          title: 'Progressive Web Apps',
+          text: 'Web apps with a mobile app feel.',
+          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/vidual-identity-768x745.jpg',
+          imageAlt: '',
+        },
+        {
+          title: 'Enterprise Mobile Solutions',
+          text: 'Apps to streamline business processes.',
+          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/vidual-identity-768x745.jpg',
+          imageAlt: '',
+        },
+      ],
+  },
+    
+  {
+    id:'eccomerce-solutions',
+    images: [
+        'https://kota-content.b-cdn.net/app/uploads/2023/11/bento1-5.jpg', // Big square
+        'https://kota-content.b-cdn.net/app/uploads/2023/11/bento3-1-500x500.jpg', // Small square 1
+        'https://kota-content.b-cdn.net/app/uploads/2023/11/benot4.jpg', // Small square 2
+        'https://kota-content.b-cdn.net/app/uploads/2023/11/bento3-5-500x500.jpg', // Rectangle
+      ],
+      sections: [
+        {
+          title: 'E-commerce Solutions',
+          subtitle: 'Creating user-friendly and engaging interfaces',
+          text: 'Transform your online store with our bespoke e-commerce solutions. We develop custom e-commerce platforms that offer a smooth shopping experience, complete with secure payment gateways, easy navigation, and powerful backend management tools to keep your business running efficiently.',
+          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/header-6.jpg',
+          imageAlt: '',
+        },
+        {
+          title: 'Online Store Development',
+          text: 'Custom online shops tailored to your needs.',
+          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/branding-strategy-768x768.jpg',
+          imageAlt: '',
+        },
+        {
+          title: 'Shopping Cart Integration',
+          text: 'Seamless and secure payment processes.',
+          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/tone-of-voice-768x768.jpg',
+          imageAlt: '',
+        },
+        {
+          title: 'Inventory Management Systems',
+          text: 'Efficient stock tracking and management.',
+          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/vidual-identity-768x745.jpg',
+          imageAlt: '',
+        },
+        {
+          title: 'Customer Relationship Management ',
+          text: 'Tools to enhance customer interaction.',
+          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/vidual-identity-768x745.jpg',
+          imageAlt: '',
+        },
+      ],
+  },
+  {
+    id:'digital-marketing',
+    images: [
+        'https://kota-content.b-cdn.net/app/uploads/2023/11/bento1-5.jpg', // Big square
+        'https://kota-content.b-cdn.net/app/uploads/2023/11/bento3-1-500x500.jpg', // Small square 1
+        'https://kota-content.b-cdn.net/app/uploads/2023/11/benot4.jpg', // Small square 2
+        'https://kota-content.b-cdn.net/app/uploads/2023/11/bento3-5-500x500.jpg', // Rectangle
+      ],
+      sections: [
+        {
+          title: 'Digital Marketing',
+          subtitle: 'Maximize your online presence with our comprehensive digital marketing services.',
+          text: 'We offer SEO, PPC, social media marketing, content marketing, and more to help your business reach its target audience effectively. Our data-driven strategies ensure you get the best ROI from your digital marketing efforts.',
+          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/header-6.jpg',
+          imageAlt: '',
+        },
+        {
+          title: 'Search Engine Optimization',
+          text: 'Improving your site’s visibility on search engines.',
+          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/branding-strategy-768x768.jpg',
+          imageAlt: '',
+        },
+        {
+          title: 'Pay-Per-Click Advertising',
+          text: 'Targeted advertising to drive traffic.',
+          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/tone-of-voice-768x768.jpg',
+          imageAlt: '',
+        },
+        {
+          title: 'Social Media Marketing',
+          text: 'Engaging and growing your social media presence.',
+          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/vidual-identity-768x745.jpg',
+          imageAlt: '',
+        },
+        {
+          title: 'Content Marketing',
+          text: 'Creating and distributing valuable content.',
+          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/vidual-identity-768x745.jpg',
+          imageAlt: '',
+        },
+        {
+          title: 'Email Marketing',
+          text: 'Direct communication with your customers.',
+          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/vidual-identity-768x745.jpg',
+          imageAlt: '',
+        },
+      ],
+  },
 ];
   
 // src/data.js
