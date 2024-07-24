@@ -1,8 +1,4 @@
 import React from 'react'
-import projectImg1 from '../assets/ProjectAssets/Mask group1.svg'
-import projectImg2 from '../assets/ProjectAssets/Mask group.svg'
-import projectImg3 from '../assets/ProjectAssets/Mask group3.svg'
-import projectImg4 from '../assets/ProjectAssets/Mask group2.svg'
 import rectangle from '../assets/ProjectAssets/Rectangle 31.svg'
 import bgimg from '../assets/ProjectAssets/Ellipse 21.svg'
 import arrow from '../assets/footerAssets/arrow.svg'
