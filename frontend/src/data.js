@@ -10,7 +10,7 @@ export const data = [
     ],
     sections: [
       {
-        title: 'Welcome to the digital renaissance',
+        title: 'Web Development',
         subtitle: 'Stunning websites that supercharge your brand',
         text: 'Don’t just be noticed – become unmissable, with a captivating website that stops people in their tracks.',
         image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/header-3.jpg',
