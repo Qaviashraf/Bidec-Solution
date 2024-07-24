@@ -146,7 +146,7 @@ export const data = [
     ],
   },
   {
-    id:'ux/ui-design',
+    id:'ui-ux-design',
     images: [
         'https://kota-content.b-cdn.net/app/uploads/2023/11/bento1-5.jpg', // Big square
         'https://kota-content.b-cdn.net/app/uploads/2023/11/bento3-1-500x500.jpg', // Small square 1
@@ -155,7 +155,7 @@ export const data = [
       ],
       sections: [
         {
-          title: 'UI/UX Design',
+          title: 'UI / UX Design',
           subtitle: 'Creating user-friendly and engaging interfaces',
           text: 'A great user interface (UI) and user experience (UX) are key to user satisfaction. Our design team creates visually appealing and easy-to-use interfaces that delight users and keep them coming back. We focus on user-centric design to ensure your software is both beautiful and functional.',
           image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/header-6.jpg',
@@ -188,7 +188,7 @@ export const data = [
       ],
   },
   {
-    id:'designing',
+    id:'graphic-designing',
     images: [
         'https://kota-content.b-cdn.net/app/uploads/2023/11/bento1-5.jpg', // Big square
         'https://kota-content.b-cdn.net/app/uploads/2023/11/bento3-1-500x500.jpg', // Small square 1
@@ -274,7 +274,7 @@ export const data = [
   },
     
   {
-    id:'eccomerce-solutions',
+    id:'ecommerce-solutions',
     images: [
         'https://kota-content.b-cdn.net/app/uploads/2023/11/bento1-5.jpg', // Big square
         'https://kota-content.b-cdn.net/app/uploads/2023/11/bento3-1-500x500.jpg', // Small square 1

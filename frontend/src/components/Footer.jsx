@@ -37,8 +37,12 @@ function Footer() {
                                 <h1 className="text-xl py-4">Services</h1>
                                 <ul className=" gap-4 flex-col md:flex-row">
                                     <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2"><Link className="font-sans" to="/service/web-design-development">WEB DEVELOPMENT</Link></li>
-                                    <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2"><Link className="font-sans" to="/service/branding">GRAPHIC DESIGNING</Link></li>
-                                    <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2"><Link className="font-sans" to="/service/web-design-development">DIGITAL MARKETING</Link></li>
+                                    <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2"><Link className="font-sans" to="/service/custom-software-development">CUSTOM SOFTWARE</Link></li>
+                                    <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2"><Link className="font-sans" to="/service/ui-ux-design">UI / UX</Link></li>
+                                    <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2"><Link className="font-sans" to="/service/graphic-designing">GRAPHIC DESIGN</Link></li>
+                                    <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2"><Link className="font-sans" to="/service/mobile-app-development">APP DEVELOPMENT</Link></li>
+                                    <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2"><Link className="font-sans" to="/service/ecommerce-solutions">ECOMMERCE SOLUTION</Link></li>
+                                    <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2"><Link className="font-sans" to="/service/digital-marketing">DIGITAL MARKETING</Link></li>
                                 </ul>
                             </div>
                             <div className="text-start flex flex-col md:items-baseline items-center justify-center  md:w-1/4 w-full">
