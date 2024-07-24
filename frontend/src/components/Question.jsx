@@ -10,17 +10,22 @@ function Question() {
     };
 
     const faqs = [
+
         {
-            question: 'What services does your digital agency offer?',
-            answer: 'Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry\'s standard dummy text ever since the 1500s Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry\'s standard dummy text ever'
+            question: 'Why Choose Bidec?',
+            answer: 'Choose Bidec because our team of experienced professionals ensures high-quality, secure, and reliable software. We tailor solutions to meet your specific business needs, leveraging the latest technologies for innovative results. Our transparent communication keeps you informed at every step, fostering trust and collaboration.'
         },
         {
-            question: 'What industries do you specialize in?',
-            answer: 'Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry\'s standard dummy text ever since the 1500s Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry\'s standard dummy text ever'
+            question: 'What services does Bidec offer?',
+            answer: 'Bidec offers expert software development, custom solutions tailored to your business needs, and innovative approaches using the latest technologies. Our services include secure, reliable, and robust software creation, all delivered with transparent communication and a client-focused approach to drive your business growth.'
+        },
+        {
+            question: 'Which industries does Bidec specialize in?',
+            answer: 'Bidec specializes in various industries including finance, healthcare, education, retail, and manufacturing. Our expertise in these sectors enables us to deliver tailored solutions that address industry-specific challenges, leveraging our deep understanding of market trends and technological advancements to drive business success.'
         },
         {
             question: 'What is your process for working with clients?',
-            answer: 'Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry\'s standard dummy text ever since the 1500s Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry\'s standard dummy text ever'
+            answer: "We start by understanding your business needs, then design tailored solutions using the latest technologies. Throughout development, we maintain transparent communication, ensuring you're informed at every step. Finally, we deliver high-quality, reliable software, providing ongoing support to ensure your satisfaction and success"
         }
     ];
 
@@ -48,7 +53,7 @@ function Question() {
                         </div>
                         {activeIndex === index && (
                             <div className="p-4 bg-[#227c85] text-white rounded-b-xl">
-                                <p className='font-sans'>{faq.answer}</p>
+                                <p className='font-sans text-lg px-4'>{faq.answer}</p>
                             </div>
                         )}
                     </div>

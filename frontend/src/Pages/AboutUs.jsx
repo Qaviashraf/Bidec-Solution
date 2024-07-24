@@ -9,10 +9,10 @@ import 'aos/dist/aos.css';
 
 export const AboutUs = () => {
 
-    
-  useEffect(() => {
-    AOS.init({ duration: "1000", delay: "0" });
-  });
+
+    useEffect(() => {
+        AOS.init({ duration: "1000", delay: "0" });
+    });
 
     return (
         <div className="py-16 bg-gradient-to-r from-gray-50 to-gray-100">
@@ -23,7 +23,11 @@ export const AboutUs = () => {
                     <div
                         data-aos="fade-right" className="flex flex-col justify-start px-3 text-center md:text-start gap-5 items-center">
                         <h1 className='md:text-7xl text-4xl'>About Us</h1>
-                        <p className='font-sans'>Welcome to Bidec Solutions, where innovation meets excellence. We are a dedicated team of tech enthusiasts, software engineers, and creative problem-solvers committed to transforming your ideas into powerful digital solutions.</p>
+                        <span>
+                            <p className='text-lg'>Who We Are</p>
+                            <p className='font-sans'>Welcome to Bidec, a premier UK-based software house dedicated to transforming ideas into innovative digital solutions. Founded with a vision to empower businesses through technology, Bidec has grown into a trusted partner for companies across various industries, providing cutting-edge software, web, and mobile solutions that drive success.
+                            </p>
+                        </span>
                     </div>
                 </div>
                 <img
@@ -31,13 +35,14 @@ export const AboutUs = () => {
             </div>
 
             <img className='rotate-180 right-0 absolute' src={bgShade} alt="" />
-            <div className='flex flex-col md:flex-row justify-around items-center text-center px-4 py-12 gap-4 max-w-screen'>
+            <div className='flex flex-col md:flex-row justify-around items-center text-center px-4 gap-4 max-w-screen'>
                 <h1 className='md:text-start text-xl lg:text-4xl w-full lg:w-[500px]'
                     data-aos="fade-up-right">
                     Our Mission Statement
                 </h1>
                 <p className='md:text-start font-sans w-full lg:w-[500px]'
-                    data-aos="fade-up-left">Our mission is to empower businesses of all sizes by providing top-notch software development services that drive growth and success.</p>
+                    data-aos="fade-up-left">Our mission is to deliver exceptional software solutions that help businesses thrive in the digital age. We are committed to excellence, innovation, and customer satisfaction, ensuring that every project we undertake meets the highest standards of quality and performance.
+                </p>
             </div>
 
             <iframe

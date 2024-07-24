@@ -4,6 +4,7 @@ import logo from '../assets/footerAssets/Logo.svg';
 import { MdEmail } from "react-icons/md";
 import { FaPhone } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
+import { HiOfficeBuilding } from "react-icons/hi";
 
 function Footer() {
     return (
@@ -18,10 +19,10 @@ function Footer() {
                 </form> */}
                 <div className="w-full">
                     <div className="container flex items-center justify mx-auto">
-                        <div className="flex flex-col lg:flex-row gap-8 text-white p-8 border-b justify-around items-center lg:items-baseline">
-                            <div className="flex flex-col md:items-baseline items-center justify-center p-8  w-full md:w-1/3 ">
+                        <div className="flex flex-col lg:flex-row gap-8 text-white p-8 pb-12 border-b justify-around items-center lg:items-baseline">
+                            <div className="flex flex-col md:items-baseline items-center justify-center p-8  w-full md:w-1/2 ">
                                 <img src={logo} alt="Logo" className="h-12" />
-                                <p className='font-sans py-3 text-sm text-start'>Welcome to Bidec Solutions, where innovation meets excellence. We are a dedicated team of tech enthusiasts, software engineers, and creative problem-solvers committed to transforming your ideas into powerful digital solutions.</p>
+                                <p className='font-sans py-3 text-sm text-start'>Welcome to Bidec, a premier UK-based software house dedicated to transforming ideas into innovative digital solutions. Founded with a vision to empower businesses through technology, Bidec has grown into a trusted partner for companies across various industries, providing cutting-edge software, web, and mobile solutions that drive success.</p>
                             </div>
                             <div className="text-start flex flex-col md:items-baseline items-center justify-center text-center  md:w-1/4 w-full">
                                 <h1 className="text-xl py-4">Quick Links</h1>
@@ -49,12 +50,14 @@ function Footer() {
                                     <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2">LINKEDIN</li>
                                 </ul>
                             </div>
-                            <div className="text-start flex flex-col md:items-baseline items-center justify-center md:w-1/4 w-1/3">
-                                <h1 className="text-xl py-4">Contact</h1>
+                            <div className="text-start flex flex-col md:items-baseline items-center justify-center md:w-1/2 w-full">
+                                <h1 className="text-xl text-center py-4">Get in Touch</h1>
                                 <ul className="">
-                                    <li className="font-sans font-light text-sm rounded-xl duration-300 cursor-pointer p-2">For any inquiries or support, please reach out to us at:</li>
-                                    <li className="font-sans font-light text-sm rounded-xl duration-300 cursor-pointer p-2 pl-6 relative"><MdEmail className='absolute hover:text-[#227c85] duration-300 left-0 top-3 text-lg ' /> support@lymecaymedia.com</li>
-                                    <li className="font-sans font-light text-sm rounded-xl duration-300 cursor-pointer p-2 pl-6 relative"><FaPhone className='absolute hover:text-[#227c85] duration-300 left-0 top-3 text-lg ' /> +1 (800) 123-4567</li>
+                                    <li className="font-sans font-light text-sm rounded-xl duration-300 cursor-pointer p-2">Ready to turn your ideas into reality ? Contact Bidec today to discuss your project and see how we can help you achieve your business goals.
+                                    </li>
+                                    <li className="font-sans font-light text-sm rounded-xl duration-300 cursor-pointer p-2 pl-6 relative"><MdEmail className='absolute hover:text-[#227c85] duration-300 left-0 top-3 text-lg ' /> marketing@bidecsol.com </li>
+                                    <li className="font-sans font-light text-sm rounded-xl duration-300 cursor-pointer p-2 pl-6 relative"><FaPhone className='absolute hover:text-[#227c85] duration-300 left-0 top-3 text-lg ' /> +971-52-104-7673</li>
+                                    <li className="font-sans font-light text-sm rounded-xl duration-300 cursor-pointer p-2 pl-6 relative"><HiOfficeBuilding className='absolute hover:text-[#227c85] duration-300 left-0 top-3 text-lg ' /> Bidec Software House, 24 Sandgates, Guilford Road Chertsey KT16 9LT UK</li>
                                 </ul>
                             </div>
 
@@ -66,7 +69,7 @@ function Footer() {
                             <li className='rounded-full p-2 w-8 h-8 border hover:bg-[#165056] duration-200 hover:border-[#165056]'><img src={linkedInIcon} alt="" /></li>
                             <li className='rounded-full p-2 w-8 h-8 border hover:bg-[#165056] duration-200 hover:border-[#165056]'><img src={instaIcon} alt="" /></li>
                         </ul> */}
-                        <p className='text-gray-400 font-sans '>All Right Reserved Bidec 2024</p>
+                        <p className='text-gray-400 font-sans '>© 2024 <span>Bidec</span> All Rights Reserved.</p>
                     </div>
                 </div>
             </div>
