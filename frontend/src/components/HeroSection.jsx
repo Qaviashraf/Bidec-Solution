@@ -54,9 +54,9 @@ const HeroSection = () => {
               View Projects
             </button>
             <div className="flex items-center">
-              <img src="https://via.placeholder.com/40" alt="Client 1" className="w-10 h-10 rounded-full border-2 border-white -ml-2" />
-              <img src="https://via.placeholder.com/40" alt="Client 2" className="w-10 h-10 rounded-full border-2 border-white -ml-2" />
-              <img src="https://via.placeholder.com/40" alt="Client 3" className="w-10 h-10 rounded-full border-2 border-white -ml-2" />
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp" alt="Client 1" className="w-10 h-10 rounded-full border-2 border-white -ml-2" />
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(31).webp" alt="Client 2" className="w-10 h-10 rounded-full border-2 border-white -ml-2" />
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="Client 3" className="w-10 h-10 rounded-full border-2 border-white -ml-2" />
               <span className="ml-4 text-gray-700 font-sans text-xl font-medium">
                 100k+ Awesome <br /> Clients
               </span>
