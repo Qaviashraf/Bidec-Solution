@@ -81,7 +81,7 @@ export const Blogs = () => {
   });
   
     return (
-        <div className='md:py-32 py-12 justify-center max-w-screen'>
+        <div className='md:py-32 mb-36 py-12 justify-center max-w-screen'>
             <img className='absolute left-0 md:block hidden' src={bgShade} alt="" />
             <div className='flex flex-wrap justify-around items-center my-10 px-4'>
                 <h1

@@ -3,6 +3,7 @@ import footerBg from '../assets/footerAssets/footerBlurImg.svg';
 import logo from '../assets/footerAssets/Logo.svg';
 import { MdEmail } from "react-icons/md";
 import { FaPhone } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
@@ -22,24 +23,24 @@ function Footer() {
                                 <img src={logo} alt="Logo" className="h-12" />
                                 <p className='font-sans py-3 text-sm text-start'>Welcome to Bidec Solutions, where innovation meets excellence. We are a dedicated team of tech enthusiasts, software engineers, and creative problem-solvers committed to transforming your ideas into powerful digital solutions.</p>
                             </div>
-                            <div className="text-start text-center w-1/4">
+                            <div className="text-start flex flex-col md:items-baseline items-center justify-center text-center  md:w-1/4 w-full">
                                 <h1 className="text-xl py-4">Quick Links</h1>
                                 <ul className=" gap-4 flex-col md:flex-row">
-                                    <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2">HOME</li>
-                                    <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2">ABOUT US</li>
-                                    <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2">BLOGS</li>
-                                    <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2">CONTACT US</li>
+                                    <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2"><Link className="font-sans" to="/">HOME</Link></li>
+                                    <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2"><Link className="font-sans" to="/aboutus">ABOUT US</Link></li>
+                                    <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2"><Link className="font-sans" to="/blogs">BLOGS</Link></li>
+                                    <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2"><Link className="font-sans" to="/contactus">CONTACT US</Link></li>
                                 </ul>
                             </div>
-                            <div className="text-start text-center w-1/4">
+                            <div className="text-start flex flex-col md:items-baseline items-center justify-center text-center  md:w-1/4 w-full">
                                 <h1 className="text-xl py-4">Services</h1>
                                 <ul className=" gap-4 flex-col md:flex-row">
-                                    <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2">WEB DEVELOPMENT</li>
-                                    <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2">GRAPHIC DESIGNING</li>
-                                    <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2">DIGITAL MARKETING</li>
+                                    <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2"><Link className="font-sans" to="/service/web-design-development">WEB DEVELOPMENT</Link></li>
+                                    <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2"><Link className="font-sans" to="/service/branding">GRAPHIC DESIGNING</Link></li>
+                                    <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2"><Link className="font-sans" to="/service/web-design-development">DIGITAL MARKETING</Link></li>
                                 </ul>
                             </div>
-                            <div className="text-start text-center w-1/4">
+                            <div className="text-start flex flex-col md:items-baseline items-center justify-center  md:w-1/4 w-full">
                                 <h1 className="text-xl py-4">Follow Us</h1>
                                 <ul className=" gap-4 flex-col md:flex-row">
                                     <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2">FACEBOOK</li>
@@ -48,9 +49,9 @@ function Footer() {
                                     <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2">LINKEDIN</li>
                                 </ul>
                             </div>
-                            <div className="text-start md:w-1/4 w-full">
+                            <div className="text-start flex flex-col md:items-baseline items-center justify-center md:w-1/4 w-1/3">
                                 <h1 className="text-xl py-4">Contact</h1>
-                                <ul className=" gap-4 flex-col md:flex-row">
+                                <ul className="">
                                     <li className="font-sans font-light text-sm rounded-xl duration-300 cursor-pointer p-2">For any inquiries or support, please reach out to us at:</li>
                                     <li className="font-sans font-light text-sm rounded-xl duration-300 cursor-pointer p-2 pl-6 relative"><MdEmail className='absolute hover:text-[#227c85] duration-300 left-0 top-3 text-lg ' /> support@lymecaymedia.com</li>
                                     <li className="font-sans font-light text-sm rounded-xl duration-300 cursor-pointer p-2 pl-6 relative"><FaPhone className='absolute hover:text-[#227c85] duration-300 left-0 top-3 text-lg ' /> +1 (800) 123-4567</li>
