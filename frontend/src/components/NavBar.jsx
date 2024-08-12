@@ -43,11 +43,6 @@ export const NavBar = () => {
                             <div className='relative text-lg duration-300 cursor-pointer'>
                                 <div onClick={handleToggleServices}>
                                     SERVICES
-                                    {/* {showServices ? (
-                                <RiArrowDropUpLine className='mb-1' size={"2rem"} />
-                            ) : (
-                                <RiArrowDropDownLine className='mb-1' size={"2rem"} />
-                            )} */}
                                 </div>
                                 {showServices && (
                                     <div className='absolute z-10 left-20 top-full flex flex-col mt-2 w-48 text-sm text-center text-[#227c85] bg-[#eff1f3] border border-gray-300 shadow-lg rounded-2xl'>
@@ -64,7 +59,7 @@ export const NavBar = () => {
                             </div>
                         </li>
                         <li className='block p-2 hover:text-[#227c85] text-lg duration-300 cursor-pointer'>
-                            <NavLink to='/about' onClick={toggleMenu}>ABOUT US</NavLink>
+                            <NavLink to='/aboutus' onClick={toggleMenu}>ABOUT US</NavLink>
                         </li>
                         <li className='block p-2 hover:text-[#227c85] text-lg duration-300 cursor-pointer'>
                             <NavLink to='/blogs' onClick={toggleMenu}>BLOGS</NavLink>
@@ -91,7 +86,7 @@ export const NavBar = () => {
                                 <Link to='/service/web-design-development' className='font-sans px-4 py-2 hover:text-white hover:bg-[#227c85] duration-200 rounded-t-2xl' onClick={closeServices}>Web Development</Link>
                                 <Link to='/service/custom-software-development' className='font-sans px-4 py-2 hover:text-white hover:bg-[#227c85] duration-200' onClick={closeServices}>Custom Software</Link>
                                 <Link to='/service/ui-ux-design' className='font-sans px-4 py-2 hover:text-white hover:bg-[#227c85] duration-200' onClick={closeServices}>UI/UX</Link>
-                                <Link to='/service/graphic-designing' className='font-sans px-4 py-2 hover:text-white hover:bg-[#227c85] duration-200 ' onClick={closeServices}>Design</Link>
+                                <Link to='/service/graphic-designing' className='font-sans px-4 py-2 hover:text-white hover:bg-[#227c85] duration-200 ' onClick={closeServices}>Graphic Designing</Link>
                                 <Link to='/service/mobile-app-development' className='font-sans px-4 py-2 hover:text-white hover:bg-[#227c85] duration-200' onClick={closeServices}>App Development</Link>
                                 <Link to='/service/ecommerce-solutions' className='font-sans px-4 py-2 hover:text-white hover:bg-[#227c85] duration-200' onClick={closeServices}>E-comerce Solution</Link>
                                 <Link to='/service/digital-marketing' className='font-sans px-4 py-2 hover:text-white hover:bg-[#227c85] duration-200 rounded-b-2xl' onClick={closeServices}>Digital Marketing</Link>

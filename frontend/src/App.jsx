@@ -14,7 +14,7 @@ import ContactUs from './Pages/ContactUs';
 import { AboutUs } from './Pages/AboutUs';
 import { Blogs } from './Pages/Blogs';
 import BlogDetail from './Pages/BlogDetail';
-import NotFound from './Pages/NotFound'; // Import the NotFound component
+import NotFound from './Pages/NotFound'; 
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();

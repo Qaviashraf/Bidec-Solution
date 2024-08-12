@@ -15,23 +15,17 @@ function Projects() {
                 className="heading flex justify-center text-center md:text-evenly lg:justify-between items-center flex-col md:flex-row gap-20 md:my-10 md:px-20">
                 <span
                     data-aos="fade-right"
-                    className="md:text-6xl text-4xl lg:w-[60%] w-full relative">
-                    Our
-                    <span className="relative inline-block">
-                        <span className="invisible">spce</span>
-                        <img className="bg-green-950 rounded-full absolute top-0 left-4 md:h-12 h-8" src={rectangle} alt="" />
-                        <span className=""> Project  </span>
-                    </span><br />
-                    have been done
+                    className="md:text-6xl text-4xl lg:w-[50%] w-full relative">
+                    Our Project have been done
                 </span>
                 <div
                     data-aos="fade-down" className="hidden lg:block">
 
                     <ul className='relative top-24 right-32 xl:right-[250px] pl-20 hover:bg-gray-300'>
-                        <Link to='service/branding' className='font-sans bottom-10 right-[1vw] rotate-[350deg] absolute text-lg rounded-full bg-[#227C851A] border-2 border-[#FFFFFF] px-5 py-2 w-48 text-center hover:bg-[#227C85] hover:text-white hover:border-[#227C85]'>UI/UX design</Link>
-                        <Link to='service/branding' className='font-sans bottom-20 rotate-[25deg] left-1 absolute text-lg rounded-full bg-[#227C851A] border-2 border-[#FFFFFF] px-5 py-2 w-48 text-center hover:bg-[#227C85] hover:text-white hover:border-[#227C85]'>graphics design</Link>
-                        <Link to='service/web-design-development' className='font-sans top-[-150px] rotate-[330deg] right-16 absolute text-lg rounded-full bg-[#227C851A] border-2 border-[#FFFFFF] px-5 py-2  w-48 text-center hover:bg-[#227C85] hover:text-white hover:border-[#227C85]'>development</Link>
-                        <Link to='service/branding' className='font-sans bottom-16 rotate-[50deg] left-28 absolute text-lg rounded-full bg-[#227C851A] border-2 border-[#FFFFFF] px-5 py-2  w-48 text-center hover:bg-[#227C85] hover:text-white hover:border-[#227C85]'>brand design</Link>
+                        <Link to='service/ui-ux-design' className='font-sans bottom-10 right-[1vw] rotate-[350deg] absolute text-lg rounded-full bg-[#227C851A] border-2 border-[#FFFFFF] px-5 py-2 w-48 text-center hover:bg-[#227C85] hover:text-white hover:border-[#227C85]'>UI/UX design</Link>
+                        <Link to='service/graphic-designing' className='font-sans bottom-20 rotate-[25deg] left-1 absolute text-lg rounded-full bg-[#227C851A] border-2 border-[#FFFFFF] px-5 py-2 w-48 text-center hover:bg-[#227C85] hover:text-white hover:border-[#227C85]'>graphics design</Link>
+                        <Link to='service/mobile-app-development' className='font-sans top-[-150px] rotate-[330deg] right-16 absolute text-lg rounded-full bg-[#227C851A] border-2 border-[#FFFFFF] px-5 py-2  w-48 text-center hover:bg-[#227C85] hover:text-white hover:border-[#227C85]'>App development</Link>
+                        <Link to='service/ecommerce-solution' className='font-sans bottom-16 rotate-[50deg] left-28 absolute text-lg rounded-full bg-[#227C851A] border-2 border-[#FFFFFF] px-5 py-2  w-48 text-center hover:bg-[#227C85] hover:text-white hover:border-[#227C85]'>E-commerce</Link>
                         <Link to='service/web-design-development' className='font-sans bottom-2.5 rotate-0 left-4 absolute text-lg rounded-full bg-[#227C851A] border-2 border-[#FFFFFF] px-5 py-2  w-48 text-center hover:bg-[#227C85] hover:text-white hover:border-[#227C85]'>Web design</Link>
                     </ul>
                 </div>

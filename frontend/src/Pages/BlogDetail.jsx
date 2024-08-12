@@ -1,7 +1,7 @@
 
 import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { blogPosts } from '../data';
+import { blogPosts } from '../blogsData';
 import { Articles } from '../components/Articles';
 
 import AOS from "aos";

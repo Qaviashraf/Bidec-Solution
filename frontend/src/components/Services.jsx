@@ -1,10 +1,12 @@
 import React from 'react'
-import ballGif from '../assets/servicesAssets/movingBall.svg'
+// import ballGif from '../assets/servicesAssets/movingBall.svg'
+import ballGif from '../assets/servicesAssets/movingObject2.gif'
 import brandingImg from '../assets/servicesAssets/1.svg'
 import designing from '../assets/servicesAssets/2.svg'
 import graphics from '../assets/servicesAssets/3.svg'
 import UiUx from '../assets/servicesAssets/4.svg'
 import bgShade from '../assets/HeroSection/Ellipse 18.svg'
+
 function Services() {
     return (
         <div className='container mx-auto py-10'>
@@ -19,7 +21,7 @@ function Services() {
             <div className="flex max-w-screen my-10 flex lg:flex-row flex-col justify-evenly lg:items-start items-center gap-10">
                 <div data-aos="fade-left" className='relative'>
                     <img className='rounded-lg w-full px-2' src={ballGif} alt="" />
-                    <button className='rounded-full font-sans hover:bg-[#165056] duration-300 absolute sm:right-0 right-1 bottom-0 bg-[#227C85] text-white p-3 px-10 sm:px-12'>View All</button>
+                    {/* <button className='rounded-full font-sans hover:bg-[#165056] duration-300 absolute sm:right-0 right-1 bottom-0 bg-[#227C85] text-white p-3 px-10 sm:px-12'>View All</button> */}
                 </div>
                 <div
                 data-aos="fade-right"

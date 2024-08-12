@@ -1,3 +1,31 @@
+import CustomHero from './assets/Services/CustomSoftware/CustomHero.jpg';
+import Healthcare from './assets/Services/CustomSoftware/Healthcare.jpg';
+import Workflow from './assets/Services/CustomSoftware/Workflow.jpg';
+import RPS from './assets/Services/CustomSoftware/RPS.jpg';
+import Real from './assets/Services/CustomSoftware/Real.jpg';
+import ERP from './assets/Services/CustomSoftware/ERP.jpg';
+import Enterprise from './assets/Services/CustomSoftware/Enterprise.jpg';
+import Edu from './assets/Services/CustomSoftware/Edu.jpg';
+import CRM from './assets/Services/CustomSoftware/CRM.jpg';
+import IoTImage from './assets/Services/CustomSoftware/Custom1.svg'; 
+import Ui from './assets/Services/Design/Ui-Ux.jpg'; 
+import Ui1 from './assets/Services/Design/Ui1.jpg'; 
+import Ui2 from './assets/Services/Design/Ui2.jpg'; 
+import Ui3 from './assets/Services/Design/Ui3.jpg'; 
+import Ui4 from './assets/Services/Design/Ui4.jpg'; 
+import Ui5 from './assets/Services/Design/Ui5.jpg'; 
+import Design1 from './assets/Services/Design/Design1.jpg'; 
+import Design2 from './assets/Services/Design/Design2.jpg'; 
+import Design3 from './assets/Services/Design/Design3.jpg'; 
+import App1 from './assets/Services/App/App1.jpg'; 
+import App2 from './assets/Services/App/App2.jpg'; 
+import App3 from './assets/Services/App/App3.jpg'; 
+import App4 from './assets/Services/App/App4.jpg'; 
+import Eco1 from './assets/Services/Eccomerce/eco1.jpg'; 
+import Eco2 from './assets/Services/Eccomerce/eco2.jpg'; 
+import Eco3 from './assets/Services/Eccomerce/eco3.jpg'; 
+import Eco4 from './assets/Services/Eccomerce/eco4.jpg'; 34
+
 
 export const data = [
     {
@@ -18,301 +46,301 @@ export const data = [
       },
       {
         title: 'Corporate Websites',
-        text: 'Professional sites to showcase your business.',
+        text: 'Professional sites tailored to showcase your business, providing a strong online presence to attract and engage your audience effectively.',
         image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/creative-web-design-1-768x744.jpg',
-        imageAlt: '',
+        imageAlt: 'Creative web design for corporate websites',
       },
       {
         title: 'E-commerce Sites',
-        text: 'Online stores with robust features.',
+        text: 'Online stores equipped with robust features to streamline sales, enhance user experience, and manage your products effortlessly.',
         image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/web-dev-2-768x768.jpg',
-        imageAlt: '',
+        imageAlt: 'Modern e-commerce website design',
       },
       {
         title: 'Content Management Systems (CMS)',
-        text: 'Easy-to-manage websites.',
+        text: 'Easy-to-manage websites with intuitive interfaces, allowing you to update content, images, and more without technical expertise.',
         image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/wordpress-1-768x768.jpg',
-        imageAlt: '',
+        imageAlt: 'Content management system (CMS) dashboard',
       },
       {
         title: 'Web Applications',
-        text: 'Custom web-based software solutions.',
+        text: 'Custom web-based software solutions tailored to your specific business needs, offering seamless functionality and user-friendly interfaces.',
         image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/wordpress-1-768x768.jpg',
-        imageAlt: '',
-      }
+        imageAlt: 'Custom web application interface design',
+      }      
     ],
   },
   {
     id: 'custom-software-development',
     images: [
-      'https://kota-content.b-cdn.net/app/uploads/2023/11/bento1-1.jpg', // Big square
-      'https://kota-content.b-cdn.net/app/uploads/2023/11/bento2-1.jpg', // Small square 1
-      'https://kota-content.b-cdn.net/app/uploads/2023/11/bento4-1.jpg', // Small square 2
-      'https://kota-content.b-cdn.net/app/uploads/2023/11/bento3-1-500x500.jpg', // Rectangle
+      CustomHero, // Big square
+      Healthcare, // Small square 1
+      Workflow, // Small square 2
+      RPS, // Rectangle
     ],
+    
     sections: [
       {
         title: 'Custom Software Development',
         subtitle: 'Every business is unique, and so are its software needs',
         text: 'We develop custom software solutions tailored specifically to your business. From initial concept to final deployment, our team ensures your software is reliable, scalable, and perfectly aligned with your goals.',
-        image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/header-3.jpg',
+        image: CustomHero,
         imageAlt: '',
       },
       {
         title: 'Enterprise Software',
-        text: 'Large-scale applications for business operations.',
-        image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/creative-web-design-1-768x744.jpg',
-        imageAlt: '',
+        text: 'Robust large-scale applications designed to streamline and manage complex business operations, providing scalability and efficiency for enterprise-level companies.',
+        image: Enterprise,
+        imageAlt: 'Enterprise software interface design',
       },
       {
         title: 'SaaS Products',
-        text: 'Subscription-based software for various industries.',
-        image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/web-dev-2-768x768.jpg',
-        imageAlt: '',
+        text: 'Subscription-based software solutions tailored for various industries, offering accessibility, scalability, and regular updates to meet business needs.',
+        image: Edu,
+        imageAlt: 'SaaS product dashboard interface',
       },
       {
         title: 'CRM Systems',
-        text: 'Manage customer relationships efficiently.',
-        image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/wordpress-1-768x768.jpg',
-        imageAlt: '',
+        text: 'Comprehensive customer relationship management systems that help businesses efficiently manage and analyze customer interactions, improving customer satisfaction and retention.',
+        image: CRM,
+        imageAlt: 'CRM system interface with customer data',
       },
       {
         title: 'ERP Systems',
-        text: 'Integrated management of core business processes.',
-        image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/wordpress-1-768x768.jpg',
-        imageAlt: '',
+        text: 'Integrated enterprise resource planning systems that facilitate the seamless management of core business processes, from supply chain to financials, all in one platform.',
+        image: ERP,
+        imageAlt: 'ERP system dashboard showing business metrics',
       },
       {
         title: 'Business Intelligence (BI) Tools',
-        text: 'Custom analytics and reporting software.',
-        image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/wordpress-1-768x768.jpg',
-        imageAlt: '',
+        text: 'Custom analytics and reporting software that provides businesses with insightful data, enabling data-driven decision-making and strategic planning.',
+        image: Workflow,
+        imageAlt: 'Business Intelligence tool interface showing analytics',
       },
       {
         title: 'Workflow Automation',
-        text: 'Automate repetitive tasks and streamline business processes.',
-        image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/wordpress-1-768x768.jpg',
-        imageAlt: '',
+        text: 'Software solutions designed to automate repetitive tasks, optimize workflows, and streamline business processes, improving overall efficiency and productivity.',
+        image: Workflow,
+        imageAlt: 'Workflow automation software interface',
       },
       {
         title: 'Healthcare Software',
-        text: 'Tailored solutions for the healthcare industry.',
-        image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/wordpress-1-768x768.jpg',
-        imageAlt: '',
+        text: 'Tailored software solutions specifically designed for the healthcare industry, enhancing patient management, scheduling, billing, and overall care delivery.',
+        image: Healthcare,
+        imageAlt: 'Healthcare software interface for patient management',
       },
       {
         title: 'Educational Platforms',
-        text: 'Custom e-learning and management systems.',
-        image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/wordpress-1-768x768.jpg',
-        imageAlt: '',
+        text: 'Custom e-learning and educational management systems that support online learning, student management, and interactive content delivery for educational institutions.',
+        image: Edu,
+        imageAlt: 'Educational platform interface for e-learning',
       },
       {
         title: 'Financial Software',
-        text: 'Solutions for financial services.',
-        image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/wordpress-1-768x768.jpg',
-        imageAlt: '',
+        text: 'Comprehensive software solutions tailored for financial services, offering tools for financial planning, accounting, risk management, and compliance.',
+        image: RPS,
+        imageAlt: 'Financial software interface for accounting and planning',
       },
       {
         title: 'Logistics and Supply Chain Management',
-        text: 'Custom software to optimize logistics and manage inventory.',
-        image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/wordpress-1-768x768.jpg',
-        imageAlt: '',
+        text: 'Custom software solutions that optimize logistics, manage inventory, and streamline supply chain processes, ensuring efficiency and reducing operational costs.',
+        image: RPS,
+        imageAlt: 'Logistics and supply chain management software interface',
       },
       {
         title: 'Retail and POS Systems',
-        text: 'Tailored POS systems for retail businesses.',
-        image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/wordpress-1-768x768.jpg',
-        imageAlt: '',
+        text: 'Tailored point-of-sale systems for retail businesses, offering features for inventory management, sales tracking, and customer relationship management, all in one system.',
+        image: RPS,
+        imageAlt: 'Retail POS system interface for sales tracking',
       },
       {
         title: 'Real Estate Management',
-        text: 'Solutions for property management and real estate CRM.',
-        image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/wordpress-1-768x768.jpg',
-        imageAlt: '',
+        text: 'Comprehensive solutions for property management and real estate CRM, offering tools for tenant management, property listings, and customer interaction tracking.',
+        image: Real,
+        imageAlt: 'Real estate management software interface',
       },
       {
         title: 'Custom API Development',
-        text: 'Develop APIs to integrate with other systems.',
-        image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/wordpress-1-768x768.jpg',
-        imageAlt: '',
+        text: 'Development of custom APIs to facilitate seamless integration with other systems, enabling businesses to enhance their functionality and interoperability.',
+        image: RPS,
+        imageAlt: 'API development interface with code and integrations',
       },
       {
         title: 'IoT Solutions',
-        text: 'Custom software for Internet of Things applications.',
-        image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/wordpress-1-768x768.jpg',
-        imageAlt: '',
+        text: 'Custom software solutions for Internet of Things (IoT) applications, enabling the integration and management of connected devices across various industries.',
+        image: IoTImage,
+        imageAlt: 'IoT solution interface with connected devices',
       }
-
-    ],
+    ]
   },
   {
     id:'ui-ux-design',
     images: [
-        'https://kota-content.b-cdn.net/app/uploads/2023/11/bento1-5.jpg', // Big square
-        'https://kota-content.b-cdn.net/app/uploads/2023/11/bento3-1-500x500.jpg', // Small square 1
-        'https://kota-content.b-cdn.net/app/uploads/2023/11/benot4.jpg', // Small square 2
-        'https://kota-content.b-cdn.net/app/uploads/2023/11/bento3-5-500x500.jpg', // Rectangle
+         Ui1, // Big square
+         Ui2, // Small square 1
+         Ui3, // Small square 2
+         Edu, // Rectangle
       ],
       sections: [
         {
           title: 'UI / UX Design',
           subtitle: 'Creating user-friendly and engaging interfaces',
           text: 'A great user interface (UI) and user experience (UX) are key to user satisfaction. Our design team creates visually appealing and easy-to-use interfaces that delight users and keep them coming back. We focus on user-centric design to ensure your software is both beautiful and functional.',
-          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/header-6.jpg',
+          image: Ui,
           imageAlt: '',
         },
         {
           title: 'User Research',
-          text: 'Good design is the cornerstone of great software.Understanding user needs and behaviors.',
-          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/branding-strategy-768x768.jpg',
-          imageAlt: '',
+          text: 'Good design is the cornerstone of great software. It begins with understanding user needs, behaviors, and pain points to create solutions that truly resonate with the target audience.',
+          image: Ui4,
+          imageAlt: 'User research process with data analysis',
         },
         {
           title: 'Wireframing and Prototyping',
-          text: 'Visual blueprints of your app or site.',
-          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/tone-of-voice-768x768.jpg',
-          imageAlt: '',
+          text: 'Creating visual blueprints of your app or site, wireframes and prototypes are essential for visualizing the layout and flow before moving into full-scale development.',
+          image: Ui5,
+          imageAlt: 'Wireframing and prototyping tools on a desk',
         },
         {
           title: 'Visual Design',
-          text: ' Crafting aesthetically pleasing interfaces.',
-          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/vidual-identity-768x745.jpg',
-          imageAlt: '',
+          text: 'Crafting aesthetically pleasing interfaces that not only look good but also enhance user experience. Visual design brings the digital product to life with color, typography, and imagery.',
+          image: Ui1,
+          imageAlt: 'Visual design interface showcasing colors and typography',
         },
         {
           title: 'Usability Testing',
-          text: ' Ensuring intuitive and user-friendly experiences.',
-          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/vidual-identity-768x745.jpg',
-          imageAlt: '',
-        },
+          text: 'Ensuring intuitive and user-friendly experiences through comprehensive usability testing. This process identifies potential usability issues and provides insights to refine the product before launch.',
+          image: Edu,
+          imageAlt: 'Usability testing session with users interacting with a product',
+        }        
       ],
   },
   {
     id:'graphic-designing',
     images: [
-        'https://kota-content.b-cdn.net/app/uploads/2023/11/bento1-5.jpg', // Big square
-        'https://kota-content.b-cdn.net/app/uploads/2023/11/bento3-1-500x500.jpg', // Small square 1
-        'https://kota-content.b-cdn.net/app/uploads/2023/11/benot4.jpg', // Small square 2
-        'https://kota-content.b-cdn.net/app/uploads/2023/11/bento3-5-500x500.jpg', // Rectangle
+         Design3, // Big square
+         Design2, // Small square 1
+         Ui1, // Small square 2
+         Ui2, // Rectangle
       ],
       sections: [
         {
-          title: 'Designing',
+          title: 'Graphic Designing',
           subtitle: 'Creating user-friendly and engaging interfaces',
           text: 'Good design is the cornerstone of great software. At Bidec, our creative designers craft visually compelling and functionally efficient designs for websites, mobile apps, and software interfaces. We believe in creating designs that not only look good but also enhance user interaction and satisfaction.',
-          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/header-6.jpg',
+          image: Design1,
           imageAlt: '',
         },
         {
           title: 'Logo Design',
-          text: 'Crafting unique and memorable logos.',
-          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/branding-strategy-768x768.jpg',
-          imageAlt: '',
+          text: 'Crafting unique and memorable logos that encapsulate the essence of your brand, ensuring a strong visual identity that resonates with your audience.',
+          image: Design2,
+          imageAlt: 'Creative logo design process with sketches and concepts',
         },
         {
           title: 'Brand Identity Design',
-          text: 'Comprehensive branding solutions.',
-          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/tone-of-voice-768x768.jpg',
-          imageAlt: '',
+          text: 'Providing comprehensive branding solutions that establish a cohesive and recognizable brand identity across all platforms and materials.',
+          image: Design1,
+          imageAlt: 'Brand identity design showcasing logos, colors, and typography',
         },
         {
           title: 'Graphic Design',
-          text: 'Banners, brochures, and marketing materials.',
-          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/vidual-identity-768x745.jpg',
-          imageAlt: '',
+          text: 'Designing banners, brochures, and marketing materials that effectively communicate your message and visually engage your target audience.',
+          image: Design3,
+          imageAlt: 'Graphic design work including brochures and banners',
         },
         {
           title: 'Interface Design',
-          text: 'Designing user-friendly interfaces for software and websites.',
-          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/vidual-identity-768x745.jpg',
-          imageAlt: '',
-        },
+          text: 'Designing user-friendly interfaces for software and websites that prioritize usability, accessibility, and visual appeal to create a seamless user experience.',
+          image: Ui5,
+          imageAlt: 'Interface design with wireframes and digital mockups',
+        }        
       ],
   },
   
   {
     id:'mobile-app-development',
     images: [
-        'https://kota-content.b-cdn.net/app/uploads/2023/11/bento1-5.jpg', // Big square
-        'https://kota-content.b-cdn.net/app/uploads/2023/11/bento3-1-500x500.jpg', // Small square 1
-        'https://kota-content.b-cdn.net/app/uploads/2023/11/benot4.jpg', // Small square 2
-        'https://kota-content.b-cdn.net/app/uploads/2023/11/bento3-5-500x500.jpg', // Rectangle
+         App2, // Big square
+         Ui2, // Small square 1
+         App1, // Small square 2
+         App3, // Rectangle
       ],
       sections: [
         {
           title: 'Mobile App Development',
           subtitle: 'Creating user-friendly and engaging interfaces',
           text: 'We create engaging, user-friendly mobile apps for both iOS and Android platforms. Whether it’s an app for your customers or an internal tool for your team, we ensure it’s intuitive and high-performing.',
-          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/header-6.jpg',
+          image: App1,
           imageAlt: '',
         },
         {
           title: 'Native Apps',
-          text: 'High-performance apps for iOS and Android.',
-          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/branding-strategy-768x768.jpg',
-          imageAlt: '',
+          text: 'Developing high-performance apps for iOS and Android platforms, ensuring optimal performance and a seamless user experience tailored to each operating system.',
+          image: App2,
+          imageAlt: 'Native app development process with coding and design elements',
         },
         {
           title: 'Hybrid Apps',
-          text: 'Cross-platform apps with a single codebase.',
-          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/tone-of-voice-768x768.jpg',
-          imageAlt: '',
+          text: 'Creating cross-platform apps with a single codebase, combining the benefits of both native and web apps to provide a cost-effective solution with broad reach.',
+          image: App3,
+          imageAlt: 'Hybrid app development showcasing cross-platform compatibility',
         },
         {
           title: 'Progressive Web Apps',
-          text: 'Web apps with a mobile app feel.',
-          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/vidual-identity-768x745.jpg',
-          imageAlt: '',
+          text: 'Building progressive web apps that offer a mobile app-like experience, with offline capabilities and fast loading times, all accessible via a web browser.',
+          image: App4,
+          imageAlt: 'Progressive web app interface with mobile-like features',
         },
         {
           title: 'Enterprise Mobile Solutions',
-          text: 'Apps to streamline business processes.',
-          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/vidual-identity-768x745.jpg',
-          imageAlt: '',
-        },
+          text: 'Developing enterprise-grade mobile solutions designed to streamline business processes, improve productivity, and support the specific needs of large organizations.',
+          image: Ui5,
+          imageAlt: 'Enterprise mobile solution with business process automation',
+        }        
       ],
   },
     
   {
     id:'ecommerce-solutions',
     images: [
-        'https://kota-content.b-cdn.net/app/uploads/2023/11/bento1-5.jpg', // Big square
-        'https://kota-content.b-cdn.net/app/uploads/2023/11/bento3-1-500x500.jpg', // Small square 1
-        'https://kota-content.b-cdn.net/app/uploads/2023/11/benot4.jpg', // Small square 2
-        'https://kota-content.b-cdn.net/app/uploads/2023/11/bento3-5-500x500.jpg', // Rectangle
+        Eco2, // Big square
+        Eco4, // Small square 1
+        Eco3, // Small square 2
+        Ui2, // Rectangle
       ],
       sections: [
         {
           title: 'E-commerce Solutions',
           subtitle: 'Creating user-friendly and engaging interfaces',
           text: 'Transform your online store with our bespoke e-commerce solutions. We develop custom e-commerce platforms that offer a smooth shopping experience, complete with secure payment gateways, easy navigation, and powerful backend management tools to keep your business running efficiently.',
-          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/header-6.jpg',
+          image: Eco1,
           imageAlt: '',
         },
         {
           title: 'Online Store Development',
-          text: 'Custom online shops tailored to your needs.',
-          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/branding-strategy-768x768.jpg',
-          imageAlt: '',
+          text: 'Building custom online shops tailored to your specific needs, designed to provide a smooth shopping experience and increase your online sales.',
+          image: RPS,
+          imageAlt: 'Online store development with product listings and checkout process',
         },
         {
           title: 'Shopping Cart Integration',
-          text: 'Seamless and secure payment processes.',
-          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/tone-of-voice-768x768.jpg',
-          imageAlt: '',
+          text: 'Implementing seamless and secure shopping cart systems that ensure a smooth payment process, enhancing customer satisfaction and trust.',
+          image: Eco2,
+          imageAlt: 'Shopping cart integration with secure payment gateway',
         },
         {
           title: 'Inventory Management Systems',
-          text: 'Efficient stock tracking and management.',
-          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/vidual-identity-768x745.jpg',
-          imageAlt: '',
+          text: 'Developing efficient stock tracking and management systems to help you keep track of inventory, minimize stockouts, and optimize supply chain operations.',
+          image: CRM,
+          imageAlt: 'Inventory management system dashboard with stock levels',
         },
         {
-          title: 'Customer Relationship Management ',
-          text: 'Tools to enhance customer interaction.',
-          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/vidual-identity-768x745.jpg',
-          imageAlt: '',
-        },
+          title: 'Customer Relationship Management',
+          text: 'Providing tools to enhance customer interaction, helping you build and maintain strong relationships with your customers through effective communication and personalized services.',
+          image: Eco4,
+          imageAlt: 'CRM system interface with customer data and interaction history',
+        }        
       ],
   },
   {
@@ -333,95 +361,35 @@ export const data = [
         },
         {
           title: 'Search Engine Optimization',
-          text: 'Improving your site’s visibility on search engines.',
+          text: 'Enhancing your website’s visibility on search engines through strategic on-page and off-page optimization, driving organic traffic and improving search rankings.',
           image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/branding-strategy-768x768.jpg',
-          imageAlt: '',
+          imageAlt: 'SEO strategy with keyword optimization and analytics',
         },
         {
           title: 'Pay-Per-Click Advertising',
-          text: 'Targeted advertising to drive traffic.',
+          text: 'Implementing targeted PPC campaigns to drive immediate traffic and generate leads, with a focus on maximizing ROI through effective ad management.',
           image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/tone-of-voice-768x768.jpg',
-          imageAlt: '',
+          imageAlt: 'PPC advertising with targeted ads and performance tracking',
         },
         {
           title: 'Social Media Marketing',
-          text: 'Engaging and growing your social media presence.',
+          text: 'Engaging with your audience and growing your brand’s presence across social media platforms through strategic content creation and community management.',
           image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/vidual-identity-768x745.jpg',
-          imageAlt: '',
+          imageAlt: 'Social media marketing with posts and engagement metrics',
         },
         {
           title: 'Content Marketing',
-          text: 'Creating and distributing valuable content.',
+          text: 'Creating and distributing valuable, relevant content to attract and engage your target audience, building brand authority and driving conversions.',
           image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/vidual-identity-768x745.jpg',
-          imageAlt: '',
+          imageAlt: 'Content marketing strategy with blog posts and distribution channels',
         },
         {
           title: 'Email Marketing',
-          text: 'Direct communication with your customers.',
+          text: 'Crafting targeted email campaigns to communicate directly with your customers, fostering relationships, and driving conversions through personalized messaging.',
           image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/vidual-identity-768x745.jpg',
-          imageAlt: '',
-        },
+          imageAlt: 'Email marketing with personalized messages and customer segmentation',
+        }        
       ],
   },
 ];
   
-// src/data.js
-
-export const blogPosts = [
-  {
-    id: 1,
-    title: 'The Evolution of UI/UX',
-    description: 'Exploring the journey of UI/UX design over the years.',
-    author: 'John Doe',
-    date: 'July 23, 2024',
-    imageSrc: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085',
-    imageAlt: 'UI/UX design image',
-    content: `
-      The field of UI/UX design has undergone significant transformation over the past few decades. Initially, user interfaces were simple and utilitarian, with little thought given to user experience. As technology advanced, designers began to realize the importance of creating interfaces that were not only functional but also aesthetically pleasing and easy to use. This marked the beginning of the modern era of UI/UX design.
-
-      In the early days of computing, interfaces were primarily text-based. Users interacted with computers using command-line interfaces (CLI), which required memorization of commands and offered little in terms of visual appeal. As graphical user interfaces (GUIs) were developed, the focus shifted to making interfaces more intuitive and visually engaging. The introduction of the mouse and the use of icons revolutionized the way users interacted with computers, making them more accessible to a broader audience.
-
-      The rise of the internet in the late 20th century brought new challenges and opportunities for UI/UX designers. Websites needed to be designed for a variety of devices and screen sizes, leading to the development of responsive design techniques. Designers began to focus on creating seamless and consistent experiences across different platforms, ensuring that users could easily navigate and interact with websites regardless of the device they were using.
-
-      The advent of mobile technology further transformed UI/UX design. Smartphones and tablets introduced new interaction paradigms, such as touch gestures and voice commands. Designers had to adapt to these changes, creating interfaces that were optimized for smaller screens and touch-based interactions. This led to the development of mobile-first design principles, where the design process starts with the mobile experience and then scales up to larger screens.
-
-      In recent years, the field of UI/UX design has continued to evolve with the rise of new technologies such as virtual reality (VR) and augmented reality (AR). These technologies offer new ways for users to interact with digital content, requiring designers to rethink traditional design principles and create immersive experiences that blend the physical and digital worlds. Additionally, the increasing use of artificial intelligence (AI) and machine learning in design tools has enabled designers to create more personalized and adaptive interfaces.
-
-      Throughout its evolution, the core principles of UI/UX design have remained the same: to create interfaces that are easy to use, visually appealing, and provide a positive user experience. As technology continues to advance, designers will need to stay up-to-date with the latest trends and tools, continually adapting their skills to meet the changing needs of users. The evolution of UI/UX design is a testament to the importance of user-centered design and the impact it has on creating engaging and effective digital experiences.
-    `,
-  },
-  {
-    id: 2,
-    title: 'Top 10 JavaScript Libraries in 2024',
-    description: 'A look at the most popular JavaScript libraries this year.',
-    author: 'Jane Smith',
-    date: 'July 21, 2024',
-    imageSrc: 'https://plus.unsplash.com/premium_photo-1661714082821-f8d38ba15633?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2l0dGluZyUyMGluJTIwYSUyMG9mZmljZSUyMG1lZXRpbmd8ZW58MHx8MHx8fDA%3D',
-    imageAlt: 'JavaScript libraries image',
-    content: `
-      JavaScript libraries have become an essential part of modern web development. They provide developers with pre-written code that can be used to add functionality and enhance the performance of web applications. In 2024, several JavaScript libraries have emerged as the most popular and widely used in the industry. This article explores the top 10 JavaScript libraries of 2024 and their unique features.
-
-      1. React: React remains one of the most popular JavaScript libraries for building user interfaces. Developed by Facebook, React allows developers to create reusable UI components and manage the state of their applications efficiently. Its virtual DOM feature enhances performance, making it a favorite among developers for building dynamic web applications.
-
-      2. Vue.js: Vue.js is a progressive JavaScript framework that has gained popularity for its simplicity and flexibility. It allows developers to build interactive user interfaces and single-page applications with ease. Vue.js is known for its excellent documentation and vibrant community, making it an ideal choice for both beginners and experienced developers.
-
-      3. Angular: Angular, developed by Google, is a comprehensive framework for building dynamic web applications. It provides a robust set of tools and features, including two-way data binding, dependency injection, and a powerful CLI for scaffolding and managing projects. Angular is widely used for building large-scale enterprise applications.
-
-      4. D3.js: D3.js (Data-Driven Documents) is a powerful library for creating data visualizations. It allows developers to bind data to a Document Object Model (DOM) and apply data-driven transformations to the document. D3.js is highly customizable, enabling developers to create complex and interactive visualizations with ease.
-
-      5. Lodash: Lodash is a utility library that provides a wide range of functions for manipulating arrays, objects, and other data types. It simplifies common programming tasks, such as deep cloning, debouncing, and merging objects. Lodash's modular design allows developers to import only the functions they need, reducing the overall size of their applications.
-
-      6. Axios: Axios is a popular library for making HTTP requests in JavaScript. It provides a simple and intuitive API for performing asynchronous operations, handling errors, and managing request and response data. Axios is widely used for fetching data from APIs and integrating with backend services.
-
-      7. Three.js: Three.js is a powerful library for creating 3D graphics and animations in the browser. It leverages WebGL to render high-quality 3D scenes and provides a wide range of features, including lighting, shadows, and physics simulations. Three.js is commonly used in gaming, virtual reality, and interactive data visualization applications.
-
-      8. Moment.js: Moment.js is a library for parsing, validating, manipulating, and formatting dates and times in JavaScript. It simplifies date and time operations, making it easier for developers to work with different time zones, durations, and intervals. Despite the emergence of modern alternatives like date-fns, Moment.js remains widely used in many projects.
-
-      9. Chart.js: Chart.js is a library for creating interactive and customizable charts in JavaScript. It supports various chart types, including line, bar, pie, and radar charts. Chart.js is easy to use and provides a responsive design, making it a popular choice for data visualization in web applications.
-
-      10. jQuery: Although its popularity has waned in recent years, jQuery remains a widely used library for simplifying DOM manipulation and handling events. It provides a simple and concise syntax for performing common tasks, such as traversing the DOM, making AJAX requests, and animating elements. Many legacy projects still rely on jQuery, making it an important library to know.
-
-      These JavaScript libraries have proven to be valuable tools for developers in 2024, offering a wide range of features and capabilities to enhance web development. Whether you are building user interfaces, data visualizations, or complex applications, these libraries provide the functionality and performance needed to create modern and efficient web experiences.
-    `,
-  },
-]
