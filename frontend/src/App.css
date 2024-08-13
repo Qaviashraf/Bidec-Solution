@@ -26,7 +26,7 @@
 
 
 /* Project Image Scroll CSS */
-.projectBgImg {
+.projectBgImg1 {
   cursor: pointer;
   background-position: top;
   transition: ease-in-out 8s;
@@ -36,7 +36,76 @@
   height: 77vh;
 }
 
-.projectBgImg .img {
+.projectBgImg1 .img {
+  background-image: url('./assets/ProjectAssets/Project1.svg');
+  background-size: cover;
+  transition: ease-in-out 8s;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.projectBgImg1 :hover {
+  background-position: bottom;
+  transition: ease-in-out 18s;
+}
+.projectBgImg2 {
+  cursor: pointer;
+  background-position: top;
+  transition: ease-in-out 8s;
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+  height: 77vh;
+}
+
+.projectBgImg2 .img {
+  background-image: url('./assets/ProjectAssets/Project2.svg');
+  background-size: cover;
+  transition: ease-in-out 8s;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.projectBgImg2 :hover {
+  background-position: bottom;
+  transition: ease-in-out 18s;
+}
+.projectBgImg3 {
+  cursor: pointer;
+  background-position: top;
+  transition: ease-in-out 8s;
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+  height: 77vh;
+}
+
+.projectBgImg3 .img {
+  background-image: url('./assets/ProjectAssets/Project3.svg');
+  background-size: cover;
+  transition: ease-in-out 8s;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.projectBgImg3 :hover {
+  background-position: bottom;
+  transition: ease-in-out 8s;
+}
+.projectBgImg4 {
+  cursor: pointer;
+  background-position: top;
+  transition: ease-in-out 8s;
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+  height: 77vh;
+}
+
+.projectBgImg4 .img {
   background-image: url('./assets/ProjectAssets/bgimg01.jpg');
   background-size: cover;
   transition: ease-in-out 8s;
@@ -45,11 +114,10 @@
   border-radius: 20px;
 }
 
-.projectBgImg :hover {
+.projectBgImg4 :hover {
   background-position: bottom;
   transition: ease-in-out 8s;
 }
-
 /* TextSlider.css */
 @keyframes slide {
   0% {

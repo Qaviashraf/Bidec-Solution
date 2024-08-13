@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 import clientImg from '../assets/ClientPgAssets/ClientImg.svg';
+import clientImg1 from '../assets/ClientPgAssets/1.jpg';
+import clientImg2 from '../assets/ClientPgAssets/2.jpg';
+import clientImg3 from '../assets/ClientPgAssets/3.jpg';
+import clientImg4 from '../assets/ClientPgAssets/4.jpg';
 
 // Example data for the slider
 const clientTestimonials = [
@@ -8,42 +12,33 @@ const clientTestimonials = [
         name: 'Michael Brown',
         position: 'Head of Operations at Global Logistics',
         testimonial: "The custom logistics and supply chain management software Bidec created for us has revolutionized our operations. The system is user-friendly, reliable, and perfectly tailored to our needs. Bidec's team was professional, responsive, and a pleasure to work with.",
+        image: clientImg1
     },
     {
         name: 'Emily Davis',
         position: 'Founder of EduLearn',
         testimonial: "Our educational platform developed by Bidec has received rave reviews from both students and educators. The virtual classrooms and management systems are intuitive and efficient. Bidec's expertise in educational software is unmatched, and their support has been invaluable.",
+        image: clientImg2
     },
     {
         name: 'James Lee',
         position: 'CTO of Smart Homes Ltd',
         testimonial: "Bidec's IoT solutions have enabled our smart devices to communicate and function seamlessly. Their innovative approach and technical expertise have been crucial in bringing our vision to life. We are extremely satisfied with the partnership and look forward to future collaborations.",
+        image: clientImg3
     },
     {
         name: 'Tom White',
         position: 'Co-Founder of Real Estate Dynamics',
         testimonial: "Bidec's real estate management software has streamlined our property management and tenant communication. The CRM features have enhanced our customer interactions, and the software's reliability has been outstanding. Bidec is a trusted partner for our digital needs.",
+        image: clientImg4
     },
     {
         name: 'David Bens',
         position: 'CEO at SaaS Studio',
         testimonial: 'Highly recommend this company! Their innovative solutions and dedication to client satisfaction have made a significant impact on our business. We look forward to continuing our partnership.',
+        image: clientImg
     },
-    {
-        name: 'John Smith',
-        position: 'Marketing Director at XYZ Ltd',
-        testimonial: 'Highly recommend this company! Their innovative solutions and dedication to client satisfaction have made a significant impact on our business. We look forward to continuing our partnership.',
-    },
-    {
-        name: 'Alice John',
-        position: 'Creative Director at DesignWorks',
-        testimonial: 'Exceptional experience from start to finish. The team was highly responsive, and their creative approach brought our vision to life in ways we hadn’t imagined. Truly a top-notch service.',
-    },
-    {
-        name: 'Jane Doe',
-        position: 'Founder of Tech Corp',
-        testimonial: 'Amazing service! The team delivered outstanding results and exceeded our expectations. We were particularly impressed with their attention to detail and professionalism throughout the project.',
-    },
+    // Add more testimonials as needed
 ];
 
 function ClientSays() {
@@ -60,12 +55,12 @@ function ClientSays() {
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentIndex((prevIndex) => (prevIndex === clientTestimonials.length - 1 ? 0 : prevIndex + 1));
-        }, 2000); // Change slide every 2 seconds
+        }, 4000); // Change slide every 2 seconds
 
         return () => clearInterval(interval); // Cleanup interval on component unmount
     }, []);
 
-    const { name, position, testimonial } = clientTestimonials[currentIndex];
+    const { name, position, testimonial, image } = clientTestimonials[currentIndex];
 
     return (
         <div className="container mx-auto py-5">
@@ -73,7 +68,7 @@ function ClientSays() {
                 What our clients say about us
             </h1>
             <div className='flex justify-center lg:flex-row flex-col gap-10 mx-auto px-10 pt-10'>
-                <img data-aos="fade-right" src={clientImg} alt="Client" />
+                <img data-aos="fade-right" src={image} alt={name} className="w-full h-auto max-w-xs" />
                 <div data-aos="fade-left" className="flex justify-around items-start flex-col lg:w-1/2 w-full px-10">
                     <span>
                         <h1 className='text-4xl'>{name}</h1>
@@ -82,7 +77,7 @@ function ClientSays() {
                     <p className='font-sans text-md md:text-lg py-5 lg:p-0'>{testimonial}</p>
                     <div>
                         <button
-                            className='border-2 rounded-full p-3 m-1 hover:bg-gray-400 hover:border-gray-400  hover:text-white  text-gray-400'
+                            className='border-2 rounded-full p-3 m-1 hover:border-[#165056] hover:text-[#165056]  text-gray-400'
                             onClick={handlePrev}
                         >
                             <FaArrowLeft />

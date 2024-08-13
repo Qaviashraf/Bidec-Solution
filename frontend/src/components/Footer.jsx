@@ -8,15 +8,8 @@ import { HiOfficeBuilding } from "react-icons/hi";
 
 function Footer() {
     return (
-        <div className="relative w-full bg-cover bg-center" style={{ backgroundImage: `url(${footerBg})` }}>
+        <div className="relative w-full bg-[#0C1A16]">
             <div className="container mx-auto text-center flex flex-col items-center justify-center relative ">
-                {/* <h1 className="text-white text-center text-3xl md:text-5xl w-3/4 md:p-10 p-1 mb-8">
-                    Let's discuss with us about your project
-                </h1>
-                <form className="flex justify-center text-white font-sans mb-10 items-center">
-                    <input className="border-b bg-transparent focus:outline-none py-2 md:w-72 w-full mr-2 text-lg" type="email" placeholder="bidec000@gmail.com" />
-                    <button className="rounded-full hover:bg-[#165056] duration-200 hover:border-[#165056] border p-2"><img src={arrow} alt="" /></button>
-                </form> */}
                 <div className="w-full">
                     <div className="container flex items-center justify mx-auto">
                         <div className="flex flex-col lg:flex-row gap-8 text-white p-8 pb-12 border-b justify-around items-center lg:items-baseline">

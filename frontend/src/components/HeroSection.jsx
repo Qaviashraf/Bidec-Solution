@@ -3,6 +3,9 @@ import arrow from "../assets/footerAssets/arrow.svg";
 import HeroBg from "../assets/HeroSection/HeroBg.svg";
 import Video from "../assets/HeroSection/Group 31.svg";
 import VideoIcon from "../assets/HeroSection/videoImg.svg";
+import clientImg1 from '../assets/ClientPgAssets/1.jpg';
+import clientImg2 from '../assets/ClientPgAssets/2.jpg';
+import clientImg3 from '../assets/ClientPgAssets/3.jpg';
 
 const HeroSection = () => {
   const handlePlay = (e) => {
@@ -49,19 +52,19 @@ const HeroSection = () => {
             </button>
             <div className="flex items-center">
               <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+                src= {clientImg1}
                 alt="Client 1"
                 className="w-10 h-10 rounded-full border-2 border-white -ml-2"
                 loading="lazy"
               />
               <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(31).webp"
+                src= {clientImg2}
                 alt="Client 2"
                 className="w-10 h-10 rounded-full border-2 border-white -ml-2"
                 loading="lazy"
               />
               <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp"
+                src= {clientImg3}
                 alt="Client 3"
                 className="w-10 h-10 rounded-full border-2 border-white -ml-2"
                 loading="lazy"

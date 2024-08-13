@@ -24,24 +24,24 @@ import App4 from './assets/Services/App/App4.jpg';
 import Eco1 from './assets/Services/Eccomerce/eco1.jpg'; 
 import Eco2 from './assets/Services/Eccomerce/eco2.jpg'; 
 import Eco3 from './assets/Services/Eccomerce/eco3.jpg'; 
-import Eco4 from './assets/Services/Eccomerce/eco4.jpg'; 34
+import Eco4 from './assets/Services/Eccomerce/eco4.jpg'; 
 
 
 export const data = [
     {
     id: 'web-design-development',
     images: [
-      'https://kota-content.b-cdn.net/app/uploads/2023/11/bento1-1.jpg', // Big square
-      'https://kota-content.b-cdn.net/app/uploads/2023/11/bento2-1.jpg', // Small square 1
-      'https://kota-content.b-cdn.net/app/uploads/2023/11/bento4-1.jpg', // Small square 2
-      'https://kota-content.b-cdn.net/app/uploads/2023/11/bento3-1-500x500.jpg', // Rectangle
+      Ui1, // Big square
+      App1, // Small square 1
+      Ui3, // Small square 2
+      Ui5, // Rectangle
     ],
     sections: [
       {
         title: 'Web Development',
         subtitle: 'Stunning websites that supercharge your brand',
         text: 'Don’t just be noticed – become unmissable, with a captivating website that stops people in their tracks.',
-        image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/header-3.jpg',
+        image: Ui1,
         imageAlt: '',
       },
       {
