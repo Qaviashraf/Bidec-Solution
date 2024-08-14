@@ -48,9 +48,8 @@ export const TeamSection = () => {
             <div   className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
                 <div data-aos="fade-right" className="max-w-2xl">
                     <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Meet our leadership</h2>
-                    <p className="mt-6 text-lg leading-8 text-gray-600">
-                        Libero fames augue nisl porttitor nisi, quis. Id ac elit odio vitae elementum enim vitae ullamcorper
-                        suspendisse.
+                    <p className="mt-6 text-md leading-8 text-gray-600">
+                    Our team at BiDEC Solutions is a diverse group of skilled professionals, each bringing a unique set of talents to the table. From developers and designers to strategists and project managers, our collaborative approach ensures that we deliver comprehensive and innovative solutions to meet your business needs.
                     </p>
                 </div>
                 <ul

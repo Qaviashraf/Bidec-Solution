@@ -6,6 +6,10 @@ import clientImg2 from '../assets/ClientPgAssets/2.jpg';
 import clientImg3 from '../assets/ClientPgAssets/3.jpg';
 import clientImg4 from '../assets/ClientPgAssets/4.jpg';
 
+import AOS from "aos";
+import 'aos/dist/aos.css';
+
+
 // Example data for the slider
 const clientTestimonials = [
     {
@@ -32,16 +36,16 @@ const clientTestimonials = [
         testimonial: "Bidec's real estate management software has streamlined our property management and tenant communication. The CRM features have enhanced our customer interactions, and the software's reliability has been outstanding. Bidec is a trusted partner for our digital needs.",
         image: clientImg4
     },
-    {
-        name: 'David Bens',
-        position: 'CEO at SaaS Studio',
-        testimonial: 'Highly recommend this company! Their innovative solutions and dedication to client satisfaction have made a significant impact on our business. We look forward to continuing our partnership.',
-        image: clientImg
-    },
-    // Add more testimonials as needed
+      // Add more testimonials as needed
 ];
 
 function ClientSays() {
+
+        
+    useEffect(() => {
+        AOS.init({ duration: "1000", delay: "0" });
+      });
+
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const handlePrev = () => {

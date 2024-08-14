@@ -45,14 +45,13 @@ export const AboutUs = () => {
                 </p>
             </div>
 
-            <iframe
-                className="w-full h-72 my-8"
-                // data-aos="fade-up"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.657654990843!2d67.05490477607442!3d24.8413785460196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33fc4330000d7%3A0x392be2a6cc28669b!2sBidec%20Solution&#39;s%20(pvt)%20Ltd!5e0!3m2!1sen!2s!4v1721731821602!5m2!1sen!2s"
-                allowFullScreen=""
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+            <iframe 
+            className="w-full h-72 my-8"
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d9960.532469302214!2d-0.5258073204633038!3d51.38223144081252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s24%20Sandgates%2C%20Guilford%20Road%20Chertsey%20KT16%209LT%20UK!5e0!3m2!1sen!2s!4v1723630721005!5m2!1sen!2s" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
 
             <img className='absolute left-0' src={bgShade} alt="" />
             <TeamSection />

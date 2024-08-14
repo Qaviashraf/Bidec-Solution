@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import rectangle from '../assets/ProjectAssets/Rectangle 31.svg'
 import bgimg from '../assets/ProjectAssets/Ellipse 21.svg'
 import arrow from '../assets/footerAssets/arrow.svg'
@@ -7,7 +7,18 @@ import '../App.css'
 
 import { Link } from 'react-router-dom'
 
+import AOS from "aos";
+import 'aos/dist/aos.css';
+
+
 function Projects() {
+
+        
+    useEffect(() => {
+        AOS.init({ duration: "1000", delay: "0" });
+      });
+
+
     return (
         <div className="pb-10 px-3 py-5">
             <img className='absolute left-0' src={bgShade} alt="" />

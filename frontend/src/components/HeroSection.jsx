@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import arrow from "../assets/footerAssets/arrow.svg";
 import HeroBg from "../assets/HeroSection/HeroBg.svg";
 import Video from "../assets/HeroSection/Group 31.svg";
@@ -7,7 +7,17 @@ import clientImg1 from '../assets/ClientPgAssets/1.jpg';
 import clientImg2 from '../assets/ClientPgAssets/2.jpg';
 import clientImg3 from '../assets/ClientPgAssets/3.jpg';
 
+
+import AOS from "aos";
+import 'aos/dist/aos.css';
+import { Link } from "react-router-dom";
+ 
 const HeroSection = () => {
+
+    useEffect(() => {
+    AOS.init({ duration: "1000", delay: "0" });
+  });
+
   const handlePlay = (e) => {
     e.preventDefault();
     const videoElement = e.currentTarget.querySelector("video");
@@ -47,9 +57,11 @@ const HeroSection = () => {
           </h1>
 
           <div className="flex flex-wrap gap-2" data-aos="fade-up-left">
-            <button className="bg-[#227c85] py-1 px-6 mr-2 text-white rounded-full text-xl font-semibold font-sans hover:bg-[#165056] duration-300  transition duration-300 ease-in-out">
+            <Link to='/service/custom-software-development' >
+            <button className="bg-[#227c85] py-3 px-6 mr-2 text-white rounded-full text-xl font-semibold font-sans hover:bg-[#165056] duration-300  transition duration-300 ease-in-out">
               View Projects
             </button>
+            </Link>
             <div className="flex items-center">
               <img
                 src= {clientImg1}
@@ -82,7 +94,7 @@ const HeroSection = () => {
           </p>
           <div
             className="mt-1 py-3 w-full relative cursor-pointer group"
-            onClick={handlePlay}
+            // onClick={handlePlay}
           >
             <img
               className="group-hover:w-0 group-hover:opacity-0 transition-opacity duration-300"

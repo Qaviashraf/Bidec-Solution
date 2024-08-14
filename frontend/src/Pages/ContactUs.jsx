@@ -77,9 +77,9 @@ const ContactUs = () => {
         <br />
         <div className="flex justify-between">
           <div>
-            <input name='newsletter' className='m-2 mt-8' type="checkbox" />I'm happy to receive a monthly newsletter from KOTA
+            <input name='newsletter' className='m-2 mt-8' type="checkbox" />I'm happy to receive a monthly newsletter from Bidec Solutions
             <br />
-            <input name='data-consent' className='m-2' type="checkbox" />I understand that KOTA will securely hold my data in accordance with their privacy policy.
+            <input name='data-consent' className='m-2' type="checkbox" />I understand that Bidec Solutions will securely hold my data in accordance with their privacy policy.
           </div>
         </div>
         <button className='rounded-full outline outline-1 outline-offset-1 my-5 p-2 flex md:text-lg text-sm font-sans px-5  bg-[#227c85] hover:bg-transparent duration-300 ' type='submit'>Submit <IoArrowForward className='ms-2 my-1.5' /></button>
@@ -87,39 +87,48 @@ const ContactUs = () => {
       <div className='flex lg:flex-row flex-col justify-between align-center md:mt-20 mt-5'>
         <div className="rounded-md rounded-tr-[20vh] p-10 w-full lg:w-1/2 bg-[#227c85] hover:bg-teal-900 hover:text-white duration-300">
           <div className="flex">
-            <div className="w-1/2">
-              <h1 className='sm:text-4xl text-2xl py-3'>London</h1>
-              <p className="w-1/2">KOTA
-                1-5 Clerkenwell Rd
-                London
-                EC1M 5PA</p>
+            <div className="w-1/3">
+              <h1 className='sm:text-4xl text-2xl py-3'>United Kingdom</h1>
+              <p className="w-1/2">
+              24 Sandgates,
+              Guilford Road,
+              Chertsey
+              </p>
             </div>
-            <div className="w-1/2">
+            {/* <div className="w-1/2">
               <h1 className='sm:text-4xl text-2xl py-3'>New York</h1>
               <p className="w-1/2">KOTA
                 477 Madison Ave
                 Midtown Manhattan
                 6th Floor, NY 10022</p>
-            </div>
+            </div> */}
           </div>
           <div>
-            <h1 className='sm:text-4xl text-xl text-start py-10'>+44(0)20 3951 0562</h1>
-            <p className='text-lg'>Have a quick question you need answering?
-              Check out - FAQ's : Working with KOTA</p>
+            <h1 className='sm:text-4xl text-xl text-start py-10'>+971-52-104-7673</h1>
+            <p className='text-lg'>Have a quick question you need answering ?
+              Check out - FAQ's : Working with Bidec Solutions</p>
           </div>
         </div>
         <div className="w-full md:w-1/2 p-5 lg:ps-20">
-          <p className='text-gray-400 text-lg p-0'>General</p>
+          {/* <p className='text-gray-400 text-lg p-0'>General</p>
           <h1 className='md:text-5xl text-2xl pb-1'>hello@kota.co.uk</h1>
           <p className='text-gray-400 text-lg p-0'>New business</p>
-          <h1 className='md:text-5xl text-2xl pb-1'>newbiz@kota.co.uk</h1>
+          <h1 className='md:text-5xl text-2xl pb-1'>newbiz@kota.co.uk</h1> */}
           <p className='text-gray-400 text-lg p-0'>Work with us</p>
-          <h1 className='md:text-5xl text-2xl pb-7'>careers@kota.co.uk</h1>
+          <h1 className='md:text-5xl text-2xl pb-7'>marketing@bidecsol.com</h1>
           <h1 className='md:text-4xl text-xl pb-3'>Follow us</h1>
-          <h2 className='md:text-xl text-md pb-1'>LinkedIn</h2>
-          <h2 className='md:text-xl text-md pb-1'>Facebook</h2>
-          <h2 className='md:text-xl text-md pb-1'>awwwards</h2>
-          <h2 className='md:text-xl text-md pb-1'>Clutch</h2>
+          <h2 className='md:text-xl text-md pb-1'> 
+          <a href="https://www.facebook.com/bidecsolutions" >FACEBOOK</a>
+          </h2>
+          <h2 className='md:text-xl text-md pb-1'>
+            <a href="https://x.com/bidecsolutions" >X</a>
+          </h2>
+          <h2 className='md:text-xl text-md pb-1'>
+          <a href="https://www.instagram.com/bidecsolutions" >Instagram</a>
+          </h2>
+          <h2 className='md:text-xl text-md pb-1'>
+            <a href="https://www.linkedin.com/company/bidec-solutions" >Linkedin</a>
+          </h2>
 
         </div>
       </div>

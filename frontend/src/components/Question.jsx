@@ -1,9 +1,18 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { TiPlus, TiMinus } from "react-icons/ti";
 import bgShade from '../assets/HeroSection/Ellipse 18.svg'
 
+import AOS from "aos";
+import 'aos/dist/aos.css';
+
+
 function Question() {
     const [activeIndex, setActiveIndex] = useState(null);
+
+    useEffect(() => {
+        AOS.init({ duration: "1000", delay: "0" });
+      });
+
 
     const toggleAccordion = (index) => {
         setActiveIndex(activeIndex === index ? null : index);

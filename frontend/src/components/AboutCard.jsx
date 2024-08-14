@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import arrow from '../assets/footerAssets/arrow.svg';
 import AboutBg from '../assets/AboutUs/AboutBg.svg';
 import Bg2 from '../assets/AboutUs/AboutBg2.svg'
@@ -7,7 +7,19 @@ import AboutBgHover from '../assets/AboutUs/AboutBgHover.svg'
 
 import '../App.css'
 
+
+import AOS from "aos";
+import 'aos/dist/aos.css';
+
+
 const AboutCard = () => {
+
+  
+  useEffect(() => {
+    AOS.init({ duration: "1000", delay: "0" });
+  });
+
+
   return (
     <div className='mt-20  max-w-screen'>
 
@@ -16,10 +28,10 @@ const AboutCard = () => {
         <h1 className='text-5xl my-2'
           data-aos="fade-right"
         >About Us</h1>
-        <p className='w-80 md:w-96 my-2 text-center md:text-start font-sans font-semibold'
+        <p className='w-80 md:w-96 my-2 text-center text-sm md:text-start font-sans font-semibold'
           data-aos="fade-left"
         >
-          We are more than just a digital agency; we are architects of online experiences, creators of digital narratives, and partners in your journey towards digital excellence.
+          We are more than just a Software House,we specialize in delivering cutting-edge software solutions tailored to meet the unique needs of our clients. Our innovative approach ensures that we stay ahead in the ever-evolving tech landscape.
         </p>
       </div>
       <div className='flex flex-wrap justify-center gap-4 my-4'>
@@ -33,9 +45,9 @@ const AboutCard = () => {
               <img className='w-16' src={arrow} alt="" />
             </div>
           </div>
-          <div className="text-5xl font-bold mb-2">18+</div>
+          <div className="text-md fontbold mb-2">Innovative <br /> Solutions</div>
           <p className="text-sm">
-            Lorem ipsum is simply dummy text of the printing and typesetting industry.
+          At BiDEC Solutions, we specialize in delivering cutting-edge software solutions tailored to meet the unique needs of our clients.
           </p>
         </div>
 
@@ -47,9 +59,9 @@ const AboutCard = () => {
               <img className='w-16' src={arrow} alt="" />
             </div>
           </div>
-          <div className="text-5xl font-bold mb-2">18+</div>
+          <div className="text-md fontbold mb-2">Client Approach</div>
           <p className="text-sm">
-            Lorem ipsum is simply dummy text of the printing and typesetting industry.
+          With a team of highly skilled developers, designers, and project managers, BiDEC Solutions brings together years of experience and expertise.
           </p>
         </div>
 
@@ -63,9 +75,9 @@ const AboutCard = () => {
               <img className='w-16' src={arrow} alt="" />
             </div>
           </div>
-          <div className="text-5xl font-bold mb-2">18+</div>
+          <div className="text-md fontbold mb-2">End-to-End <br /> Services</div>
           <p className="text-sm">
-            Lorem ipsum is simply dummy text of the printing and typesetting industry.
+          From initial concept to deployment and support, BiDEC Solutions offers a full range of services. 
           </p>
         </div>
 
@@ -77,9 +89,9 @@ const AboutCard = () => {
               <img className='w-16' src={arrow} alt="" />
             </div>
           </div>
-          <div className="text-5xl font-bold mb-2">18+</div>
+          <div className="text-md fontbold mb-2">Commitment to Excellence</div>
           <p className="text-sm">
-            Lorem ipsum is simply dummy text of the printing and typesetting industry.
+          We are passionate about technology and take pride in the quality of our work.
           </p>
         </div>
       </div>

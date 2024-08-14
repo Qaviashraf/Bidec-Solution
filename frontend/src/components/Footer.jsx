@@ -22,7 +22,7 @@ function Footer() {
                                 <ul className=" gap-4 flex-col md:flex-row">
                                     <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2"><Link className="font-sans" to="/">HOME</Link></li>
                                     <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2"><Link className="font-sans" to="/aboutus">ABOUT US</Link></li>
-                                    <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2"><Link className="font-sans" to="/blogs">BLOGS</Link></li>
+                                    {/* <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2"><Link className="font-sans" to="/blogs">BLOGS</Link></li> */}
                                     <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2"><Link className="font-sans" to="/contactus">CONTACT US</Link></li>
                                 </ul>
                             </div>
@@ -41,10 +41,18 @@ function Footer() {
                             <div className="text-start flex flex-col md:items-baseline items-center justify-center  md:w-1/4 w-full">
                                 <h1 className="text-xl py-4">Follow Us</h1>
                                 <ul className=" gap-4 flex-col md:flex-row">
-                                    <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2">FACEBOOK</li>
-                                    <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2">TWITTER</li>
-                                    <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2">INSTAGRAM</li>
-                                    <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2">LINKEDIN</li>
+                                    <li>
+                                    <a href="https://www.facebook.com/bidecsolutions" className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2">FACEBOOK</a>
+                                    </li>
+                                    <li>
+                                    <a href="https://x.com/bidecsolutions" className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2">TWITTER</a>
+                                    </li>
+                                    <li>
+                                    <a href="https://www.instagram.com/bidecsolutions" className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2">INSTAGRAM</a>
+                                    </li>
+                                    <li>
+                                    <a href="https://www.linkedin.com/company/bidec-solutions" className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2">LINKEDIN</a>
+                                    </li>
                                 </ul>
                             </div>
                             <div className="text-start flex flex-col md:items-baseline items-center justify-center md:w-1/2 w-full">
