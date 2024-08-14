@@ -47,25 +47,25 @@ export const data = [
       {
         title: 'Corporate Websites',
         text: 'Professional sites tailored to showcase your business, providing a strong online presence to attract and engage your audience effectively.',
-        image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/creative-web-design-1-768x744.jpg',
+        image: App1,
         imageAlt: 'Creative web design for corporate websites',
       },
       {
         title: 'E-commerce Sites',
         text: 'Online stores equipped with robust features to streamline sales, enhance user experience, and manage your products effortlessly.',
-        image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/web-dev-2-768x768.jpg',
+        image: RPS,
         imageAlt: 'Modern e-commerce website design',
       },
       {
         title: 'Content Management Systems (CMS)',
         text: 'Easy-to-manage websites with intuitive interfaces, allowing you to update content, images, and more without technical expertise.',
-        image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/wordpress-1-768x768.jpg',
+        image: Enterprise,
         imageAlt: 'Content management system (CMS) dashboard',
       },
       {
         title: 'Web Applications',
         text: 'Custom web-based software solutions tailored to your specific business needs, offering seamless functionality and user-friendly interfaces.',
-        image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/wordpress-1-768x768.jpg',
+        image: Ui1,
         imageAlt: 'Custom web application interface design',
       }      
     ],
@@ -346,47 +346,47 @@ export const data = [
   {
     id:'digital-marketing',
     images: [
-        'https://kota-content.b-cdn.net/app/uploads/2023/11/bento1-5.jpg', // Big square
-        'https://kota-content.b-cdn.net/app/uploads/2023/11/bento3-1-500x500.jpg', // Small square 1
-        'https://kota-content.b-cdn.net/app/uploads/2023/11/benot4.jpg', // Small square 2
-        'https://kota-content.b-cdn.net/app/uploads/2023/11/bento3-5-500x500.jpg', // Rectangle
+        CustomHero, // Big square
+        Healthcare, // Small square 1
+        Workflow, // Small square 2
+        RPS, // Rectangle
       ],
       sections: [
         {
           title: 'Digital Marketing',
           subtitle: 'Maximize your online presence with our comprehensive digital marketing services.',
           text: 'We offer SEO, PPC, social media marketing, content marketing, and more to help your business reach its target audience effectively. Our data-driven strategies ensure you get the best ROI from your digital marketing efforts.',
-          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/header-6.jpg',
+          image: CustomHero,
           imageAlt: '',
         },
         {
           title: 'Search Engine Optimization',
           text: 'Enhancing your website’s visibility on search engines through strategic on-page and off-page optimization, driving organic traffic and improving search rankings.',
-          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/branding-strategy-768x768.jpg',
+          image: Workflow,
           imageAlt: 'SEO strategy with keyword optimization and analytics',
         },
         {
           title: 'Pay-Per-Click Advertising',
           text: 'Implementing targeted PPC campaigns to drive immediate traffic and generate leads, with a focus on maximizing ROI through effective ad management.',
-          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/tone-of-voice-768x768.jpg',
+          image: Ui5,
           imageAlt: 'PPC advertising with targeted ads and performance tracking',
         },
         {
           title: 'Social Media Marketing',
           text: 'Engaging with your audience and growing your brand’s presence across social media platforms through strategic content creation and community management.',
-          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/vidual-identity-768x745.jpg',
+          image: Ui4,
           imageAlt: 'Social media marketing with posts and engagement metrics',
         },
         {
           title: 'Content Marketing',
           text: 'Creating and distributing valuable, relevant content to attract and engage your target audience, building brand authority and driving conversions.',
-          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/vidual-identity-768x745.jpg',
+          image: Workflow,
           imageAlt: 'Content marketing strategy with blog posts and distribution channels',
         },
         {
           title: 'Email Marketing',
           text: 'Crafting targeted email campaigns to communicate directly with your customers, fostering relationships, and driving conversions through personalized messaging.',
-          image: 'https://kota-content.b-cdn.net/app/uploads/2023/11/vidual-identity-768x745.jpg',
+          image: Ui4,
           imageAlt: 'Email marketing with personalized messages and customer segmentation',
         }        
       ],

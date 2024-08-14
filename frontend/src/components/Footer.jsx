@@ -17,7 +17,7 @@ function Footer() {
                                 <img src={logo} alt="Logo" className="h-12" />
                                 <p className='font-sans py-3 text-sm text-start'>Welcome to Bidec, a premier UK-based software house dedicated to transforming ideas into innovative digital solutions. Founded with a vision to empower businesses through technology, Bidec has grown into a trusted partner for companies across various industries, providing cutting-edge software, web, and mobile solutions that drive success.</p>
                             </div>
-                            <div className="text-start flex flex-col md:items-baseline items-center justify-center text-center  md:w-1/4 w-full">
+                            <div className="text-center md:text-left flex flex-col md:items-baseline items-center justify-center text-center  md:w-1/4 w-full">
                                 <h1 className="text-xl py-4">Quick Links</h1>
                                 <ul className=" gap-4 flex-col md:flex-row">
                                     <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2"><Link className="font-sans" to="/">HOME</Link></li>
@@ -26,7 +26,7 @@ function Footer() {
                                     <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2"><Link className="font-sans" to="/contactus">CONTACT US</Link></li>
                                 </ul>
                             </div>
-                            <div className="text-start flex flex-col md:items-baseline items-center justify-center text-center  md:w-1/4 w-full">
+                            <div className="text-center md:text-left flex flex-col md:items-baseline items-center justify-center text-center  md:w-1/4 w-full">
                                 <h1 className="text-xl py-4">Services</h1>
                                 <ul className=" gap-4 flex-col md:flex-row">
                                     <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2"><Link className="font-sans" to="/service/web-design-development">WEB DEVELOPMENT</Link></li>
@@ -38,9 +38,9 @@ function Footer() {
                                     <li className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2"><Link className="font-sans" to="/service/digital-marketing">DIGITAL MARKETING</Link></li>
                                 </ul>
                             </div>
-                            <div className="text-start flex flex-col md:items-baseline items-center justify-center  md:w-1/4 w-full">
+                            <div className="text-center md:text-left flex flex-col md:items-baseline items-center justify-center  md:w-1/4 w-full">
                                 <h1 className="text-xl py-4">Follow Us</h1>
-                                <ul className=" gap-4 flex-col md:flex-row">
+                                <ul className=" gap-4 flex-col md:flex-row ">
                                     <li>
                                     <a href="https://www.facebook.com/bidecsolutions" className="font-sans hover:text-[#227c85] text-sm rounded-xl hover:font-bold duration-300 cursor-pointer p-2">FACEBOOK</a>
                                     </li>

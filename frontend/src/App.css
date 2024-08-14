@@ -37,7 +37,7 @@
 }
 
 .projectBgImg1 .img {
-  background-image: url('./assets/ProjectAssets/Project1.svg');
+  background-image: url('./assets/ProjectAssets/Project1.jpg');
   background-size: cover;
   transition: ease-in-out 8s;
   width: 100%;
@@ -60,7 +60,7 @@
 }
 
 .projectBgImg2 .img {
-  background-image: url('./assets/ProjectAssets/Project2.svg');
+  background-image: url('./assets/ProjectAssets/Project2.jpg');
   background-size: cover;
   transition: ease-in-out 8s;
   width: 100%;
@@ -83,7 +83,7 @@
 }
 
 .projectBgImg3 .img {
-  background-image: url('./assets/ProjectAssets/Project3.svg');
+  background-image: url('./assets/ProjectAssets/Project3.jpg');
   background-size: cover;
   transition: ease-in-out 8s;
   width: 100%;
