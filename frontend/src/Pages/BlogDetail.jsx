@@ -1,15 +1,17 @@
-
 import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { blogPosts } from '../blogsData';
+import { blogsData } from '../blogsData';
 import { Articles } from '../components/Articles';
-
-import AOS from "aos";
+import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const BlogDetail = () => {
-  const { id } = useParams();
-  const blogPost = blogPosts.find(post => post.id === parseInt(id));
+  const { title } = useParams(); // Use 'title' from the URL
+  const blogPost = blogsData.find(post => post.title === decodeURIComponent(title)); // Decode the URL title and find the blog post
+
+  useEffect(() => {
+    AOS.init({ duration: '1000', delay: '0' });
+  }, []);
 
   if (!blogPost) {
     return (
@@ -21,11 +23,6 @@ const BlogDetail = () => {
     );
   }
 
-  
-  useEffect(() => {
-    AOS.init({ duration: "1000", delay: "0" });
-  });
-  
   return (
     <div className="bg-gray-100 py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
@@ -41,9 +38,9 @@ const BlogDetail = () => {
             <p className="text-lg font-sans leading-relaxed">{blogPost.content}</p>
           </div>
         </div>
-        <div className="bg-gray-200 py-6 px-4 sm:px-6 lg:px-8 mt-6 rounded-b-lg">
+        {/* <div className="bg-gray-200 py-6 px-4 sm:px-6 lg:px-8 mt-6 rounded-b-lg">
           <Articles />
-        </div>
+        </div> */}
       </div>
     </div>
   );

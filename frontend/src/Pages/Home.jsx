@@ -21,7 +21,7 @@ export const Home = () => {
       <Projects />
       <ClientSays />
       <Question />
-      {/* <Articles /> */}
+      <Articles />
     </div>
   )
 }

@@ -61,9 +61,9 @@ export const NavBar = () => {
                         <li className='block p-2 hover:text-[#227c85] text-lg duration-300 cursor-pointer'>
                             <NavLink to='/aboutus' onClick={toggleMenu}>ABOUT US</NavLink>
                         </li>
-                        {/* <li className='block p-2 hover:text-[#227c85] text-lg duration-300 cursor-pointer'>
+                        <li className='block p-2 hover:text-[#227c85] text-lg duration-300 cursor-pointer'>
                             <NavLink to='/blogs' onClick={toggleMenu}>BLOGS</NavLink>
-                        </li> */}
+                        </li>
                         <li className='block p-2 hover:text-[#227c85] text-lg duration-300 cursor-pointer'>
                             <NavLink to='/contactus' onClick={toggleMenu}>CONTACT US</NavLink>
                         </li>
@@ -94,7 +94,7 @@ export const NavBar = () => {
                         )}
                     </div>
                     <NavLink to='/aboutus' className={({ isActive }) => `font-sans ${isActive ? 'text-[#227c85] font-bold' : 'text-black'} hover:text-[#227c85] text-lg duration-300 cursor-pointer`}>ABOUT US</NavLink>
-                    {/* <NavLink to='/blogs' className={({ isActive }) => `font-sans ${isActive ? 'text-[#227c85] font-bold' : 'text-black'} hover:text-[#227c85] text-lg duration-300 cursor-pointer`}>BLOGS</NavLink> */}
+                    <NavLink to='/blogs' className={({ isActive }) => `font-sans ${isActive ? 'text-[#227c85] font-bold' : 'text-black'} hover:text-[#227c85] text-lg duration-300 cursor-pointer`}>BLOGS</NavLink>
                 </ul>
                 <div className='hidden md:flex ml-4'>
                     <Link to='./contactus' className='px-4 py-2 font-sans hover:bg-[#227c85] hover:text-white hover:border-white rounded-3xl bg-transparent border-2 border-[#227c85] text-[#227c85] duration-300'>CONTACT US</Link>

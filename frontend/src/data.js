@@ -39,36 +39,36 @@ export const data = [
     sections: [
       {
         title: 'Web Development',
-        subtitle: 'Stunning websites that supercharge your brand',
-        text: 'Don’t just be noticed – become unmissable, with a captivating website that stops people in their tracks.',
+        subtitle: 'Stunning websites that turbocharge your brand',
+        text: 'Don’t just get noticed – become unmissable, with a striking website that makes people stop in their tracks.',
         image: Ui1,
         imageAlt: '',
       },
       {
         title: 'Corporate Websites',
-        text: 'Professional sites tailored to showcase your business, providing a strong online presence to attract and engage your audience effectively.',
+        text: 'Professional sites crafted to showcase your business, giving you a solid online presence to attract and engage your audience effectively.',
         image: App1,
         imageAlt: 'Creative web design for corporate websites',
       },
       {
         title: 'E-commerce Sites',
-        text: 'Online stores equipped with robust features to streamline sales, enhance user experience, and manage your products effortlessly.',
+        text: 'Online stores packed with powerful features to streamline sales, boost user experience, and manage your products effortlessly.',
         image: RPS,
         imageAlt: 'Modern e-commerce website design',
       },
       {
         title: 'Content Management Systems (CMS)',
-        text: 'Easy-to-manage websites with intuitive interfaces, allowing you to update content, images, and more without technical expertise.',
+        text: 'Easy-to-manage websites with user-friendly interfaces, letting you update content, images, and more without needing technical know-how.',
         image: Enterprise,
         imageAlt: 'Content management system (CMS) dashboard',
       },
       {
         title: 'Web Applications',
-        text: 'Custom web-based software solutions tailored to your specific business needs, offering seamless functionality and user-friendly interfaces.',
+        text: 'Custom web-based software solutions tailored to your specific business needs, offering smooth functionality and user-friendly interfaces.',
         image: Ui1,
         imageAlt: 'Custom web application interface design',
-      }      
-    ],
+      }
+    ]    
   },
   {
     id: 'custom-software-development',
@@ -78,54 +78,53 @@ export const data = [
       Workflow, // Small square 2
       RPS, // Rectangle
     ],
-    
     sections: [
       {
         title: 'Custom Software Development',
         subtitle: 'Every business is unique, and so are its software needs',
-        text: 'We develop custom software solutions tailored specifically to your business. From initial concept to final deployment, our team ensures your software is reliable, scalable, and perfectly aligned with your goals.',
+        text: 'We craft custom software solutions specifically for your business. From the initial idea to final launch, our team makes sure your software is reliable, scalable, and perfectly aligned with your goals.',
         image: CustomHero,
         imageAlt: '',
       },
       {
         title: 'Enterprise Software',
-        text: 'Robust large-scale applications designed to streamline and manage complex business operations, providing scalability and efficiency for enterprise-level companies.',
+        text: 'Robust large-scale applications built to streamline and manage complex business operations, offering scalability and efficiency for big companies.',
         image: Enterprise,
         imageAlt: 'Enterprise software interface design',
       },
       {
         title: 'SaaS Products',
-        text: 'Subscription-based software solutions tailored for various industries, offering accessibility, scalability, and regular updates to meet business needs.',
+        text: 'Subscription-based software solutions designed for various industries, providing accessibility, scalability, and regular updates to meet your business needs.',
         image: Edu,
         imageAlt: 'SaaS product dashboard interface',
       },
       {
         title: 'CRM Systems',
-        text: 'Comprehensive customer relationship management systems that help businesses efficiently manage and analyze customer interactions, improving customer satisfaction and retention.',
+        text: 'Comprehensive customer relationship management systems that help businesses manage and analyze customer interactions, boosting satisfaction and retention.',
         image: CRM,
         imageAlt: 'CRM system interface with customer data',
       },
       {
         title: 'ERP Systems',
-        text: 'Integrated enterprise resource planning systems that facilitate the seamless management of core business processes, from supply chain to financials, all in one platform.',
+        text: 'Integrated enterprise resource planning systems that streamline core business processes, from supply chain to financials, all in one platform.',
         image: ERP,
         imageAlt: 'ERP system dashboard showing business metrics',
       },
       {
         title: 'Business Intelligence (BI) Tools',
-        text: 'Custom analytics and reporting software that provides businesses with insightful data, enabling data-driven decision-making and strategic planning.',
+        text: 'Custom analytics and reporting software that provides insightful data, enabling data-driven decision-making and strategic planning.',
         image: Workflow,
         imageAlt: 'Business Intelligence tool interface showing analytics',
       },
       {
         title: 'Workflow Automation',
-        text: 'Software solutions designed to automate repetitive tasks, optimize workflows, and streamline business processes, improving overall efficiency and productivity.',
+        text: 'Software solutions designed to automate repetitive tasks, optimize workflows, and streamline business processes, boosting overall efficiency and productivity.',
         image: Workflow,
         imageAlt: 'Workflow automation software interface',
       },
       {
         title: 'Healthcare Software',
-        text: 'Tailored software solutions specifically designed for the healthcare industry, enhancing patient management, scheduling, billing, and overall care delivery.',
+        text: 'Tailored software solutions for the healthcare industry, enhancing patient management, scheduling, billing, and overall care delivery.',
         image: Healthcare,
         imageAlt: 'Healthcare software interface for patient management',
       },
@@ -137,19 +136,19 @@ export const data = [
       },
       {
         title: 'Financial Software',
-        text: 'Comprehensive software solutions tailored for financial services, offering tools for financial planning, accounting, risk management, and compliance.',
+        text: 'Comprehensive software solutions for financial services, offering tools for financial planning, accounting, risk management, and compliance.',
         image: RPS,
         imageAlt: 'Financial software interface for accounting and planning',
       },
       {
         title: 'Logistics and Supply Chain Management',
-        text: 'Custom software solutions that optimize logistics, manage inventory, and streamline supply chain processes, ensuring efficiency and reducing operational costs.',
+        text: 'Custom software solutions that optimize logistics, manage inventory, and streamline supply chain processes, improving efficiency and cutting operational costs.',
         image: RPS,
         imageAlt: 'Logistics and supply chain management software interface',
       },
       {
         title: 'Retail and POS Systems',
-        text: 'Tailored point-of-sale systems for retail businesses, offering features for inventory management, sales tracking, and customer relationship management, all in one system.',
+        text: 'Tailored point-of-sale systems for retail businesses, featuring inventory management, sales tracking, and customer relationship management, all in one system.',
         image: RPS,
         imageAlt: 'Retail POS system interface for sales tracking',
       },
@@ -161,17 +160,17 @@ export const data = [
       },
       {
         title: 'Custom API Development',
-        text: 'Development of custom APIs to facilitate seamless integration with other systems, enabling businesses to enhance their functionality and interoperability.',
+        text: 'Development of custom APIs to enable seamless integration with other systems, enhancing your business’s functionality and interoperability.',
         image: RPS,
         imageAlt: 'API development interface with code and integrations',
       },
       {
         title: 'IoT Solutions',
-        text: 'Custom software solutions for Internet of Things (IoT) applications, enabling the integration and management of connected devices across various industries.',
+        text: 'Custom software solutions for Internet of Things (IoT) applications, facilitating the integration and management of connected devices across various industries.',
         image: IoTImage,
         imageAlt: 'IoT solution interface with connected devices',
       }
-    ]
+    ]    
   },
   {
     id:'ui-ux-design',
@@ -184,36 +183,36 @@ export const data = [
       sections: [
         {
           title: 'UI / UX Design',
-          subtitle: 'Creating user-friendly and engaging interfaces',
-          text: 'A great user interface (UI) and user experience (UX) are key to user satisfaction. Our design team creates visually appealing and easy-to-use interfaces that delight users and keep them coming back. We focus on user-centric design to ensure your software is both beautiful and functional.',
+          subtitle: 'Crafting user-friendly and engaging interfaces',
+          text: 'A great user interface (UI) and user experience (UX) are crucial for user satisfaction. Our design team creates visually appealing and easy-to-use interfaces that thrill users and keep them coming back. We focus on user-centric design to ensure your software is both stunning and practical.',
           image: Ui,
           imageAlt: '',
         },
         {
           title: 'User Research',
-          text: 'Good design is the cornerstone of great software. It begins with understanding user needs, behaviors, and pain points to create solutions that truly resonate with the target audience.',
+          text: 'Top-notch design starts with understanding what users need, their behaviours, and their pain points to create solutions that truly connect with the target audience.',
           image: Ui4,
           imageAlt: 'User research process with data analysis',
         },
         {
           title: 'Wireframing and Prototyping',
-          text: 'Creating visual blueprints of your app or site, wireframes and prototypes are essential for visualizing the layout and flow before moving into full-scale development.',
+          text: 'Wireframes and prototypes are like visual blueprints for your app or site, helping you see the layout and flow before diving into full-scale development.',
           image: Ui5,
           imageAlt: 'Wireframing and prototyping tools on a desk',
         },
         {
           title: 'Visual Design',
-          text: 'Crafting aesthetically pleasing interfaces that not only look good but also enhance user experience. Visual design brings the digital product to life with color, typography, and imagery.',
+          text: 'Designing aesthetically pleasing interfaces that not only look great but also boost user experience. Visual design brings the digital product to life with colour, typography, and imagery.',
           image: Ui1,
-          imageAlt: 'Visual design interface showcasing colors and typography',
+          imageAlt: 'Visual design interface showcasing colours and typography',
         },
         {
           title: 'Usability Testing',
-          text: 'Ensuring intuitive and user-friendly experiences through comprehensive usability testing. This process identifies potential usability issues and provides insights to refine the product before launch.',
+          text: 'Ensuring intuitive and user-friendly experiences through thorough usability testing. This process helps identify potential usability issues and provides insights to polish the product before launch.',
           image: Edu,
           imageAlt: 'Usability testing session with users interacting with a product',
-        }        
-      ],
+        }
+      ]      
   },
   {
     id:'graphic-designing',
@@ -226,36 +225,36 @@ export const data = [
       sections: [
         {
           title: 'Graphic Designing',
-          subtitle: 'Creating user-friendly and engaging interfaces',
-          text: 'Good design is the cornerstone of great software. At Bidec, our creative designers craft visually compelling and functionally efficient designs for websites, mobile apps, and software interfaces. We believe in creating designs that not only look good but also enhance user interaction and satisfaction.',
+          subtitle: 'Creating engaging and user-friendly visuals',
+          text: 'Top-notch design is the foundation of great software. At Bidec, our creative team crafts visually striking and functionally efficient designs for websites, mobile apps, and software interfaces. We aim to create designs that not only look fantastic but also boost user interaction and satisfaction.',
           image: Design1,
           imageAlt: '',
         },
         {
           title: 'Logo Design',
-          text: 'Crafting unique and memorable logos that encapsulate the essence of your brand, ensuring a strong visual identity that resonates with your audience.',
+          text: 'Designing unique and memorable logos that capture the essence of your brand, ensuring a strong visual identity that resonates with your audience.',
           image: Design2,
           imageAlt: 'Creative logo design process with sketches and concepts',
         },
         {
           title: 'Brand Identity Design',
-          text: 'Providing comprehensive branding solutions that establish a cohesive and recognizable brand identity across all platforms and materials.',
+          text: 'Offering comprehensive branding solutions that build a consistent and recognizable brand identity across all platforms and materials.',
           image: Design1,
-          imageAlt: 'Brand identity design showcasing logos, colors, and typography',
+          imageAlt: 'Brand identity design featuring logos, colours, and typography',
         },
         {
           title: 'Graphic Design',
-          text: 'Designing banners, brochures, and marketing materials that effectively communicate your message and visually engage your target audience.',
+          text: 'Creating banners, brochures, and marketing materials that effectively convey your message and visually engage your target audience.',
           image: Design3,
           imageAlt: 'Graphic design work including brochures and banners',
         },
         {
           title: 'Interface Design',
-          text: 'Designing user-friendly interfaces for software and websites that prioritize usability, accessibility, and visual appeal to create a seamless user experience.',
+          text: 'Designing user-friendly interfaces for software and websites that focus on usability, accessibility, and visual appeal to ensure a smooth user experience.',
           image: Ui5,
           imageAlt: 'Interface design with wireframes and digital mockups',
-        }        
-      ],
+        }
+      ]      
   },
   
   {
@@ -269,36 +268,36 @@ export const data = [
       sections: [
         {
           title: 'Mobile App Development',
-          subtitle: 'Creating user-friendly and engaging interfaces',
-          text: 'We create engaging, user-friendly mobile apps for both iOS and Android platforms. Whether it’s an app for your customers or an internal tool for your team, we ensure it’s intuitive and high-performing.',
+          subtitle: 'Creating engaging and user-friendly mobile experiences',
+          text: 'We craft engaging and user-friendly mobile apps for both iOS and Android platforms. Whether it’s an app for your customers or an internal tool for your team, we ensure it’s intuitive and high-performing.',
           image: App1,
           imageAlt: '',
         },
         {
           title: 'Native Apps',
-          text: 'Developing high-performance apps for iOS and Android platforms, ensuring optimal performance and a seamless user experience tailored to each operating system.',
+          text: 'Developing high-performance apps specifically for iOS and Android, ensuring optimal performance and a smooth user experience tailored to each operating system.',
           image: App2,
           imageAlt: 'Native app development process with coding and design elements',
         },
         {
           title: 'Hybrid Apps',
-          text: 'Creating cross-platform apps with a single codebase, combining the benefits of both native and web apps to provide a cost-effective solution with broad reach.',
+          text: 'Creating cross-platform apps using a single codebase, combining the best of native and web apps to deliver a cost-effective solution with broad reach.',
           image: App3,
           imageAlt: 'Hybrid app development showcasing cross-platform compatibility',
         },
         {
           title: 'Progressive Web Apps',
-          text: 'Building progressive web apps that offer a mobile app-like experience, with offline capabilities and fast loading times, all accessible via a web browser.',
+          text: 'Building progressive web apps that provide a mobile app-like experience, with offline capabilities and fast loading times, all accessible via a web browser.',
           image: App4,
           imageAlt: 'Progressive web app interface with mobile-like features',
         },
         {
           title: 'Enterprise Mobile Solutions',
-          text: 'Developing enterprise-grade mobile solutions designed to streamline business processes, improve productivity, and support the specific needs of large organizations.',
+          text: 'Developing enterprise-grade mobile solutions to streamline business processes, boost productivity, and support the specific needs of large organizations.',
           image: Ui5,
           imageAlt: 'Enterprise mobile solution with business process automation',
-        }        
-      ],
+        }
+      ]      
   },
     
   {
@@ -312,36 +311,36 @@ export const data = [
       sections: [
         {
           title: 'E-commerce Solutions',
-          subtitle: 'Creating user-friendly and engaging interfaces',
-          text: 'Transform your online store with our bespoke e-commerce solutions. We develop custom e-commerce platforms that offer a smooth shopping experience, complete with secure payment gateways, easy navigation, and powerful backend management tools to keep your business running efficiently.',
+          subtitle: 'Creating engaging and user-friendly online experiences',
+          text: 'Revamp your online store with our tailored e-commerce solutions. We develop custom e-commerce platforms that offer a seamless shopping experience, including secure payment gateways, intuitive navigation, and robust backend management tools to keep your business running smoothly.',
           image: Eco1,
           imageAlt: '',
         },
         {
           title: 'Online Store Development',
-          text: 'Building custom online shops tailored to your specific needs, designed to provide a smooth shopping experience and increase your online sales.',
+          text: 'Building custom online shops designed to meet your specific needs, providing a smooth shopping experience and boosting your online sales.',
           image: RPS,
-          imageAlt: 'Online store development with product listings and checkout process',
+          imageAlt: 'Online store development featuring product listings and checkout process',
         },
         {
           title: 'Shopping Cart Integration',
-          text: 'Implementing seamless and secure shopping cart systems that ensure a smooth payment process, enhancing customer satisfaction and trust.',
+          text: 'Implementing smooth and secure shopping cart systems that ensure an easy payment process, enhancing customer satisfaction and trust.',
           image: Eco2,
           imageAlt: 'Shopping cart integration with secure payment gateway',
         },
         {
           title: 'Inventory Management Systems',
-          text: 'Developing efficient stock tracking and management systems to help you keep track of inventory, minimize stockouts, and optimize supply chain operations.',
+          text: 'Creating efficient stock tracking and management systems to help you monitor inventory, reduce stockouts, and optimise supply chain operations.',
           image: CRM,
-          imageAlt: 'Inventory management system dashboard with stock levels',
+          imageAlt: 'Inventory management system dashboard showing stock levels',
         },
         {
           title: 'Customer Relationship Management',
-          text: 'Providing tools to enhance customer interaction, helping you build and maintain strong relationships with your customers through effective communication and personalized services.',
+          text: 'Offering tools to boost customer interaction, helping you build and maintain strong relationships through effective communication and personalised services.',
           image: Eco4,
           imageAlt: 'CRM system interface with customer data and interaction history',
-        }        
-      ],
+        }
+      ]      
   },
   {
     id:'digital-marketing',
@@ -354,42 +353,42 @@ export const data = [
       sections: [
         {
           title: 'Digital Marketing',
-          subtitle: 'Maximize your online presence with our comprehensive digital marketing services.',
-          text: 'We offer SEO, PPC, social media marketing, content marketing, and more to help your business reach its target audience effectively. Our data-driven strategies ensure you get the best ROI from your digital marketing efforts.',
+          subtitle: 'Maximise your online presence with our all-encompassing digital marketing services.',
+          text: 'We offer SEO, PPC, social media marketing, content marketing, and more to help your business reach its target audience effectively. Our data-driven strategies ensure you get the best return on investment from your digital marketing efforts.',
           image: CustomHero,
           imageAlt: '',
         },
         {
           title: 'Search Engine Optimization',
-          text: 'Enhancing your website’s visibility on search engines through strategic on-page and off-page optimization, driving organic traffic and improving search rankings.',
+          text: 'Boosting your website’s visibility on search engines with strategic on-page and off-page optimisation, driving organic traffic and improving search rankings.',
           image: Workflow,
-          imageAlt: 'SEO strategy with keyword optimization and analytics',
+          imageAlt: 'SEO strategy with keyword optimisation and analytics',
         },
         {
           title: 'Pay-Per-Click Advertising',
-          text: 'Implementing targeted PPC campaigns to drive immediate traffic and generate leads, with a focus on maximizing ROI through effective ad management.',
+          text: 'Running targeted PPC campaigns to generate immediate traffic and leads, focusing on maximising ROI through effective ad management.',
           image: Ui5,
           imageAlt: 'PPC advertising with targeted ads and performance tracking',
         },
         {
           title: 'Social Media Marketing',
-          text: 'Engaging with your audience and growing your brand’s presence across social media platforms through strategic content creation and community management.',
+          text: 'Building your brand’s presence on social media platforms through strategic content creation and community management, engaging with your audience effectively.',
           image: Ui4,
           imageAlt: 'Social media marketing with posts and engagement metrics',
         },
         {
           title: 'Content Marketing',
-          text: 'Creating and distributing valuable, relevant content to attract and engage your target audience, building brand authority and driving conversions.',
+          text: 'Developing and distributing valuable, relevant content to attract and engage your target audience, enhancing brand authority and driving conversions.',
           image: Workflow,
           imageAlt: 'Content marketing strategy with blog posts and distribution channels',
         },
         {
           title: 'Email Marketing',
-          text: 'Crafting targeted email campaigns to communicate directly with your customers, fostering relationships, and driving conversions through personalized messaging.',
+          text: 'Creating targeted email campaigns to connect directly with your customers, fostering relationships and driving conversions with personalised messaging.',
           image: Ui4,
-          imageAlt: 'Email marketing with personalized messages and customer segmentation',
-        }        
-      ],
+          imageAlt: 'Email marketing with personalised messages and customer segmentation',
+        }
+      ]      
   },
 ];
   

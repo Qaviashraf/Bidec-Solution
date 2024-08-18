@@ -27,7 +27,7 @@ const HeroSection = () => {
 
   return (
     <section
-      className="max-w-screen relative py-44 flex justify-end"
+      className="max-w-screen relative z-10 py-44 flex justify-end"
       style={{
         backgroundImage: `url(${HeroBg})`,
         backgroundSize: "80%",
