@@ -88,7 +88,7 @@ export const NavBar = () => {
                                 <Link to='/service/ui-ux-design' className='font-sans px-4 py-2 hover:text-white hover:bg-[#227c85] duration-200' onClick={closeServices}>UI/UX</Link>
                                 <Link to='/service/graphic-designing' className='font-sans px-4 py-2 hover:text-white hover:bg-[#227c85] duration-200 ' onClick={closeServices}>Graphic Designing</Link>
                                 <Link to='/service/mobile-app-development' className='font-sans px-4 py-2 hover:text-white hover:bg-[#227c85] duration-200' onClick={closeServices}>App Development</Link>
-                                <Link to='/service/ecommerce-solutions' className='font-sans px-4 py-2 hover:text-white hover:bg-[#227c85] duration-200' onClick={closeServices}>E-comerce Solution</Link>
+                                <Link to='/service/ecommerce-solutions' className='font-sans px-4 py-2 hover:text-white hover:bg-[#227c85] duration-200' onClick={closeServices}>E-commerce Solution</Link>
                                 <Link to='/service/digital-marketing' className='font-sans px-4 py-2 hover:text-white hover:bg-[#227c85] duration-200 rounded-b-2xl' onClick={closeServices}>Digital Marketing</Link>
                             </div>
                         )}

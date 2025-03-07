@@ -109,7 +109,7 @@ function Projects() {
                             {/* <img src={projectImg4} alt="" /> */}
                             <button className='absolute bg-[#227C85] hover:bg-[#165056] duration-300 right-2.5 bottom-2.5 rounded-full z-10 p-4'> <img className='' src={arrow} alt="" /></button>
                         </div>
-                        <h1 className='text-4xl pt-8'>E-comerce Website
+                        <h1 className='text-4xl pt-8'>E-commerce Website
                             Design</h1>
                         <p className='divide-x-2 py-2 divide-gray-300 text-gray-400'>
                             <span className='font-sans text-lg px-4'>UI/UX Design</span>
